@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Señal R-6: prohibido voltear a la izquierda</title>
+  <desc id="desc">Círculo blanco con borde rojo y flecha negra a la izquierda tachada con diagonal roja</desc>
+  <circle cx="60" cy="60" r="54" fill="#fff" stroke="#e10600" stroke-width="10"/>
+  <path d="M78 38c-14 0-26 6-34 14v-10h-12v28h28v-12h-10c6-6 16-12 28-12v-8z" fill="#1a1a1a"/>
+  <line x1="28" y1="28" x2="92" y2="92" stroke="#e10600" stroke-width="10" stroke-linecap="round"/>
+</svg>

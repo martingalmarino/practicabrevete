@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 160" role="img" aria-labelledby="title desc">
+  <title id="title">Semáforo vertical</title>
+  <desc id="desc">Semáforo con luces roja, ámbar y verde</desc>
+  <rect x="16" y="8" width="48" height="144" rx="12" fill="#1a1a1a"/>
+  <circle cx="40" cy="40" r="16" fill="#e10600"/>
+  <circle cx="40" cy="80" r="16" fill="#e8a317"/>
+  <circle cx="40" cy="120" r="16" fill="#0b6e4f"/>
+</svg>

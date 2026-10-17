@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Señal de PARE</title>
+  <desc id="desc">Octágono rojo con la palabra PARE en blanco</desc>
+  <polygon points="36,8 84,8 112,36 112,84 84,112 36,112 8,84 8,36" fill="#e10600" stroke="#fff" stroke-width="4"/>
+  <text x="60" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#fff">PARE</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Señal R-3: continuar de frente</title>
+  <desc id="desc">Círculo azul con flecha blanca hacia arriba indicando sentido obligatorio de frente</desc>
+  <circle cx="60" cy="60" r="54" fill="#0055a5"/>
+  <path d="M60 22l22 28h-14v48H52V50H38l22-28z" fill="#fff"/>
+</svg>
