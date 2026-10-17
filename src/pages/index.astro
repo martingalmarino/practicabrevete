@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/ads/AdSlot.astro';
 import { site } from '../config/site';
 import { categorias } from '../data/categorias';
 import { temas } from '../data/temas';
@@ -86,6 +87,10 @@ const disponibles = categorias.filter((c) => c.disponible);
       </div>
     </div>
   </section>
+
+  <div class="container-page">
+    <AdSlot adSlot={site.adsense.slots.homeTop} label="Anuncio" minHeight={90} />
+  </div>
 
   <section class="container-page py-14">
     <h2 class="font-display text-3xl font-bold text-ink">¿Cómo funciona el simulador?</h2>

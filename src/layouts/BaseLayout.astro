@@ -3,7 +3,9 @@ import '../styles/global.css';
 import SEOHead from '../components/layout/SEOHead.astro';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
+import JsonLd from '../components/seo/JsonLd.astro';
 import { site } from '../config/site';
+import { organizationSchema, webSiteSchema } from '../lib/schema';
 
 interface Props {
   title: string;
@@ -16,12 +18,14 @@ interface Props {
 
 const props = Astro.props;
 const ga4Id = site.analytics.ga4Id;
+const adsenseId = site.adsense.clientId;
 ---
 
 <!doctype html>
 <html lang={site.language}>
   <head>
     <SEOHead {...props} />
+    <JsonLd data={[organizationSchema(), webSiteSchema()]} />
     {
       ga4Id && (
         <>
@@ -36,6 +40,15 @@ const ga4Id = site.analytics.ga4Id;
             window.gtag = gtag;
           </script>
         </>
+      )
+    }
+    {
+      adsenseId && (
+        <script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseId}`}
+          crossorigin="anonymous"
+        />
       )
     }
     <slot name="head" />

@@ -1,0 +1,45 @@
+---
+import { site } from '../../config/site';
+
+interface Props {
+  adSlot?: string;
+  label?: string;
+  /** Altura reservada para evitar CLS */
+  minHeight?: number;
+}
+
+const { adSlot = '', label = 'Espacio publicitario', minHeight = 90 } = Astro.props;
+const clientId = site.adsense.clientId;
+const enabled = Boolean(clientId && adSlot);
+---
+
+<aside
+  class="ad-slot my-6 flex w-full items-center justify-center overflow-hidden rounded-lg border border-dashed border-line bg-surface text-xs text-ink-muted"
+  style={`min-height:${minHeight}px`}
+  aria-label={label}
+  data-ad-enabled={enabled ? 'true' : 'false'}
+>
+  {
+    enabled ? (
+      <>
+        <ins
+          class="adsbygoogle"
+          style={`display:block;min-height:${minHeight}px;width:100%`}
+          data-ad-client={clientId}
+          data-ad-slot={adSlot}
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        />
+        <script is:inline>
+          try {
+            (window.adsbygoogle = window.adsbygoogle || []).push({});
+          } catch (e) {}
+        </script>
+      </>
+    ) : (
+      <span class="px-3 py-6 text-center">
+        {label} (reservado · AdSense inactivo hasta configurar clientId en site.ts)
+      </span>
+    )
+  }
+</aside>

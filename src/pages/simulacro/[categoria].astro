@@ -1,10 +1,13 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/layout/Breadcrumbs.astro';
+import AdSlot from '../../components/ads/AdSlot.astro';
+import JsonLd from '../../components/seo/JsonLd.astro';
 import ExamApp from '../../components/quiz/ExamApp';
 import { categorias, getCategoria } from '../../data/categorias';
 import { getBank } from '../../lib/questions';
 import { site } from '../../config/site';
+import { breadcrumbSchema, quizSchema } from '../../lib/schema';
 
 export function getStaticPaths() {
   return categorias.map((c) => ({ params: { categoria: c.slug } }));
@@ -56,6 +59,8 @@ const questions = getBank(cat.slug).map((q) => ({
       <a href={site.examRules.sourceUrl} target="_blank" rel="noopener noreferrer">Fuente</a>
     </p>
 
+    <AdSlot adSlot={site.adsense.slots.contentInline} label="Anuncio" minHeight={90} />
+
     <div class="mt-8">
       <ExamApp
         client:load
@@ -66,4 +71,20 @@ const questions = getBank(cat.slug).map((q) => ({
       />
     </div>
   </section>
+
+  <JsonLd
+    data={[
+      quizSchema({
+        name: `Simulacro ${cat.codigo}`,
+        description: cat.evalua,
+        url: new URL(Astro.url.pathname, site.url).href,
+        educationalLevel: cat.codigo,
+      }),
+      breadcrumbSchema([
+        { name: 'Inicio', url: site.url },
+        { name: 'Simulacro', url: `${site.url}/simulacro/a-i` },
+        { name: cat.codigo, url: new URL(Astro.url.pathname, site.url).href },
+      ]),
+    ]}
+  />
 </BaseLayout>

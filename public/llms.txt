@@ -1,0 +1,32 @@
+# Practica Brevete
+
+> Simulador gratuito e independiente del examen de reglas de tránsito (brevete) en Perú.
+> Preguntas basadas en balotarios públicos; explicaciones propias; progreso en el navegador.
+
+## Qué es
+Practica Brevete ayuda a estudiar el examen de conocimientos para licencia de conducir en Perú.
+Formato de referencia del examen oficial de reglas: 40 preguntas, aprobado con 35, hasta 40 minutos.
+Sitio no oficial; no afiliado a entidades del Estado.
+
+## URLs clave
+- https://practicabrevete.pe/
+- https://practicabrevete.pe/simulacro/a-i
+- https://practicabrevete.pe/practica/senales
+- https://practicabrevete.pe/practica/prioridad
+- https://practicabrevete.pe/repaso
+- https://practicabrevete.pe/guias/como-sacar-brevete-a-i
+- https://practicabrevete.pe/guias/senales-de-transito
+- https://practicabrevete.pe/guias/prioridad-de-paso-y-rotondas
+- https://practicabrevete.pe/guias/errores-comunes-examen
+- https://practicabrevete.pe/guias/como-estudiar-en-7-dias
+- https://practicabrevete.pe/guias/examen-de-manejo-practico
+- https://practicabrevete.pe/acerca
+- https://practicabrevete.pe/contacto
+- https://practicabrevete.pe/aviso-legal
+
+## Fuentes oficiales citadas
+- https://www.gob.pe/139-obtener-primera-licencia-de-conducir-brevete-examen-de-reglas-de-transito
+- https://www.gob.pe/institucion/mtc/informes-publicaciones/1928110-examen-de-conocimientos-para-postulantes-a-licencias-de-conducir
+
+## Contacto
+contacto@practicabrevete.pe
