@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+import { site } from '../config/site';
+---
+
+<BaseLayout
+  title="Acerca de Practica Brevete"
+  description="Quiénes somos, de dónde salen las preguntas y cómo redactamos las explicaciones. Sitio independiente de preparación para el examen de reglas de tránsito."
+>
+  <Breadcrumbs items={[{ label: 'Inicio', href: '/' }, { label: 'Acerca' }]} />
+  <article class="container-page prose-guide max-w-3xl pb-16">
+    <h1 class="font-display text-4xl font-bold text-ink">Acerca de {site.name}</h1>
+    <p class="direct-answer">
+      {site.name} es un sitio independiente que ofrece un simulador gratuito del examen de reglas de
+      tránsito en Perú, con explicaciones y repaso de errores. No somos un organismo oficial ni
+      estamos afiliados a entidades del Estado.
+    </p>
+
+    <h2>¿Quiénes somos?</h2>
+    <p>
+      Somos un proyecto editorial y técnico enfocado en un solo problema: ayudar a estudiar el examen
+      de conocimientos para el brevete con más claridad que un simulacro que solo dice “correcto” o
+      “incorrecto”. Operamos el dominio {site.domain} y el contacto {site.email}.
+    </p>
+
+    <h2>¿De dónde salen las preguntas?</h2>
+    <p>
+      Del banco público de balotarios publicado en gob.pe (informe de examen de conocimientos para
+      postulantes a licencias de conducir). Convertimos los PDF a JSON con scripts auditables en este
+      repositorio. Año de referencia del banco configurado: {site.bancoPreguntasYear}.
+    </p>
+    <p>
+      Enlace a la publicación:
+      <a href={site.sources.balotarios} target="_blank" rel="noopener noreferrer">balotarios en gob.pe</a>.
+    </p>
+
+    <h2>¿Cómo se redactan las explicaciones?</h2>
+    <p>
+      Las redactamos nosotros, en español neutro peruano, entre 40 y 80 palabras, citando la base
+      legal cuando podemos verificarla ({site.sources.reglamento}). Cada explicación tiene un estado:
+      <strong>revisar</strong> (borrador) o <strong>revisada</strong>. Solo publicamos páginas
+      indexables <code>/pregunta/…</code> cuando <code>publish: true</code> y el estado es revisada.
+    </p>
+
+    <h2>¿Cuándo fue la última revisión de contenido?</h2>
+    <p>
+      Última revisión editorial registrada: <strong>{site.lastContentReview}</strong>. La regla del
+      examen (40 preguntas, 35 para aprobar, 40 minutos) se contrasta con la orientación de gob.pe
+      enlazada en la configuración del sitio.
+    </p>
+
+    <h2>Aviso de independencia</h2>
+    <p>
+      Este sitio no utiliza escudos ni logos oficiales en la marca. No sustituye trámites, citas ni
+      comunicados de la autoridad competente. Si hay conflicto entre nuestro contenido y una fuente
+      oficial, prevalece la fuente oficial.
+    </p>
+  </article>
+</BaseLayout>

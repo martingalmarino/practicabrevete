@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+import { site } from '../config/site';
+---
+
+<BaseLayout
+  title="Aviso legal"
+  description={`${site.name} es un sitio independiente, no oficial, de preparación para el examen de reglas de tránsito en Perú.`}
+>
+  <Breadcrumbs items={[{ label: 'Inicio', href: '/' }, { label: 'Aviso legal' }]} />
+  <article class="container-page prose-guide max-w-3xl pb-16">
+    <h1 class="font-display text-4xl font-bold text-ink">Aviso legal</h1>
+
+    <p class="direct-answer">
+      {site.name} es un proyecto independiente de preparación académica. No es un sitio oficial del
+      Estado peruano, no representa a ninguna entidad pública y no utiliza escudos ni logos
+      oficiales en su marca.
+    </p>
+
+    <h2>Naturaleza del sitio</h2>
+    <p>
+      El contenido tiene fines informativos y de estudio. Los balotarios y el Reglamento Nacional de
+      Tránsito son normas y documentos públicos; su interpretación aplicada al examen oficial
+      corresponde a las autoridades competentes.
+    </p>
+
+    <h2>Marca</h2>
+    <p>
+      El nombre “{site.name}”, el isotipo “PB” y el dominio {site.domain} son identificadores propios
+      del proyecto. Cualquier semejanza con nombres institucionales es no intencional y se evita en
+      títulos y logotipo.
+    </p>
+
+    <h2>Exactitud</h2>
+    <p>
+      Nos esforzamos por citar fuentes y marcar con TODO lo no verificado. Aun así, pueden existir
+      errores de parseo del PDF o de redacción. Reporta problemas a {site.email}.
+    </p>
+
+    <h2>Más información</h2>
+    <ul>
+      <li><a href="/acerca">Acerca y metodología</a></li>
+      <li><a href="/privacidad">Privacidad</a></li>
+      <li><a href="/terminos">Términos</a></li>
+    </ul>
+  </article>
+</BaseLayout>

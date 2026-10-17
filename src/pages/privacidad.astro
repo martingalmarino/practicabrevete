@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+import { site } from '../config/site';
+---
+
+<BaseLayout
+  title="Política de privacidad"
+  description={`Política de privacidad de ${site.name}: datos, cookies, localStorage y Google AdSense.`}
+>
+  <Breadcrumbs items={[{ label: 'Inicio', href: '/' }, { label: 'Privacidad' }]} />
+  <article class="container-page prose-guide max-w-3xl pb-16">
+    <h1 class="font-display text-4xl font-bold text-ink">Política de privacidad</h1>
+    <p>Última actualización: {site.lastContentReview}.</p>
+
+    <h2>Responsable</h2>
+    <p>
+      El responsable de este sitio es el operador de {site.name} ({site.domain}). Contacto:
+      <a href={`mailto:${site.email}`}>{site.email}</a>.
+    </p>
+
+    <h2>Datos que tratamos</h2>
+    <ul>
+      <li>
+        <strong>Progreso del simulacro:</strong> se guarda en tu navegador (localStorage). No
+        creamos cuentas ni enviamos tus respuestas a nuestros servidores.
+      </li>
+      <li>
+        <strong>Correo de contacto:</strong> si nos escribes, usamos tu mensaje solo para responder.
+      </li>
+      <li>
+        <strong>Analítica:</strong> si activamos Google Analytics 4, se recopilan métricas de uso
+        agregadas según la configuración de GA4.
+      </li>
+    </ul>
+
+    <h2>Cookies y almacenamiento local</h2>
+    <p>
+      Usamos localStorage para progreso y errores. Si se activan anuncios o analítica, terceros pueden
+      usar cookies o identificadores similares según sus propias políticas.
+    </p>
+
+    <h2>Google AdSense</h2>
+    <p>
+      Este sitio está preparado para mostrar anuncios de Google AdSense. Mientras el ID de publisher
+      no esté configurado en el sitio, no se carga el script de anuncios. Cuando AdSense esté activo,
+      Google puede usar cookies para personalizar anuncios. Puedes gestionar preferencias de anuncios
+      en las herramientas de Google. Consulta también la política de Google:
+      <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer"
+        >Cómo usa Google las cookies en publicidad</a
+      >.
+    </p>
+
+    <h2>Enlaces externos</h2>
+    <p>
+      Enlazamos a gob.pe y otras fuentes. No controlamos su privacidad; revisa sus políticas al
+      visitarlos.
+    </p>
+
+    <h2>Cambios</h2>
+    <p>Podemos actualizar esta política; la fecha de revisión aparecerá al inicio del documento.</p>
+  </article>
+</BaseLayout>

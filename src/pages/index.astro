@@ -1,27 +1,188 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { site } from '../config/site';
+import { categorias } from '../data/categorias';
+import { temas } from '../data/temas';
+
+const faqs = [
+  {
+    q: '¿Cuántas preguntas tiene el examen de brevete?',
+    a: `El examen de reglas de tránsito tiene ${site.examRules.questionCount} preguntas de selección múltiple. Para aprobar necesitas al menos ${site.examRules.passScore} correctas, según la orientación publicada en gob.pe.`,
+  },
+  {
+    q: '¿Cuánto tiempo dura el examen de reglas de tránsito?',
+    a: `La prueba oficial dura hasta ${site.examRules.timeLimitMinutes} minutos. En nuestro simulacro puedes activar o desactivar el temporizador.`,
+  },
+  {
+    q: '¿Las preguntas son las del balotario oficial?',
+    a: 'Sí: el banco se construye a partir de los PDFs públicos de balotarios publicados en gob.pe. Las explicaciones las redactamos nosotros y las marcamos como “revisar” hasta validarlas.',
+  },
+  {
+    q: '¿Este sitio es oficial?',
+    a: 'No. Practica Brevete es un sitio independiente de preparación. No representamos a ninguna entidad del Estado ni usamos logos oficiales.',
+  },
+  {
+    q: '¿Necesito crear una cuenta?',
+    a: 'No. El progreso y el repaso de errores se guardan solo en tu navegador (localStorage).',
+  },
+  {
+    q: '¿El simulacro es gratis?',
+    a: 'Sí. Puedes practicar sin pagar. El sitio se sostiene con publicidad cuando esté activa; mientras tanto no se cargan anuncios.',
+  },
+];
+
+const disponibles = categorias.filter((c) => c.disponible);
 ---
 
 <BaseLayout
   title={`${site.name}: simulador del examen de reglas de tránsito`}
   description={site.description}
 >
-  <section class="container-page py-16 sm:py-24">
-    <p class="text-sm font-semibold uppercase tracking-wider text-brand">{site.name}</p>
-    <h1 class="mt-3 max-w-2xl font-display text-4xl font-bold tracking-tight text-ink sm:text-5xl">
-      Aprueba el examen de reglas de tránsito
-    </h1>
-    <p class="mt-4 max-w-xl text-lg text-ink-muted">
-      Simulacros de 40 preguntas con explicaciones, repaso de errores y práctica por tema. Sitio
-      independiente, basado en balotarios públicos.
-    </p>
-    <div class="mt-8 flex flex-wrap gap-3">
-      <a href="/simulacro/a-i" class="btn-primary">Empezar simulacro</a>
-      <a href="/practica/senales" class="btn-secondary">Practicar por tema</a>
+  <section class="relative overflow-hidden border-b border-line">
+    <div class="container-page grid gap-10 py-14 sm:py-20 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+      <div>
+        <p class="font-display text-2xl font-semibold text-brand sm:text-3xl">{site.name}</p>
+        <h1 class="mt-3 font-display text-4xl font-bold tracking-tight text-ink sm:text-5xl">
+          Simulador del examen de reglas de tránsito
+        </h1>
+        <p class="mt-4 max-w-xl text-lg text-ink-muted">
+          Practica con preguntas del balotario público, recibe explicación en cada respuesta y repasa
+          tus errores. Mejor preparación, sin cuenta y sin complicaciones.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="/simulacro/a-i" class="btn-primary">Empezar simulacro</a>
+          <a href="/practica/senales" class="btn-secondary">Practicar por tema</a>
+        </div>
+        <p class="mt-4 text-sm text-ink-muted">
+          {site.examRules.questionCount} preguntas · aprobado con {site.examRules.passScore} · sitio
+          independiente
+        </p>
+      </div>
+      <div class="rounded-2xl border border-line bg-surface-elevated p-6 shadow-sm">
+        <p class="text-sm font-semibold text-ink">Elige tu categoría</p>
+        <ul class="mt-4 space-y-2">
+          {
+            categorias.slice(0, 5).map((c) => (
+              <li>
+                <a
+                  href={`/simulacro/${c.slug}`}
+                  class:list={[
+                    'flex items-center justify-between rounded-lg border px-3 py-3 no-underline transition',
+                    c.disponible
+                      ? 'border-line text-ink hover:border-brand'
+                      : 'border-dashed border-line text-ink-muted',
+                  ]}
+                >
+                  <span>
+                    <span class="font-semibold">{c.codigo}</span>
+                    <span class="mt-0.5 block text-xs text-ink-muted">{c.descripcionCorta}</span>
+                  </span>
+                  <span class="text-sm text-brand">{c.disponible ? 'Practicar' : 'Pronto'}</span>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
     </div>
-    <p class="mt-10 text-sm text-ink-muted">
-      Scaffold listo. El contenido y la herramienta se completan en las siguientes fases.
+  </section>
+
+  <section class="container-page py-14">
+    <h2 class="font-display text-3xl font-bold text-ink">¿Cómo funciona el simulador?</h2>
+    <p class="mt-3 max-w-2xl text-ink-muted">
+      Tres modos pensados para estudiar de verdad, no solo memorizar al azar.
+    </p>
+    <ol class="mt-8 grid gap-6 sm:grid-cols-3">
+      <li>
+        <p class="text-sm font-bold text-accent">01</p>
+        <h3 class="mt-1 text-xl font-semibold text-ink">Simulacro</h3>
+        <p class="mt-2 text-ink-muted">
+          {site.examRules.questionCount} preguntas al azar, temporizador opcional y resultado con
+          detalle. Replica la exigencia de aprobar con {site.examRules.passScore}.
+        </p>
+      </li>
+      <li>
+        <p class="text-sm font-bold text-accent">02</p>
+        <h3 class="mt-1 text-xl font-semibold text-ink">Práctica por tema</h3>
+        <p class="mt-2 text-ink-muted">
+          Señales, prioridad, velocidades, documentos, primeros auxilios y mecánica básica, con
+          feedback inmediato.
+        </p>
+      </li>
+      <li>
+        <p class="text-sm font-bold text-accent">03</p>
+        <h3 class="mt-1 text-xl font-semibold text-ink">Repaso de errores</h3>
+        <p class="mt-2 text-ink-muted">
+          Guardamos tus fallos en este dispositivo para que vuelvas a ellos hasta dominarlos.
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="border-y border-line bg-surface-elevated/60 py-14">
+    <div class="container-page">
+      <h2 class="font-display text-3xl font-bold text-ink">¿Qué temas puedes practicar?</h2>
+      <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          temas.map((t) => (
+            <li>
+              <a
+                href={`/practica/${t.slug}`}
+                class="block rounded-xl border border-line bg-surface-elevated p-5 no-underline transition hover:border-brand"
+              >
+                <h3 class="text-lg font-semibold text-ink">{t.nombre}</h3>
+                <p class="mt-2 text-sm text-ink-muted">{t.descripcion}</p>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="container-page py-14">
+    <h2 class="font-display text-3xl font-bold text-ink">Guías para sacar el brevete</h2>
+    <p class="mt-3 max-w-2xl text-ink-muted">
+      Contenido propio, con respuesta directa al inicio y enlaces a fuentes oficiales cuando
+      corresponda.
+    </p>
+    <ul class="mt-8 grid gap-3 sm:grid-cols-2">
+      <li><a href="/guias/como-sacar-brevete-a-i">Cómo sacar el brevete A-I paso a paso</a></li>
+      <li><a href="/guias/senales-de-transito">Señales de tránsito explicadas</a></li>
+      <li><a href="/guias/prioridad-de-paso-y-rotondas">Prioridad de paso y rotondas</a></li>
+      <li><a href="/guias/errores-comunes-examen">Errores más comunes en el examen</a></li>
+      <li><a href="/guias/como-estudiar-en-7-dias">Cómo estudiar en 7 días</a></li>
+      <li><a href="/guias/examen-de-manejo-practico">El examen de manejo práctico</a></li>
+    </ul>
+  </section>
+
+  <section class="container-page pb-16">
+    <h2 class="font-display text-3xl font-bold text-ink">Preguntas frecuentes</h2>
+    <div class="mt-8 divide-y divide-line rounded-xl border border-line bg-surface-elevated">
+      {
+        faqs.map((f) => (
+          <details class="group px-5 py-4">
+            <summary class="cursor-pointer list-none font-semibold text-ink marker:content-none">
+              {f.q}
+            </summary>
+            <p class="mt-2 text-ink-muted">{f.a}</p>
+          </details>
+        ))
+      }
+    </div>
+    <p class="mt-6 text-sm text-ink-muted">
+      Categorías con banco activo hoy: {disponibles.map((c) => c.codigo).join(', ')}. Revisa{' '}
+      <a href="/acerca">nuestra metodología</a>.
     </p>
   </section>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  })} />
 </BaseLayout>

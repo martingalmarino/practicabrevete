@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+import { site } from '../config/site';
+---
+
+<BaseLayout
+  title="Contacto"
+  description={`Contacta a ${site.name} en ${site.email}. Consultas sobre el simulador y el contenido.`}
+>
+  <Breadcrumbs items={[{ label: 'Inicio', href: '/' }, { label: 'Contacto' }]} />
+  <section class="container-page max-w-2xl pb-16">
+    <h1 class="font-display text-4xl font-bold text-ink">Contacto</h1>
+    <p class="mt-4 text-ink-muted">
+      ¿Encontraste un error en una explicación, una pregunta mal parseada del balotario o tienes una
+      sugerencia? Escríbenos. Respondemos al correo del dominio.
+    </p>
+    <p class="mt-8 text-lg">
+      Email:
+      <a class="font-semibold" href={`mailto:${site.email}`}>{site.email}</a>
+    </p>
+    <p class="mt-4 text-sm text-ink-muted">
+      No gestionamos citas para exámenes oficiales ni trámites de licencia. Para eso usa los canales
+      publicados en gob.pe.
+    </p>
+  </section>
+</BaseLayout>

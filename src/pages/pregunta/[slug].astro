@@ -1,0 +1,129 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/layout/Breadcrumbs.astro';
+import { getPublishedQuestions, getRelatedQuestions } from '../../lib/questions';
+import { site } from '../../config/site';
+import { getTema } from '../../data/temas';
+
+export function getStaticPaths() {
+  return getPublishedQuestions().map((q) => ({
+    params: { slug: q.slug },
+    props: { question: q },
+  }));
+}
+
+const { question } = Astro.props;
+const related = getRelatedQuestions(question);
+const tema = getTema(question.tema);
+const letters = ['A', 'B', 'C', 'D'];
+const correctLetter = letters[question.correcta];
+const correctText = question.opciones[question.correcta];
+
+const directAnswer = `La respuesta correcta es la opción ${correctLetter}: ${correctText} ${question.explicacion.texto.slice(0, 180)}${question.explicacion.texto.length > 180 ? '…' : ''}`;
+
+const wordCount = question.explicacion.texto.trim().split(/\s+/).length;
+---
+
+<BaseLayout
+  title={`${question.enunciado.slice(0, 60)}${question.enunciado.length > 60 ? '…' : ''}`}
+  description={`Respuesta explicada del balotario ${question.categoria}: ${question.enunciado.slice(0, 120)}`}
+  type="article"
+>
+  <Breadcrumbs
+    items={[
+      { label: 'Inicio', href: '/' },
+      { label: tema?.nombre ?? 'Pregunta', href: `/practica/${question.tema}` },
+      { label: 'Pregunta' },
+    ]}
+  />
+
+  <article class="container-page max-w-3xl pb-16">
+    <p class="text-sm text-ink-muted">
+      {question.categoria} · {tema?.nombre} · Actualizado {question.updatedAt}
+    </p>
+    <h1 class="mt-2 font-display text-3xl font-bold text-ink">{question.enunciado}</h1>
+
+    <p class="direct-answer mt-6">{directAnswer}</p>
+
+    {
+      question.imagen?.src && (
+        <figure class="my-6">
+          <img
+            src={question.imagen.src}
+            alt={question.imagen.alt}
+            class="mx-auto h-auto max-h-48"
+            width="160"
+            height="160"
+          />
+          <figcaption class="mt-2 text-center text-sm text-ink-muted">{question.imagen.alt}</figcaption>
+        </figure>
+      )
+    }
+
+    <h2 class="mt-8 font-display text-2xl font-semibold text-ink">¿Cuáles son las opciones?</h2>
+    <ol class="mt-4 space-y-2">
+      {
+        question.opciones.map((op, i) => (
+          <li
+            class:list={[
+              'rounded-lg border px-4 py-3',
+              i === question.correcta ? 'border-success bg-success/10 font-medium' : 'border-line',
+            ]}
+          >
+            <span class="font-semibold">{letters[i]}.</span> {op}
+            {i === question.correcta && <span class="ml-2 text-sm text-success">(correcta)</span>}
+          </li>
+        ))
+      }
+    </ol>
+
+    <h2 class="mt-10 font-display text-2xl font-semibold text-ink">¿Por qué es correcta esa respuesta?</h2>
+    <p class="mt-3 leading-relaxed text-ink-muted">{question.explicacion.texto}</p>
+    <p class="mt-3 text-sm text-ink-muted">
+      <strong>Base legal:</strong> {question.explicacion.baseLegal}
+    </p>
+    <p class="mt-2 text-xs text-ink-muted">
+      Explicación ({wordCount} palabras) · estado: {question.explicacion.status} · fuente: {question.fuente}
+    </p>
+
+    <h2 class="mt-10 font-display text-2xl font-semibold text-ink">¿Cómo practicar más sobre este tema?</h2>
+    <ul class="mt-3 list-disc space-y-1 pl-5 text-ink-muted">
+      <li><a href={`/practica/${question.tema}`}>Práctica de {tema?.nombre ?? question.tema}</a></li>
+      <li><a href="/simulacro/a-i">Simulacro completo A-I</a></li>
+      <li><a href="/guias/senales-de-transito">Guía de señales</a> · <a href="/guias/prioridad-de-paso-y-rotondas">Prioridad</a></li>
+    </ul>
+
+    {
+      related.length > 0 && (
+        <>
+          <h2 class="mt-10 font-display text-2xl font-semibold text-ink">Preguntas relacionadas</h2>
+          <ul class="mt-3 space-y-2">
+            {related.map((r) => (
+              <li>
+                <a href={`/pregunta/${r.slug}`}>{r.enunciado}</a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+
+    <p class="mt-10 text-sm text-ink-muted">
+      Sitio independiente ({site.name}). Verifica siempre la norma vigente en fuentes oficiales.
+    </p>
+  </article>
+
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'LearningResource',
+      name: question.enunciado,
+      description: question.explicacion.texto,
+      learningResourceType: 'Quiz',
+      inLanguage: 'es-PE',
+      dateModified: question.updatedAt,
+      educationalLevel: question.categoria,
+    })}
+  />
+</BaseLayout>

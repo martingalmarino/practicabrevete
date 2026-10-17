@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+import { site } from '../config/site';
+---
+
+<BaseLayout
+  title="Términos de uso"
+  description={`Términos de uso de ${site.name}, simulador independiente del examen de reglas de tránsito.`}
+>
+  <Breadcrumbs items={[{ label: 'Inicio', href: '/' }, { label: 'Términos' }]} />
+  <article class="container-page prose-guide max-w-3xl pb-16">
+    <h1 class="font-display text-4xl font-bold text-ink">Términos de uso</h1>
+    <p>Última actualización: {site.lastContentReview}.</p>
+
+    <h2>Aceptación</h2>
+    <p>
+      Al usar {site.name} aceptas estos términos. Si no estás de acuerdo, no utilices el sitio.
+    </p>
+
+    <h2>Servicio</h2>
+    <p>
+      Ofrecemos herramientas y contenidos educativos para practicar el examen de conocimientos. El
+      servicio se ofrece “tal cual”, sin garantía de aprobación en el examen oficial.
+    </p>
+
+    <h2>Uso permitido</h2>
+    <ul>
+      <li>Estudio personal y no comercial del material publicado en el sitio.</li>
+      <li>No debes intentar saturar, scrapear de forma abusiva ni hacer pasar el sitio por oficial.</li>
+    </ul>
+
+    <h2>Propiedad y fuentes</h2>
+    <p>
+      Las preguntas del balotario provienen de publicaciones públicas del Estado. Las explicaciones,
+      diseño, marca {site.name} y software del simulador son de nuestra autoría salvo indicación
+      contraria.
+    </p>
+
+    <h2>Limitación de responsabilidad</h2>
+    <p>
+      No respondemos por decisiones de trámite, pérdidas o sanciones derivadas del uso de la
+      información. Verifica siempre la norma y los procedimientos vigentes en fuentes oficiales.
+    </p>
+
+    <h2>Contacto</h2>
+    <p><a href={`mailto:${site.email}`}>{site.email}</a></p>
+  </article>
+</BaseLayout>
