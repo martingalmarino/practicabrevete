@@ -106,12 +106,13 @@
     @apply inline-flex min-h-11 items-center justify-center gap-1 rounded-[12px] px-3 py-2 text-sm font-semibold text-brand no-underline transition-colors hover:bg-brand-soft hover:no-underline;
   }
 
+  /* Meta label — sin pill; acento lateral fino */
   .badge {
-    @apply inline-flex items-center rounded-full bg-brand-soft px-3 py-1 text-sm font-medium text-brand;
+    @apply inline-flex items-center border-l-2 border-brand pl-3 text-sm font-medium leading-snug text-ink-muted;
   }
 
   .badge-accent {
-    @apply inline-flex items-center rounded-full bg-brand-soft px-3 py-1 text-sm font-medium text-brand;
+    @apply inline-flex text-[0.8125rem] font-medium tracking-wide text-ink-muted;
   }
 
   .card-surface {
