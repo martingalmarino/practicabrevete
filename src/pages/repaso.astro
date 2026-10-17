@@ -22,13 +22,15 @@ const questions = getAllQuestions().map((q) => ({
   description="Repasa las preguntas que fallaste. Se guardan solo en tu dispositivo, sin crear cuenta."
 >
   <Breadcrumbs items={[{ label: 'Inicio', href: '/' }, { label: 'Repaso de errores' }]} />
-  <section class="container-page pb-12">
-    <h1 class="font-display text-3xl font-bold text-ink">Repaso de errores</h1>
-    <p class="mt-3 max-w-2xl text-ink-muted">
-      Tus fallos se guardan en localStorage de este navegador. No enviamos tus respuestas a ningún servidor.
-    </p>
-    <div class="mt-8">
-      <ReviewApp client:load questions={questions} />
+  <section class="container-page pb-14">
+    <div class="quiz-shell">
+      <h1 class="heading-section">Repaso de errores</h1>
+      <p class="text-body mt-3">
+        Tus fallos se guardan en este navegador. No enviamos tus respuestas a ningún servidor.
+      </p>
+      <div class="mt-8">
+        <ReviewApp client:load questions={questions} />
+      </div>
     </div>
   </section>
 </BaseLayout>

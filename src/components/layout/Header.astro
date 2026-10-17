@@ -4,24 +4,22 @@ import { site } from '../../config/site';
 const pathname = Astro.url.pathname;
 
 const links = [
-  { href: '/', label: 'Inicio' },
-  { href: '/guias/como-sacar-brevete-a-i', label: 'Guías' },
-  { href: '/simulacro/a-i', label: 'Simulacro' },
-  { href: '/practica/senales', label: 'Práctica' },
-  { href: '/acerca', label: 'Acerca' },
+  { href: '/practica/senales', label: 'Practicar', match: '/practica' },
+  { href: '/simulacro/a-i', label: 'Simulacro', match: '/simulacro' },
+  { href: '/guias/como-sacar-brevete-a-i', label: 'Guías', match: '/guias' },
 ];
 ---
 
-<header class="border-b border-line/80 bg-surface-elevated/90 backdrop-blur-sm sticky top-0 z-40">
-  <div class="container-page flex items-center justify-between gap-4 py-3">
-    <a href="/" class="group flex items-center gap-2 no-underline" aria-label={`${site.name} — inicio`}>
+<header class="sticky top-0 z-40 border-b border-border bg-surface/95 backdrop-blur-sm">
+  <div class="container-page flex min-h-16 items-center justify-between gap-3 py-2">
+    <a href="/" class="group flex min-h-11 items-center gap-2.5 no-underline hover:no-underline" aria-label={`${site.name} — inicio`}>
       <span
-        class="flex h-9 w-9 items-center justify-center rounded-lg bg-brand text-sm font-bold text-white"
+        class="flex h-9 w-9 items-center justify-center rounded-[10px] bg-brand text-sm font-bold text-white"
         aria-hidden="true"
       >
         PB
       </span>
-      <span class="font-display text-lg font-semibold text-ink group-hover:text-brand">
+      <span class="text-base font-semibold text-ink group-hover:text-brand sm:text-lg">
         {site.name}
       </span>
     </a>
@@ -29,16 +27,13 @@ const links = [
     <nav class="hidden items-center gap-1 md:flex" aria-label="Principal">
       {
         links.map((link) => {
-          const active =
-            link.href === '/'
-              ? pathname === '/'
-              : pathname.startsWith(link.href.split('/').slice(0, 2).join('/') || link.href);
+          const active = pathname.startsWith(link.match);
           return (
             <a
               href={link.href}
               class:list={[
-                'rounded-md px-3 py-2 text-sm font-medium no-underline transition',
-                active ? 'bg-surface text-brand' : 'text-ink-muted hover:bg-surface hover:text-ink',
+                'inline-flex min-h-11 items-center rounded-[10px] px-3 text-sm font-medium no-underline transition-colors hover:no-underline',
+                active ? 'bg-brand-soft text-brand' : 'text-ink-muted hover:bg-bg hover:text-ink',
               ]}
               aria-current={active ? 'page' : undefined}
             >
@@ -49,6 +44,79 @@ const links = [
       }
     </nav>
 
-    <a href="/simulacro/a-i" class="btn-primary !px-3 !py-2 text-sm">Empezar</a>
+    <div class="flex items-center gap-2">
+      <a href="/simulacro/a-i" class="btn-primary hidden !min-h-11 !px-4 !py-2 text-sm sm:inline-flex">
+        Empezar simulacro
+      </a>
+
+      <button
+        type="button"
+        id="nav-toggle"
+        class="inline-flex min-h-11 min-w-11 items-center justify-center rounded-[10px] border border-border bg-surface text-ink md:hidden"
+        aria-expanded="false"
+        aria-controls="nav-mobile"
+        aria-label="Abrir menú"
+      >
+        <svg id="nav-icon-open" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round" />
+        </svg>
+        <svg id="nav-icon-close" class="hidden h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div id="nav-mobile" class="hidden border-t border-border bg-surface md:hidden" hidden>
+    <nav class="container-page flex flex-col gap-1 py-3" aria-label="Menú móvil">
+      {
+        links.map((link) => {
+          const active = pathname.startsWith(link.match);
+          return (
+            <a
+              href={link.href}
+              class:list={[
+                'inline-flex min-h-12 items-center rounded-[12px] px-3 text-base font-medium no-underline hover:no-underline',
+                active ? 'bg-brand-soft text-brand' : 'text-ink hover:bg-bg',
+              ]}
+              aria-current={active ? 'page' : undefined}
+            >
+              {link.label}
+            </a>
+          );
+        })
+      }
+      <a href="/simulacro/a-i" class="btn-primary mt-2 w-full">Empezar simulacro</a>
+    </nav>
   </div>
 </header>
+
+<script>
+  const toggle = document.getElementById('nav-toggle');
+  const panel = document.getElementById('nav-mobile');
+  const iconOpen = document.getElementById('nav-icon-open');
+  const iconClose = document.getElementById('nav-icon-close');
+
+  function setOpen(open: boolean) {
+    if (!toggle || !panel) return;
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+    panel.hidden = !open;
+    panel.classList.toggle('hidden', !open);
+    iconOpen?.classList.toggle('hidden', open);
+    iconClose?.classList.toggle('hidden', !open);
+  }
+
+  toggle?.addEventListener('click', () => {
+    const open = toggle.getAttribute('aria-expanded') === 'true';
+    setOpen(!open);
+  });
+
+  panel?.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => setOpen(false));
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') setOpen(false);
+  });
+</script>

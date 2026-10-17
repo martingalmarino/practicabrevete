@@ -1,19 +1,23 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink: #0f2744;
-  --color-ink-muted: #3d5168;
-  --color-surface: #f4f7fb;
-  --color-surface-elevated: #ffffff;
-  --color-line: #d5dee9;
-  --color-brand: #0b6e4f;
-  --color-brand-dark: #08553c;
-  --color-accent: #e8a317;
-  --color-accent-dark: #c4880f;
-  --color-danger: #b42318;
-  --color-success: #0b6e4f;
-  --font-sans: "Source Sans 3", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Fraunces", "Georgia", ui-serif, serif;
+  --color-bg: #f7f5ef;
+  --color-surface: #ffffff;
+  --color-ink: #182d32;
+  --color-ink-muted: #526368;
+  --color-brand: #146454;
+  --color-brand-hover: #104f43;
+  --color-brand-soft: #e8f2ec;
+  --color-accent: #e6b655;
+  --color-border: #d7dfda;
+  --color-success: #216547;
+  --color-error: #b53737;
+  --color-success-soft: #e8f3ec;
+  --color-error-soft: #f8ecec;
+  --font-sans: "Public Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --radius-card: 16px;
+  --radius-control: 12px;
+  --shadow-soft: 0 1px 2px rgb(24 45 50 / 0.06), 0 8px 24px rgb(24 45 50 / 0.06);
 }
 
 @layer base {
@@ -21,42 +25,101 @@
     scroll-behavior: smooth;
   }
 
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
   body {
-    @apply bg-surface text-ink font-sans antialiased;
-    background-image:
-      radial-gradient(ellipse 80% 50% at 10% -10%, rgb(11 110 79 / 0.08), transparent),
-      radial-gradient(ellipse 60% 40% at 90% 0%, rgb(232 163 23 / 0.1), transparent);
+    @apply bg-bg font-sans text-ink antialiased;
+    font-size: 17px;
+    line-height: 1.6;
     min-height: 100dvh;
   }
 
   :focus-visible {
-    @apply outline-2 outline-offset-2 outline-brand;
+    outline: 2px solid var(--color-brand);
+    outline-offset: 2px;
   }
 
   a {
-    @apply text-brand underline-offset-2 hover:underline;
+    @apply text-brand underline-offset-2;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 }
 
 @layer components {
   .container-page {
-    @apply mx-auto w-full max-w-5xl px-4 sm:px-6;
+    @apply mx-auto w-full max-w-[1120px] px-4 sm:px-6;
+  }
+
+  .section-y {
+    @apply py-12 sm:py-16;
+  }
+
+  .heading-hero {
+    @apply text-[2rem] font-bold leading-tight tracking-tight text-ink sm:text-[2.75rem] lg:text-[3.25rem];
+  }
+
+  .heading-section {
+    @apply text-[1.625rem] font-bold leading-tight text-ink sm:text-[2rem];
+  }
+
+  .heading-card {
+    @apply text-xl font-semibold text-ink;
+  }
+
+  .text-body {
+    @apply text-base leading-relaxed text-ink-muted sm:text-[17px];
+  }
+
+  .text-support {
+    @apply text-sm text-ink-muted;
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-brand px-5 py-3 text-base font-semibold text-white no-underline transition hover:bg-brand-dark;
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-[12px] bg-brand px-5 py-3 text-base font-semibold text-white no-underline transition-colors hover:bg-brand-hover hover:no-underline disabled:cursor-not-allowed disabled:opacity-50;
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-line bg-surface-elevated px-5 py-3 text-base font-semibold text-ink no-underline transition hover:border-brand hover:text-brand;
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-[12px] border border-border bg-surface px-5 py-3 text-base font-semibold text-ink no-underline transition-colors hover:border-brand hover:text-brand hover:no-underline disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-text {
+    @apply inline-flex min-h-11 items-center justify-center gap-1 rounded-[12px] px-3 py-2 text-sm font-semibold text-brand no-underline transition-colors hover:bg-brand-soft hover:no-underline;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full bg-brand-soft px-3 py-1 text-sm font-medium text-brand;
+  }
+
+  .badge-accent {
+    @apply inline-flex items-center rounded-full bg-accent/25 px-3 py-1 text-sm font-medium text-ink;
+  }
+
+  .card-surface {
+    @apply rounded-[16px] border border-border bg-surface;
   }
 
   .prose-guide {
-    @apply max-w-3xl text-ink-muted leading-relaxed;
+    @apply max-w-[720px] text-ink-muted leading-relaxed;
+    font-size: 17px;
   }
 
   .prose-guide h2 {
-    @apply mt-10 mb-3 font-display text-2xl text-ink;
+    @apply mt-10 mb-3 text-[1.5rem] font-bold text-ink sm:text-[1.75rem];
   }
 
   .prose-guide h3 {
@@ -72,10 +135,30 @@
   }
 
   .prose-guide li {
-    @apply mb-1;
+    @apply mb-1.5;
+  }
+
+  .prose-guide a {
+    @apply font-medium;
   }
 
   .direct-answer {
-    @apply mb-8 border-l-4 border-accent bg-surface-elevated p-4 text-ink;
+    @apply mb-8 rounded-[12px] border border-border border-l-4 border-l-accent bg-surface p-4 text-ink;
+  }
+
+  .quiz-shell {
+    @apply mx-auto w-full max-w-[760px];
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
   }
 }

@@ -4,40 +4,53 @@ export interface Tema {
   slug: TemaId;
   nombre: string;
   descripcion: string;
+  accion: string;
+  /** Nombre del icono SVG inline */
+  icon: 'sign' | 'priority' | 'speed' | 'docs' | 'aid' | 'wrench';
 }
 
 export const temas: Tema[] = [
   {
     slug: 'senales',
     nombre: 'Señales de tránsito',
-    descripcion:
-      'Señales verticales, semáforos y marcas en el pavimento: qué significan y cómo debes actuar.',
+    descripcion: 'Reconoce las señales y entiende qué indican.',
+    accion: 'Practicar señales',
+    icon: 'sign',
   },
   {
     slug: 'prioridad',
     nombre: 'Prioridad de paso',
-    descripcion:
-      'Intersecciones, adelantamientos, vehículos de emergencia y reglas cuando no hay semáforo.',
+    descripcion: 'Aprende quién pasa primero en cruces y adelantamientos.',
+    accion: 'Practicar prioridad',
+    icon: 'priority',
   },
   {
     slug: 'velocidades',
     nombre: 'Velocidades',
-    descripcion: 'Límites y criterios de velocidad segura según el tipo de vía y la situación.',
+    descripcion: 'Repasa límites y criterios de velocidad segura.',
+    accion: 'Practicar velocidades',
+    icon: 'speed',
   },
   {
     slug: 'documentos',
     nombre: 'Documentos',
-    descripcion: 'SOAT, identificación vehicular, licencia y otros papeles que debes portar.',
+    descripcion: 'SOAT, identificación vehicular y papeles que debes portar.',
+    accion: 'Practicar documentos',
+    icon: 'docs',
   },
   {
     slug: 'primeros-auxilios',
     nombre: 'Primeros auxilios',
-    descripcion: 'Actuación básica ante un accidente mientras llega ayuda profesional.',
+    descripcion: 'Actúa con calma ante un accidente hasta que llegue ayuda.',
+    accion: 'Practicar auxilios',
+    icon: 'aid',
   },
   {
     slug: 'mecanica',
     nombre: 'Mecánica básica',
     descripcion: 'Revisiones esenciales del vehículo que todo conductor debe conocer.',
+    accion: 'Practicar mecánica',
+    icon: 'wrench',
   },
 ];
 

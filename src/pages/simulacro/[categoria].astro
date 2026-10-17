@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/layout/Breadcrumbs.astro';
-import AdSlot from '../../components/ads/AdSlot.astro';
 import JsonLd from '../../components/seo/JsonLd.astro';
 import ExamApp from '../../components/quiz/ExamApp';
 import { categorias, getCategoria } from '../../data/categorias';
@@ -43,32 +42,26 @@ const questions = getBank(cat.slug).map((q) => ({
     ]}
   />
 
-  <section class="container-page pb-12">
-    <h1 class="font-display text-3xl font-bold text-ink sm:text-4xl">
-      Simulacro {cat.codigo}
-    </h1>
-    <p class="mt-3 max-w-3xl text-ink-muted">{cat.evalua}</p>
-    <p class="mt-3 max-w-3xl text-sm leading-relaxed text-ink-muted">
-      Este simulacro elige preguntas al azar del banco cargado para {cat.codigo}. Al terminar verás
-      el detalle, podrás repasar errores y seguir en práctica por tema. Es una herramienta de estudio
-      independiente: no reemplaza el examen oficial ni emite constancias.
-    </p>
-    <p class="mt-2 text-sm text-ink-muted">
-      Formato: {site.examRules.questionCount} preguntas · aprobado con {site.examRules.passScore} ·
-      hasta {site.examRules.timeLimitMinutes} minutos.
-      <a href={site.examRules.sourceUrl} target="_blank" rel="noopener noreferrer">Fuente</a>
-    </p>
+  <section class="container-page pb-14">
+    <div class="quiz-shell">
+      <h1 class="heading-section">Simulacro {cat.codigo}</h1>
+      <p class="text-body mt-3">{cat.evalua}</p>
+      <p class="text-support mt-3">
+        Formato de práctica: {site.examRules.questionCount} preguntas · umbral de referencia{' '}
+        {site.examRules.passScore} · temporizador opcional de {site.examRules.timeLimitMinutes}{' '}
+        minutos.{' '}
+        <a href={site.examRules.sourceUrl} target="_blank" rel="noopener noreferrer">Fuente</a>
+      </p>
 
-    <AdSlot adSlot={site.adsense.slots.contentInline} label="Anuncio" minHeight={90} />
-
-    <div class="mt-8">
-      <ExamApp
-        client:load
-        questions={questions}
-        categoria={cat.codigo}
-        passScore={site.examRules.passScore}
-        timeLimitMinutes={site.examRules.timeLimitMinutes}
-      />
+      <div class="mt-8">
+        <ExamApp
+          client:load
+          questions={questions}
+          categoria={cat.codigo}
+          passScore={site.examRules.passScore}
+          timeLimitMinutes={site.examRules.timeLimitMinutes}
+        />
+      </div>
     </div>
   </section>
 

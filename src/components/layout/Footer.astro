@@ -4,60 +4,51 @@ import { site } from '../../config/site';
 const year = new Date().getFullYear();
 ---
 
-<footer class="mt-20 border-t border-line bg-ink text-white">
+<footer class="mt-16 border-t border-brand-hover bg-[#123d38] text-white">
   <div class="container-page grid gap-10 py-12 sm:grid-cols-2 lg:grid-cols-4">
-    <div class="sm:col-span-2 lg:col-span-1">
-      <p class="font-display text-xl font-semibold">{site.name}</p>
-      <p class="mt-2 text-sm text-white/75">{site.tagline}</p>
-      <p class="mt-4 text-xs leading-relaxed text-white/60">
-        Sitio independiente de preparación. No somos un organismo oficial ni estamos afiliados a
-        entidades del Estado. Las preguntas se basan en balotarios públicos; verifica siempre la
-        información vigente en fuentes oficiales.
+    <div class="lg:col-span-1">
+      <p class="text-lg font-semibold">{site.name}</p>
+      <p class="mt-2 text-sm text-white/75">Prepárate para tu examen de reglas de tránsito con confianza.</p>
+      <p class="mt-4 text-sm leading-relaxed text-white/65">
+        Plataforma independiente de preparación. No somos un sitio oficial del Estado.
       </p>
     </div>
 
     <div>
-      <p class="text-sm font-semibold uppercase tracking-wide text-accent">Practicar</p>
-      <ul class="mt-3 space-y-2 text-sm text-white/80">
-        <li><a class="text-white/80 hover:text-white" href="/simulacro/a-i">Simulacro A-I</a></li>
-        <li><a class="text-white/80 hover:text-white" href="/practica/senales">Práctica por tema</a></li>
-        <li><a class="text-white/80 hover:text-white" href="/guias/como-estudiar-en-7-dias">Estudiar en 7 días</a></li>
+      <p class="text-sm font-semibold text-accent">Practicar</p>
+      <ul class="mt-3 space-y-2 text-sm">
+        <li><a class="text-white/80 no-underline hover:text-white hover:underline" href="/simulacro/a-i">Simulacro A-I</a></li>
+        <li><a class="text-white/80 no-underline hover:text-white hover:underline" href="/practica/senales">Práctica por tema</a></li>
+        <li><a class="text-white/80 no-underline hover:text-white hover:underline" href="/repaso">Repaso de errores</a></li>
       </ul>
     </div>
 
     <div>
-      <p class="text-sm font-semibold uppercase tracking-wide text-accent">Guías</p>
-      <ul class="mt-3 space-y-2 text-sm text-white/80">
-        <li>
-          <a class="text-white/80 hover:text-white" href="/guias/como-sacar-brevete-a-i">Cómo sacar el brevete</a>
-        </li>
-        <li>
-          <a class="text-white/80 hover:text-white" href="/guias/senales-de-transito">Señales de tránsito</a>
-        </li>
-        <li>
-          <a class="text-white/80 hover:text-white" href="/guias/prioridad-de-paso-y-rotondas">Prioridad y rotondas</a>
-        </li>
+      <p class="text-sm font-semibold text-accent">Guías</p>
+      <ul class="mt-3 space-y-2 text-sm">
+        <li><a class="text-white/80 no-underline hover:text-white hover:underline" href="/guias/como-sacar-brevete-a-i">Cómo sacar el brevete</a></li>
+        <li><a class="text-white/80 no-underline hover:text-white hover:underline" href="/guias/senales-de-transito">Señales de tránsito</a></li>
+        <li><a class="text-white/80 no-underline hover:text-white hover:underline" href="/guias/como-estudiar-en-7-dias">Estudiar en 7 días</a></li>
       </ul>
     </div>
 
     <div>
-      <p class="text-sm font-semibold uppercase tracking-wide text-accent">Legal</p>
-      <ul class="mt-3 space-y-2 text-sm text-white/80">
-        <li><a class="text-white/80 hover:text-white" href="/acerca">Acerca</a></li>
-        <li><a class="text-white/80 hover:text-white" href="/contacto">Contacto</a></li>
-        <li><a class="text-white/80 hover:text-white" href="/privacidad">Privacidad</a></li>
-        <li><a class="text-white/80 hover:text-white" href="/terminos">Términos</a></li>
-        <li><a class="text-white/80 hover:text-white" href="/aviso-legal">Aviso legal</a></li>
+      <p class="text-sm font-semibold text-accent">Acerca y legal</p>
+      <ul class="mt-3 space-y-2 text-sm">
+        <li><a class="text-white/80 no-underline hover:text-white hover:underline" href="/acerca">Acerca</a></li>
+        <li><a class="text-white/80 no-underline hover:text-white hover:underline" href="/contacto">Contacto</a></li>
+        <li><a class="text-white/80 no-underline hover:text-white hover:underline" href="/privacidad">Privacidad</a></li>
+        <li><a class="text-white/80 no-underline hover:text-white hover:underline" href="/terminos">Términos</a></li>
+        <li><a class="text-white/80 no-underline hover:text-white hover:underline" href="/aviso-legal">Aviso legal</a></li>
       </ul>
     </div>
   </div>
 
   <div class="border-t border-white/10">
-    <div class="container-page flex flex-col gap-2 py-4 text-xs text-white/50 sm:flex-row sm:justify-between">
-      <p>© {year} {site.name}. Todos los derechos reservados.</p>
+    <div class="container-page flex flex-col gap-2 py-4 text-xs text-white/55 sm:flex-row sm:justify-between">
+      <p>© {year} {site.name}</p>
       <p>
-        Contacto:
-        <a class="text-white/70 hover:text-white" href={`mailto:${site.email}`}>{site.email}</a>
+        <a class="text-white/70 no-underline hover:text-white hover:underline" href={`mailto:${site.email}`}>{site.email}</a>
       </p>
     </div>
   </div>

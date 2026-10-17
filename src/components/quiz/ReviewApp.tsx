@@ -26,14 +26,20 @@ export default function ReviewApp({ questions }: Props) {
 
   if (!list.length) {
     return (
-      <div class="rounded-xl border border-line bg-surface-elevated p-6">
-        <h2 class="font-display text-xl font-semibold text-ink">Sin errores guardados</h2>
-        <p class="mt-2 text-ink-muted">
-          Completa un simulacro o una práctica; tus fallos se guardan en este dispositivo (sin cuenta).
+      <div class="card-surface p-6 sm:p-8">
+        <h2 class="heading-card">Sin errores guardados aún</h2>
+        <p class="text-body mt-3">
+          Aquí aparecerán las preguntas que respondas incorrectamente. Completa un simulacro o una
+          práctica; tus fallos se guardan solo en este dispositivo.
         </p>
-        <a href="/simulacro/a-i" class="btn-primary mt-4 inline-flex">
-          Empezar simulacro
-        </a>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="/simulacro/a-i" class="btn-primary">
+            Empezar simulacro
+          </a>
+          <a href="/practica/senales" class="btn-secondary">
+            Practicar por tema
+          </a>
+        </div>
       </div>
     );
   }
@@ -45,15 +51,17 @@ export default function ReviewApp({ questions }: Props) {
   return (
     <div class="space-y-4">
       <div class="flex flex-wrap items-center justify-between gap-2">
-        <p class="text-sm text-ink-muted">
+        <p class="text-support">
           Error {index + 1} de {list.length}
         </p>
         <button
           type="button"
-          class="text-sm text-danger underline"
+          class="btn-text text-error"
           onClick={() => {
-            clearErrores();
-            setErrorIds([]);
+            if (window.confirm('¿Borrar la lista de errores guardados en este dispositivo?')) {
+              clearErrores();
+              setErrorIds([]);
+            }
           }}
         >
           Borrar lista de errores
@@ -68,6 +76,7 @@ export default function ReviewApp({ questions }: Props) {
         showFeedback
         showExplicacion
         disabled
+        feedbackMessage="Esta respuesta no es correcta. Veamos por qué."
         onSelect={() => {}}
       />
 

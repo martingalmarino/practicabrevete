@@ -15,16 +15,17 @@ export default function PracticeApp({ questions, tema, temaNombre }: Props) {
   const [order, setOrder] = useState(() => [...questions].sort(() => Math.random() - 0.5));
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
-  const [showExp, setShowExp] = useState(false);
-  const [stats, setStats] = useState(() => loadProgress().practicaPorTema[tema] ?? { vistas: 0, aciertos: 0 });
+  const [confirmed, setConfirmed] = useState(false);
+  const [showExp, setShowExp] = useState(true);
+  const [stats, setStats] = useState(
+    () => loadProgress().practicaPorTema[tema] ?? { vistas: 0, aciertos: 0 },
+  );
 
   useEffect(() => {
     trackInicioSimulacro('a-i', 'practica');
   }, []);
 
   const current = order[index];
-  const answered = selected !== null;
-
   const accuracy = useMemo(() => {
     if (!stats.vistas) return 0;
     return Math.round((stats.aciertos / stats.vistas) * 100);
@@ -32,8 +33,8 @@ export default function PracticeApp({ questions, tema, temaNombre }: Props) {
 
   if (!questions.length) {
     return (
-      <div class="rounded-xl border border-line bg-surface-elevated p-6">
-        <p class="text-ink-muted">Aún no hay preguntas clasificadas en este tema.</p>
+      <div class="card-surface p-6">
+        <p class="text-body">Aún no hay preguntas clasificadas en este tema.</p>
         <a href="/practica/senales" class="btn-primary mt-4 inline-flex">
           Ir a señales
         </a>
@@ -42,16 +43,21 @@ export default function PracticeApp({ questions, tema, temaNombre }: Props) {
   }
 
   function onSelect(i: number) {
-    if (answered || !current) return;
+    if (confirmed) return;
     setSelected(i);
+  }
+
+  function confirm() {
+    if (selected === null || !current || confirmed) return;
+    setConfirmed(true);
     setShowExp(true);
-    const acierto = i === current.correcta;
+    const acierto = selected === current.correcta;
     const state = recordPracticeAnswer({
       tema,
       acierto,
       respuesta: {
         preguntaId: current.id,
-        seleccion: i,
+        seleccion: selected,
         correcta: current.correcta,
         acierto,
         tema,
@@ -65,7 +71,8 @@ export default function PracticeApp({ questions, tema, temaNombre }: Props) {
 
   function next() {
     setSelected(null);
-    setShowExp(false);
+    setConfirmed(false);
+    setShowExp(true);
     if (index >= order.length - 1) {
       setOrder([...questions].sort(() => Math.random() - 0.5));
       setIndex(0);
@@ -74,15 +81,40 @@ export default function PracticeApp({ questions, tema, temaNombre }: Props) {
     }
   }
 
+  const feedbackMessage = confirmed
+    ? selected === current.correcta
+      ? 'Respuesta correcta'
+      : 'Esta respuesta no es correcta. Veamos por qué.'
+    : null;
+
   return (
     <div class="space-y-4">
-      <div class="flex flex-wrap items-center justify-between gap-2 text-sm text-ink-muted">
-        <p>
-          Tema: <span class="font-semibold text-ink">{temaNombre}</span>
+      <div class="flex flex-wrap items-center justify-between gap-2">
+        <div>
+          <p class="text-sm font-semibold text-ink">Práctica · {temaNombre}</p>
+          <p class="text-support">
+            Feedback después de confirmar · progreso en este dispositivo
+          </p>
+        </div>
+        <p class="text-support" aria-live="polite">
+          {stats.vistas > 0
+            ? `${stats.aciertos}/${stats.vistas} aciertos (${accuracy}%)`
+            : 'Tu progreso aparecerá después de tu primera práctica.'}
         </p>
-        <p>
-          Progreso local: {stats.aciertos}/{stats.vistas} ({accuracy}% acierto)
-        </p>
+      </div>
+
+      <div
+        class="h-2 overflow-hidden rounded-full bg-border"
+        role="progressbar"
+        aria-valuenow={index + 1}
+        aria-valuemin={1}
+        aria-valuemax={order.length}
+        aria-label="Progreso de la práctica"
+      >
+        <div
+          class="h-full bg-brand"
+          style={{ width: `${((index + 1) / order.length) * 100}%` }}
+        />
       </div>
 
       <QuestionCard
@@ -90,9 +122,10 @@ export default function PracticeApp({ questions, tema, temaNombre }: Props) {
         index={index}
         total={order.length}
         selected={selected}
-        showFeedback={answered}
+        showFeedback={confirmed}
         showExplicacion={showExp}
-        disabled={answered}
+        disabled={confirmed}
+        feedbackMessage={feedbackMessage}
         onSelect={onSelect}
         onToggleExplicacion={() => {
           setShowExp((v) => !v);
@@ -100,16 +133,29 @@ export default function PracticeApp({ questions, tema, temaNombre }: Props) {
         }}
       />
 
-      {answered && (
-        <div class="flex flex-wrap items-center gap-3">
-          <p class={`font-semibold ${selected === current.correcta ? 'text-success' : 'text-danger'}`}>
-            {selected === current.correcta ? 'Correcto' : 'Incorrecto'}
-          </p>
+      <div class="flex flex-wrap items-center gap-3 pb-[max(0.5rem,env(safe-area-inset-bottom))]">
+        {!confirmed ? (
+          <>
+            <button
+              type="button"
+              class="btn-primary"
+              onClick={confirm}
+              disabled={selected === null}
+            >
+              Confirmar respuesta
+            </button>
+            {selected === null && (
+              <p class="text-support" role="status">
+                Elige una respuesta para continuar.
+              </p>
+            )}
+          </>
+        ) : (
           <button type="button" class="btn-primary" onClick={next}>
             Siguiente pregunta
           </button>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 }
