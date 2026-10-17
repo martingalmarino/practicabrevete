@@ -101,22 +101,26 @@ const reviewDate = new Date(`${site.lastContentReview}T12:00:00`).toLocaleDateSt
   description={site.description}
 >
   <!-- Hero -->
-  <section class="border-b border-border bg-bg">
-    <div class="container-page grid items-start gap-10 py-12 sm:py-16 lg:grid-cols-2 lg:gap-12 lg:py-20">
+  <section class="hero-atmosphere">
+    <div class="container-page grid items-start gap-10 py-14 sm:py-16 lg:grid-cols-2 lg:items-center lg:gap-14 lg:py-24">
       <div>
         <p class="badge">Disponible para categoría A-I</p>
         <h1 class="heading-hero mt-4">Prepárate para tu examen de reglas de tránsito</h1>
-        <p class="text-body mt-4 max-w-xl">
+        <p class="text-body mt-4 max-w-xl text-[1.05rem] sm:text-lg">
           Practica a tu ritmo, entiende cada respuesta y repasa tus errores antes de rendir.
         </p>
         <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-          <a href="/simulacro/a-i" class="btn-primary">Empezar simulacro A-I</a>
-          <a href="/practica/senales" class="btn-secondary">Practicar por tema</a>
+          <a href="/simulacro/a-i" class="btn-primary shadow-[0_8px_24px_rgb(200_16_46_/_0.28)]">
+            Empezar simulacro A-I
+          </a>
+          <a href="/practica/senales" class="btn-secondary bg-surface/90 backdrop-blur-sm">
+            Practicar por tema
+          </a>
         </div>
-        <p class="text-support mt-4">Sin registro · Progreso guardado en este dispositivo</p>
+        <p class="text-support mt-5">Sin registro · Progreso guardado en este dispositivo</p>
       </div>
 
-      <div>
+      <div class="lg:justify-self-end lg:w-full lg:max-w-md">
         {
           previewPayload ? (
             <PreviewPractice client:load question={previewPayload} />

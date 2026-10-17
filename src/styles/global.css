@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  /* Paleta inspirada en rojo/blanco peruano, sin imitar un portal oficial */
-  --color-bg: #faf6f4;
-  --color-surface: #ffffff;
-  --color-ink: #1c1917;
-  --color-ink-muted: #57534e;
+  /* Paleta cálida inspirada en rojo/blanco peruano */
+  --color-bg: #f8f0e8;
+  --color-surface: #fffdfb;
+  --color-ink: #1c1412;
+  --color-ink-muted: #5c4f49;
   --color-brand: #c8102e;
   --color-brand-hover: #a00d25;
   --color-brand-soft: #fde8eb;
-  --color-accent: #e6b655;
-  --color-border: #e7ddd9;
+  --color-accent: #e0a84a;
+  --color-border: #e8d9cf;
   --color-success: #216547;
   --color-error: #8f1d1d;
   --color-success-soft: #e8f3ec;
@@ -19,7 +19,7 @@
   --font-sans: "Public Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --radius-card: 16px;
   --radius-control: 12px;
-  --shadow-soft: 0 1px 2px rgb(24 45 50 / 0.06), 0 8px 24px rgb(24 45 50 / 0.06);
+  --shadow-soft: 0 1px 2px rgb(60 30 20 / 0.05), 0 10px 28px rgb(120 50 40 / 0.08);
 }
 
 @layer base {
@@ -46,6 +46,9 @@
     font-size: 17px;
     line-height: 1.6;
     min-height: 100dvh;
+    background-image:
+      radial-gradient(ellipse 90% 55% at 0% -10%, rgb(200 16 46 / 0.07), transparent 55%),
+      radial-gradient(ellipse 70% 45% at 100% 0%, rgb(224 168 74 / 0.12), transparent 50%);
   }
 
   :focus-visible {
@@ -112,7 +115,62 @@
   }
 
   .card-surface {
-    @apply rounded-[16px] border border-border bg-surface;
+    @apply rounded-[16px] border border-border bg-surface shadow-[var(--shadow-soft)];
+  }
+
+  /* Hero con atmósfera cálida + trama sutil */
+  .hero-atmosphere {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    border-bottom: 1px solid var(--color-border);
+    background:
+      radial-gradient(ellipse 80% 70% at 15% 20%, rgb(200 16 46 / 0.14), transparent 55%),
+      radial-gradient(ellipse 60% 50% at 90% 10%, rgb(224 168 74 / 0.22), transparent 50%),
+      radial-gradient(ellipse 50% 40% at 70% 90%, rgb(200 16 46 / 0.06), transparent 55%),
+      linear-gradient(165deg, #fff8f2 0%, #f8f0e8 45%, #f3e6dc 100%);
+  }
+
+  .hero-atmosphere::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.45;
+    background-image:
+      repeating-linear-gradient(
+        -32deg,
+        transparent,
+        transparent 11px,
+        rgb(200 16 46 / 0.045) 11px,
+        rgb(200 16 46 / 0.045) 12px
+      ),
+      radial-gradient(rgb(28 20 18 / 0.04) 0.7px, transparent 0.8px);
+    background-size: auto, 14px 14px;
+  }
+
+  .hero-atmosphere::after {
+    content: "";
+    position: absolute;
+    inset: auto -10% -30% auto;
+    width: min(420px, 70vw);
+    height: min(420px, 70vw);
+    z-index: 0;
+    pointer-events: none;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(200 16 46 / 0.1), transparent 68%);
+  }
+
+  .hero-atmosphere > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-atmosphere::before {
+      opacity: 0.28;
+    }
   }
 
   .prose-guide {
