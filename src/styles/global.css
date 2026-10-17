@@ -118,17 +118,16 @@
     @apply rounded-[16px] border border-border bg-surface shadow-[var(--shadow-soft)];
   }
 
-  /* Hero con atmósfera cálida + trama */
+  /* Hero cálido con trama muy sutil */
   .hero-atmosphere {
     position: relative;
     isolation: isolate;
     overflow: hidden;
     border-bottom: 1px solid var(--color-border);
     background:
-      radial-gradient(ellipse 80% 70% at 15% 20%, rgb(200 16 46 / 0.18), transparent 55%),
-      radial-gradient(ellipse 60% 50% at 90% 10%, rgb(224 168 74 / 0.28), transparent 50%),
-      radial-gradient(ellipse 50% 40% at 70% 90%, rgb(200 16 46 / 0.08), transparent 55%),
-      linear-gradient(165deg, #fff8f2 0%, #f8f0e8 45%, #f3e6dc 100%);
+      radial-gradient(ellipse 70% 60% at 12% 18%, rgb(200 16 46 / 0.05), transparent 55%),
+      radial-gradient(ellipse 55% 45% at 88% 12%, rgb(224 168 74 / 0.12), transparent 50%),
+      linear-gradient(165deg, #fffaf6 0%, #f8f0e8 50%, #f5ebe3 100%);
   }
 
   .hero-atmosphere::before {
@@ -137,29 +136,10 @@
     inset: 0;
     z-index: 0;
     pointer-events: none;
-    opacity: 0.85;
+    opacity: 0.35;
     background-image:
-      repeating-linear-gradient(
-        -32deg,
-        transparent,
-        transparent 11px,
-        rgb(200 16 46 / 0.09) 11px,
-        rgb(200 16 46 / 0.09) 12px
-      ),
-      radial-gradient(rgb(28 20 18 / 0.07) 0.7px, transparent 0.8px);
-    background-size: auto, 14px 14px;
-  }
-
-  .hero-atmosphere::after {
-    content: "";
-    position: absolute;
-    inset: auto -10% -30% auto;
-    width: min(420px, 70vw);
-    height: min(420px, 70vw);
-    z-index: 0;
-    pointer-events: none;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgb(200 16 46 / 0.14), transparent 68%);
+      radial-gradient(rgb(28 20 18 / 0.035) 0.6px, transparent 0.7px);
+    background-size: 16px 16px;
   }
 
   .hero-atmosphere > * {
@@ -169,7 +149,7 @@
 
   @media (prefers-reduced-motion: reduce) {
     .hero-atmosphere::before {
-      opacity: 0.55;
+      opacity: 0.2;
     }
   }
 
