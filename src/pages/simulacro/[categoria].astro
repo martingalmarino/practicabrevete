@@ -1,0 +1,64 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/layout/Breadcrumbs.astro';
+import ExamApp from '../../components/quiz/ExamApp';
+import { categorias, getCategoria } from '../../data/categorias';
+import { getBank } from '../../lib/questions';
+import { site } from '../../config/site';
+
+export function getStaticPaths() {
+  return categorias.map((c) => ({ params: { categoria: c.slug } }));
+}
+
+const { categoria } = Astro.params;
+const cat = getCategoria(categoria!);
+if (!cat) throw new Error('Categoría no encontrada');
+
+const questions = getBank(cat.slug).map((q) => ({
+  id: q.id,
+  categoria: q.categoria,
+  tema: q.tema,
+  enunciado: q.enunciado,
+  opciones: q.opciones,
+  correcta: q.correcta,
+  imagen: q.imagen,
+  explicacion: q.explicacion,
+  slug: q.slug,
+  publish: q.publish,
+}));
+---
+
+<BaseLayout
+  title={`Simulacro ${cat.codigo}: examen de reglas de tránsito`}
+  description={`Simulacro gratuito de ${site.examRules.questionCount} preguntas para la categoría ${cat.codigo}. ${cat.descripcionCorta}`}
+>
+  <Breadcrumbs
+    items={[
+      { label: 'Inicio', href: '/' },
+      { label: 'Simulacro', href: '/simulacro/a-i' },
+      { label: cat.codigo },
+    ]}
+  />
+
+  <section class="container-page pb-12">
+    <h1 class="font-display text-3xl font-bold text-ink sm:text-4xl">
+      Simulacro {cat.codigo}
+    </h1>
+    <p class="mt-3 max-w-3xl text-ink-muted">{cat.evalua}</p>
+    <p class="mt-2 text-sm text-ink-muted">
+      Formato: {site.examRules.questionCount} preguntas · aprobado con {site.examRules.passScore} ·
+      hasta {site.examRules.timeLimitMinutes} minutos.
+      <a href={site.examRules.sourceUrl} target="_blank" rel="noopener noreferrer">Fuente</a>
+    </p>
+
+    <div class="mt-8">
+      <ExamApp
+        client:load
+        questions={questions}
+        categoria={cat.codigo}
+        passScore={site.examRules.passScore}
+        timeLimitMinutes={site.examRules.timeLimitMinutes}
+      />
+    </div>
+  </section>
+</BaseLayout>
