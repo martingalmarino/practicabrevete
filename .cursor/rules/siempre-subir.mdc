@@ -1,0 +1,12 @@
+---
+description: Siempre commit y push a origin tras cambios
+alwaysApply: true
+---
+
+# Siempre subir
+
+Después de completar cambios en el código (cuando el trabajo esté listo y no sea solo exploración), hacer commit y `git push` a `origin` sin pedir confirmación.
+
+- No preguntar "¿lo subo?"
+- Seguir el protocolo de commit del usuario (mensaje vía HEREDOC, sin amend salvo reglas, etc.)
+- No pushear si no hay cambios que commitear
