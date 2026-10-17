@@ -153,28 +153,26 @@ const reviewDate = new Date(`${site.lastContentReview}T12:00:00`).toLocaleDateSt
 
   <!-- SECTION 2: Entiende cada respuesta -->
   <section class="section-y bg-surface">
-    <div class="container-page grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
-      <div class="order-1">
+    <div class="container-page grid items-start gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-10">
+      <div class="lg:pt-2">
         <h2 class="heading-section">Entiende cada respuesta</h2>
-        <p class="text-body mt-4 max-w-md">
+        <p class="text-body mt-3 max-w-md">
           Practica con preguntas del banco disponible y revisa las explicaciones publicadas para
           comprender en qué puedes mejorar.
         </p>
-        <a href="/practica/senales" class="btn-primary mt-8">Practicar por tema</a>
+        <a href="/practica/senales" class="btn-primary mt-6">Practicar por tema</a>
       </div>
-      <div class="order-2">
-        <div class="stage-panel mx-auto w-full max-w-[520px] bg-cyan lg:mx-0 lg:ml-auto">
-          {
-            previewPayload ? (
-              <PreviewPractice client:load question={previewPayload} />
-            ) : (
-              <div class="rounded-[16px] border border-border bg-surface p-6 shadow-[var(--shadow-soft)]">
-                <p class="badge">Así puedes practicar</p>
-                <p class="mt-4 text-body">Elige un tema o inicia un simulacro para comenzar.</p>
-              </div>
-            )
-          }
-        </div>
+      <div class="stage-panel w-full max-w-lg bg-cyan p-4 sm:p-5 lg:max-w-none lg:justify-self-end">
+        {
+          previewPayload ? (
+            <PreviewPractice client:load question={previewPayload} compact />
+          ) : (
+            <div class="rounded-[16px] border border-border bg-surface p-5 shadow-[var(--shadow-soft)]">
+              <p class="badge">Así puedes practicar</p>
+              <p class="mt-3 text-body">Elige un tema o inicia un simulacro para comenzar.</p>
+            </div>
+          )
+        }
       </div>
     </div>
   </section>
