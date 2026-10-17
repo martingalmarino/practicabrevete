@@ -1,30 +1,31 @@
 ---
+import ProductShowcase from './ProductShowcase.astro';
 ---
 
-<div class="stage-panel bg-surface/70" aria-hidden="true">
-  <div class="demo-ui mx-auto max-w-md">
+<div aria-hidden="true">
+  <ProductShowcase tone="bg-surface/80" class="mx-auto border border-border/60 lg:mx-0 lg:ml-auto">
     <div class="flex items-center justify-between gap-2">
       <p class="text-xs font-bold uppercase tracking-wide text-ink-muted">Repaso · Ejemplo</p>
-      <span class="rounded-md bg-lavender px-2 py-0.5 text-[11px] font-semibold text-ink">En cola</span>
+      <span class="rounded-[10px] bg-lavender px-2 py-0.5 text-xs font-semibold text-ink">En cola</span>
     </div>
-    <p class="mt-3 text-[1.05rem] font-bold leading-snug text-ink">
+    <p class="mt-3 text-lg font-bold leading-snug text-ink">
       La luz intermitente roja es igual que una señal de PARE
     </p>
     <div class="mt-4 space-y-2">
-      <div class="rounded-[12px] border border-error bg-error-soft px-3 py-2.5 text-sm">
+      <div class="rounded-[var(--radius-sm)] border border-error bg-error-soft px-3 py-2.5 text-sm">
         <p class="font-semibold text-ink">Tu respuesta · Incorrecta</p>
         <p class="mt-1 text-ink-muted">Seguir con precaución sin detenerse</p>
       </div>
-      <div class="rounded-[12px] border border-success bg-success-soft px-3 py-2.5 text-sm">
+      <div class="rounded-[var(--radius-sm)] border border-success bg-success-soft px-3 py-2.5 text-sm">
         <p class="font-semibold text-ink">Respuesta correcta</p>
         <p class="mt-1 text-ink-muted">Detenerse completamente y ceder el paso</p>
       </div>
     </div>
-    <div class="mt-4 rounded-[12px] border border-border bg-soft px-3 py-3 text-sm text-ink-muted">
+    <div class="mt-4 rounded-[var(--radius-sm)] border border-border bg-soft px-3 py-3 text-sm text-ink-muted">
       <p class="font-bold text-ink">Explicación</p>
       <p class="mt-1 leading-relaxed">
         Ante una luz roja intermitente debes detenerte como en un PARE y continuar solo cuando sea seguro.
       </p>
     </div>
-  </div>
+  </ProductShowcase>
 </div>

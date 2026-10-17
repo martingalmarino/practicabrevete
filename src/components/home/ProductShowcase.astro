@@ -1,0 +1,15 @@
+---
+interface Props {
+  /** Tailwind color utility, e.g. bg-cyan */
+  tone?: string;
+  class?: string;
+}
+
+const { tone = 'bg-cyan', class: className = '' } = Astro.props;
+---
+
+<div class:list={['product-showcase', tone, className]}>
+  <div class="product-showcase-panel">
+    <slot />
+  </div>
+</div>
