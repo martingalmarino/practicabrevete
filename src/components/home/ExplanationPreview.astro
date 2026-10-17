@@ -1,0 +1,61 @@
+---
+/**
+ * Preview estático (no interactivo) para la home.
+ * No afecta práctica ni simulacro.
+ */
+interface Props {
+  enunciado: string;
+  respuestaCorrecta: string;
+  explicacion?: string;
+  imagen?: { src: string; alt: string } | null;
+}
+
+const { enunciado, respuestaCorrecta, explicacion, imagen } = Astro.props;
+---
+
+<div class="rounded-[16px] border border-border bg-surface p-6 shadow-[var(--shadow-soft)]">
+  <p class="text-[13px] font-semibold text-ink-muted sm:text-sm">Ejemplo de explicación</p>
+
+  <div class="mt-4 flex items-start gap-3">
+    {
+      imagen?.src && (
+        <img
+          src={imagen.src}
+          alt={imagen.alt}
+          class="mt-0.5 h-10 w-10 shrink-0 object-contain"
+          width="40"
+          height="40"
+          loading="lazy"
+        />
+      )
+    }
+    <p class="text-[1.25rem] font-bold leading-snug text-ink sm:text-[1.375rem]">{enunciado}</p>
+  </div>
+
+  <div class="mt-5 flex items-start gap-3 rounded-[12px] border border-success bg-success-soft px-4 py-3">
+    <span
+      class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-success text-white"
+      aria-hidden="true"
+    >
+      <svg class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor">
+        <path
+          fill-rule="evenodd"
+          d="M16.704 5.29a1 1 0 010 1.42l-7.25 7.25a1 1 0 01-1.414 0l-3.25-3.25a1 1 0 011.414-1.42l2.543 2.543 6.543-6.543a1 1 0 011.414 0z"
+          clip-rule="evenodd"></path>
+      </svg>
+    </span>
+    <div>
+      <p class="text-sm font-semibold text-success">Respuesta correcta</p>
+      <p class="mt-0.5 text-base leading-relaxed text-ink">{respuestaCorrecta}</p>
+    </div>
+  </div>
+
+  {
+    explicacion && (
+      <div class="mt-4 rounded-[12px] border border-border bg-soft px-4 py-3">
+        <p class="text-sm font-semibold text-ink">Explicación</p>
+        <p class="mt-1.5 text-base leading-relaxed text-ink-muted">{explicacion}</p>
+      </div>
+    )
+  }
+</div>
