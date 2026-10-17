@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0f2744;
+  --color-ink-muted: #3d5168;
+  --color-surface: #f4f7fb;
+  --color-surface-elevated: #ffffff;
+  --color-line: #d5dee9;
+  --color-brand: #0b6e4f;
+  --color-brand-dark: #08553c;
+  --color-accent: #e8a317;
+  --color-accent-dark: #c4880f;
+  --color-danger: #b42318;
+  --color-success: #0b6e4f;
+  --font-sans: "Source Sans 3", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", "Georgia", ui-serif, serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-surface text-ink font-sans antialiased;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 10% -10%, rgb(11 110 79 / 0.08), transparent),
+      radial-gradient(ellipse 60% 40% at 90% 0%, rgb(232 163 23 / 0.1), transparent);
+    min-height: 100dvh;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand;
+  }
+
+  a {
+    @apply text-brand underline-offset-2 hover:underline;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-5xl px-4 sm:px-6;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-brand px-5 py-3 text-base font-semibold text-white no-underline transition hover:bg-brand-dark;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-line bg-surface-elevated px-5 py-3 text-base font-semibold text-ink no-underline transition hover:border-brand hover:text-brand;
+  }
+
+  .prose-guide {
+    @apply max-w-3xl text-ink-muted leading-relaxed;
+  }
+
+  .prose-guide h2 {
+    @apply mt-10 mb-3 font-display text-2xl text-ink;
+  }
+
+  .prose-guide h3 {
+    @apply mt-8 mb-2 text-xl font-semibold text-ink;
+  }
+
+  .prose-guide p {
+    @apply mb-4;
+  }
+
+  .prose-guide ul {
+    @apply mb-4 list-disc pl-5;
+  }
+
+  .prose-guide li {
+    @apply mb-1;
+  }
+
+  .direct-answer {
+    @apply mb-8 border-l-4 border-accent bg-surface-elevated p-4 text-ink;
+  }
+}

@@ -1,0 +1,56 @@
+---
+import '../styles/global.css';
+import SEOHead from '../components/layout/SEOHead.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import { site } from '../config/site';
+
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+  ogImage?: string;
+  noindex?: boolean;
+  type?: 'website' | 'article';
+}
+
+const props = Astro.props;
+const ga4Id = site.analytics.ga4Id;
+---
+
+<!doctype html>
+<html lang={site.language}>
+  <head>
+    <SEOHead {...props} />
+    {
+      ga4Id && (
+        <>
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`} />
+          <script define:vars={{ ga4Id }}>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+              dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', ga4Id);
+            window.gtag = gtag;
+          </script>
+        </>
+      )
+    }
+    <slot name="head" />
+  </head>
+  <body class="flex min-h-dvh flex-col">
+    <a
+      href="#contenido"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-brand focus:px-3 focus:py-2 focus:text-white"
+    >
+      Saltar al contenido
+    </a>
+    <Header />
+    <main id="contenido" class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

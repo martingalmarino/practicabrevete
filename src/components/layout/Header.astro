@@ -1,0 +1,54 @@
+---
+import { site } from '../../config/site';
+
+const pathname = Astro.url.pathname;
+
+const links = [
+  { href: '/', label: 'Inicio' },
+  { href: '/guias/como-sacar-brevete-a-i', label: 'Guías' },
+  { href: '/simulacro/a-i', label: 'Simulacro' },
+  { href: '/practica/senales', label: 'Práctica' },
+  { href: '/acerca', label: 'Acerca' },
+];
+---
+
+<header class="border-b border-line/80 bg-surface-elevated/90 backdrop-blur-sm sticky top-0 z-40">
+  <div class="container-page flex items-center justify-between gap-4 py-3">
+    <a href="/" class="group flex items-center gap-2 no-underline" aria-label={`${site.name} — inicio`}>
+      <span
+        class="flex h-9 w-9 items-center justify-center rounded-lg bg-brand text-sm font-bold text-white"
+        aria-hidden="true"
+      >
+        PB
+      </span>
+      <span class="font-display text-lg font-semibold text-ink group-hover:text-brand">
+        {site.name}
+      </span>
+    </a>
+
+    <nav class="hidden items-center gap-1 md:flex" aria-label="Principal">
+      {
+        links.map((link) => {
+          const active =
+            link.href === '/'
+              ? pathname === '/'
+              : pathname.startsWith(link.href.split('/').slice(0, 2).join('/') || link.href);
+          return (
+            <a
+              href={link.href}
+              class:list={[
+                'rounded-md px-3 py-2 text-sm font-medium no-underline transition',
+                active ? 'bg-surface text-brand' : 'text-ink-muted hover:bg-surface hover:text-ink',
+              ]}
+              aria-current={active ? 'page' : undefined}
+            >
+              {link.label}
+            </a>
+          );
+        })
+      }
+    </nav>
+
+    <a href="/simulacro/a-i" class="btn-primary !px-3 !py-2 text-sm">Empezar</a>
+  </div>
+</header>

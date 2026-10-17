@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../config/site';
+---
+
+<BaseLayout
+  title={`${site.name}: simulador del examen de reglas de tránsito`}
+  description={site.description}
+>
+  <section class="container-page py-16 sm:py-24">
+    <p class="text-sm font-semibold uppercase tracking-wider text-brand">{site.name}</p>
+    <h1 class="mt-3 max-w-2xl font-display text-4xl font-bold tracking-tight text-ink sm:text-5xl">
+      Aprueba el examen de reglas de tránsito
+    </h1>
+    <p class="mt-4 max-w-xl text-lg text-ink-muted">
+      Simulacros de 40 preguntas con explicaciones, repaso de errores y práctica por tema. Sitio
+      independiente, basado en balotarios públicos.
+    </p>
+    <div class="mt-8 flex flex-wrap gap-3">
+      <a href="/simulacro/a-i" class="btn-primary">Empezar simulacro</a>
+      <a href="/practica/senales" class="btn-secondary">Practicar por tema</a>
+    </div>
+    <p class="mt-10 text-sm text-ink-muted">
+      Scaffold listo. El contenido y la herramienta se completan en las siguientes fases.
+    </p>
+  </section>
+</BaseLayout>

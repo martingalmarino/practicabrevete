@@ -1,0 +1,37 @@
+---
+export interface Crumb {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  items: Crumb[];
+}
+
+const { items } = Astro.props;
+---
+
+<nav aria-label="Migas de pan" class="container-page py-4">
+  <ol class="flex flex-wrap items-center gap-1 text-sm text-ink-muted">
+    {
+      items.map((item, i) => (
+        <li class="flex items-center gap-1">
+          {i > 0 && (
+            <span aria-hidden="true" class="text-line">
+              /
+            </span>
+          )}
+          {item.href && i < items.length - 1 ? (
+            <a href={item.href} class="hover:text-brand">
+              {item.label}
+            </a>
+          ) : (
+            <span class="font-medium text-ink" aria-current={i === items.length - 1 ? 'page' : undefined}>
+              {item.label}
+            </span>
+          )}
+        </li>
+      ))
+    }
+  </ol>
+</nav>

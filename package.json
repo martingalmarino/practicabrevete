@@ -1,0 +1,28 @@
+{
+  "name": "practicabrevete",
+  "type": "module",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "data:download": "node scripts/download-balotarios.mjs",
+    "data:parse": "node scripts/pdf-to-json.mjs",
+    "data:explicaciones": "node scripts/draft-explicaciones.mjs"
+  },
+
+  "dependencies": {
+    "@astrojs/markdown-satteri": "^0.4.4",
+    "@astrojs/mdx": "^8.1.0",
+    "@astrojs/preact": "^6.1.0",
+    "@astrojs/sitemap": "^3.7.4",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.4.0",
+    "preact": "^11.0.1",
+    "tailwindcss": "^4.3.3"
+  }
+}
