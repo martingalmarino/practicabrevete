@@ -6,7 +6,7 @@ interface Props {
 }
 
 /**
- * Vista previa interactiva del hero.
+ * Vista previa interactiva del producto.
  * No guarda progreso ni afecta resultados reales.
  */
 export default function PreviewPractice({ question }: Props) {
@@ -27,13 +27,13 @@ export default function PreviewPractice({ question }: Props) {
   }
 
   return (
-    <div class="rounded-[20px] border border-border bg-surface p-5 shadow-[var(--shadow-soft)] sm:p-6">
+    <div class="rounded-[16px] border border-border bg-surface p-5 shadow-[var(--shadow-soft)] sm:p-6">
       <div class="flex flex-wrap items-center justify-between gap-2">
-        <p class="badge">Así puedes practicar</p>
+        <p class="text-sm font-bold text-ink">Así puedes practicar</p>
         <p class="text-support">Vista previa · no guarda progreso</p>
       </div>
 
-      <h3 class="mt-4 text-[1.125rem] font-semibold leading-snug text-ink sm:text-[1.25rem]">
+      <h3 class="mt-4 text-[1.125rem] font-bold leading-snug text-ink sm:text-[1.25rem]">
         {question.enunciado}
       </h3>
 
@@ -107,7 +107,7 @@ export default function PreviewPractice({ question }: Props) {
               : 'Esta respuesta no es correcta. Veamos por qué.'}
           </p>
           {question.explicacion?.texto && (
-            <div class="rounded-[12px] border border-border bg-bg p-4 text-sm text-ink-muted">
+            <div class="rounded-[12px] border border-border bg-soft p-4 text-sm text-ink-muted">
               <p class="font-semibold text-ink">Explicación</p>
               <p class="mt-2 leading-relaxed">{question.explicacion.texto}</p>
             </div>

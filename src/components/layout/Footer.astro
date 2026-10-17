@@ -5,8 +5,8 @@ import Logo from '../brand/Logo.astro';
 const year = new Date().getFullYear();
 ---
 
-<footer class="mt-8 border-t border-border bg-panel-mist">
-  <div class="container-page grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
+<footer class="border-t border-border bg-footer">
+  <div class="container-wide grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
     <div class="lg:col-span-1">
       <Logo variant="full" class="mb-3" />
       <p class="mt-2 text-sm text-ink-muted">Prepárate para tu examen de reglas de tránsito con confianza.</p>
@@ -16,7 +16,7 @@ const year = new Date().getFullYear();
     </div>
 
     <div>
-      <p class="text-sm font-semibold text-ink">Practicar</p>
+      <p class="text-sm font-bold text-ink">Practicar</p>
       <ul class="mt-3 space-y-2 text-sm">
         <li><a class="text-ink-muted no-underline hover:text-ink hover:underline" href="/simulacro/a-i">Simulacro A-I</a></li>
         <li><a class="text-ink-muted no-underline hover:text-ink hover:underline" href="/practica/senales">Práctica por tema</a></li>
@@ -25,7 +25,7 @@ const year = new Date().getFullYear();
     </div>
 
     <div>
-      <p class="text-sm font-semibold text-ink">Guías</p>
+      <p class="text-sm font-bold text-ink">Guías</p>
       <ul class="mt-3 space-y-2 text-sm">
         <li><a class="text-ink-muted no-underline hover:text-ink hover:underline" href="/guias/como-sacar-brevete-a-i">Cómo sacar el brevete</a></li>
         <li><a class="text-ink-muted no-underline hover:text-ink hover:underline" href="/guias/senales-de-transito">Señales de tránsito</a></li>
@@ -34,7 +34,7 @@ const year = new Date().getFullYear();
     </div>
 
     <div>
-      <p class="text-sm font-semibold text-ink">Acerca y legal</p>
+      <p class="text-sm font-bold text-ink">Acerca y legal</p>
       <ul class="mt-3 space-y-2 text-sm">
         <li><a class="text-ink-muted no-underline hover:text-ink hover:underline" href="/acerca">Acerca</a></li>
         <li><a class="text-ink-muted no-underline hover:text-ink hover:underline" href="/contacto">Contacto</a></li>
@@ -46,7 +46,7 @@ const year = new Date().getFullYear();
   </div>
 
   <div class="border-t border-border">
-    <div class="container-page flex flex-col gap-2 py-4 text-xs text-ink-muted sm:flex-row sm:justify-between">
+    <div class="container-wide flex flex-col gap-2 py-4 text-xs text-ink-muted sm:flex-row sm:justify-between">
       <p>© {year} {site.name}</p>
       <p>
         <a class="text-ink-muted no-underline hover:text-ink hover:underline" href={`mailto:${site.email}`}>{site.email}</a>

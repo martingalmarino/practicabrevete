@@ -10,11 +10,11 @@ const links = [
 ];
 ---
 
-<header class="sticky top-0 z-40 border-b border-border/80 bg-surface/90 backdrop-blur-md">
-  <div class="container-page flex min-h-[4.25rem] items-center justify-between gap-3 py-2">
+<header class="sticky top-0 z-40 border-b border-border bg-surface/95 backdrop-blur-md">
+  <div class="container-wide flex h-[72px] items-center justify-between gap-3">
     <Logo variant="full" />
 
-    <nav class="hidden items-center gap-0.5 md:flex" aria-label="Principal">
+    <nav class="hidden items-center gap-1 md:flex" aria-label="Principal">
       {
         links.map((link) => {
           const active = pathname.startsWith(link.match);
@@ -35,14 +35,17 @@ const links = [
     </nav>
 
     <div class="flex items-center gap-2">
-      <a href="/simulacro/a-i" class="btn-primary hidden !min-h-10 !rounded-[12px] !px-4 !py-2 text-sm sm:inline-flex">
+      <a
+        href="/simulacro/a-i"
+        class="btn-primary hidden !min-h-11 !px-5 !py-2.5 text-sm sm:inline-flex"
+      >
         Empezar simulacro
       </a>
 
       <button
         type="button"
         id="nav-toggle"
-        class="inline-flex min-h-11 min-w-11 items-center justify-center rounded-[10px] border border-border bg-surface text-ink md:hidden"
+        class="inline-flex min-h-11 min-w-11 items-center justify-center rounded-[12px] border border-border bg-surface text-ink md:hidden"
         aria-expanded="false"
         aria-controls="nav-mobile"
         aria-label="Abrir menú"
@@ -58,7 +61,7 @@ const links = [
   </div>
 
   <div id="nav-mobile" class="hidden border-t border-border bg-surface md:hidden" hidden>
-    <nav class="container-page flex flex-col gap-1 py-3" aria-label="Menú móvil">
+    <nav class="container-wide flex flex-col gap-1 py-3" aria-label="Menú móvil">
       {
         links.map((link) => {
           const active = pathname.startsWith(link.match);
@@ -66,8 +69,8 @@ const links = [
             <a
               href={link.href}
               class:list={[
-                'inline-flex min-h-12 items-center rounded-[12px] px-3 text-base font-medium no-underline hover:no-underline',
-                active ? 'bg-brand-soft text-brand' : 'text-ink hover:bg-bg',
+                'inline-flex min-h-12 items-center rounded-[12px] px-3 text-base font-semibold no-underline hover:no-underline',
+                active ? 'bg-brand-soft text-brand' : 'text-ink hover:bg-soft',
               ]}
               aria-current={active ? 'page' : undefined}
             >

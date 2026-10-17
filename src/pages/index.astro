@@ -2,6 +2,11 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PreviewPractice from '../components/quiz/PreviewPractice';
 import TopicIcon from '../components/ui/TopicIcon.astro';
+import DemoPracticeMini from '../components/home/DemoPracticeMini.astro';
+import DemoExamMini from '../components/home/DemoExamMini.astro';
+import DemoReviewMini from '../components/home/DemoReviewMini.astro';
+import StageSimulacro from '../components/home/StageSimulacro.astro';
+import StageRepaso from '../components/home/StageRepaso.astro';
 import { site } from '../config/site';
 import { temas } from '../data/temas';
 import { getPublishedQuestions } from '../lib/questions';
@@ -89,6 +94,8 @@ const guias = [
   },
 ];
 
+const [guiaDestacada, ...guiasSecundarias] = guias;
+
 const reviewDate = new Date(`${site.lastContentReview}T12:00:00`).toLocaleDateString('es-PE', {
   year: 'numeric',
   month: 'long',
@@ -100,129 +107,134 @@ const reviewDate = new Date(`${site.lastContentReview}T12:00:00`).toLocaleDateSt
   title={`${site.name}: simulador del examen de reglas de tránsito`}
   description={site.description}
 >
-  <!-- Hero centrado -->
-  <section class="bg-surface">
-    <div class="container-page flex flex-col items-center px-4 pb-4 pt-12 text-center sm:pt-16 lg:pt-20">
-      <p class="badge">Disponible para categoría A-I</p>
-      <h1 class="heading-hero mt-5 max-w-3xl">Prepárate para tu examen de reglas de tránsito</h1>
-      <p class="text-body mt-5 max-w-2xl text-[1.05rem] sm:text-lg">
-        Practica a tu ritmo, entiende cada respuesta y repasa tus errores antes de rendir.
-      </p>
-      <div class="mt-8 flex w-full max-w-md flex-col gap-3 sm:max-w-none sm:flex-row sm:justify-center">
-        <a href="/simulacro/a-i" class="btn-primary">
-          Empezar simulacro A-I
-        </a>
-        <a href="/practica/senales" class="btn-secondary">
-          Practicar por tema
-        </a>
+  <!-- SECTION 1: Hero + feature cards -->
+  <section class="bg-soft pb-14 pt-12 sm:pb-20 sm:pt-16 lg:pb-24 lg:pt-20">
+    <div class="container-wide">
+      <div class="mx-auto max-w-[720px] text-center">
+        <p class="badge">Practica Brevete · Perú</p>
+        <h1 class="heading-hero mt-4">Prepárate para tu examen de reglas de tránsito</h1>
+        <p class="text-body mx-auto mt-5 max-w-xl text-[1.05rem] sm:text-lg">
+          Practica por temas, pon a prueba lo que sabes y aprende de tus errores.
+        </p>
+        <div class="mt-8 flex flex-col items-center gap-3">
+          <a href="/simulacro/a-i" class="btn-primary">Empezar simulacro A-I</a>
+          <a href="#temas" class="btn-text">Explorar temas</a>
+          <p class="text-support">Sin registro</p>
+        </div>
       </div>
-      <p class="text-support mt-5">Sin registro · Progreso guardado en este dispositivo</p>
-    </div>
-  </section>
 
-  <!-- Modos de estudio (paneles de color) -->
-  <section class="bg-surface pb-14 sm:pb-20">
-    <div class="container-page">
-      <div class="mx-auto max-w-2xl text-center">
-        <h2 class="heading-section">Elige cómo quieres estudiar</h2>
-        <p class="text-body mt-3">Tres formas claras de preparar tu examen de reglas.</p>
-      </div>
-      <ul class="mt-10 grid gap-4 md:grid-cols-3">
-        <li class="card-surface flex flex-col border-t-[3px] border-t-brand p-6">
-          <h3 class="heading-card">Simulacro</h3>
-          <p class="text-body mt-2 flex-1">Evalúa tu preparación en una sesión completa.</p>
-          <a href="/simulacro/a-i" class="btn-primary mt-6 w-full">Empezar simulacro</a>
+      <ul class="mt-12 grid gap-6 md:mt-14 md:grid-cols-3">
+        <li>
+          <a href="/practica/senales" class="feature-card bg-cyan text-ink">
+            <h2 class="feature-card-title">Practicar por tema</h2>
+            <p class="mt-1 text-sm font-medium text-ink/80">Refuerza un tema con feedback.</p>
+            <DemoPracticeMini />
+          </a>
         </li>
-        <li class="card-surface flex flex-col border-t-[3px] border-t-accent p-6">
-          <h3 class="heading-card">Práctica por tema</h3>
-          <p class="text-body mt-2 flex-1">Refuerza un tema con explicaciones.</p>
-          <a href="/practica/senales" class="btn-secondary mt-6 w-full">Elegir tema</a>
+        <li>
+          <a href="/simulacro/a-i" class="feature-card bg-violet text-white">
+            <h2 class="feature-card-title text-white">Simulacro</h2>
+            <p class="mt-1 text-sm font-medium text-white/85">Evalúa tu preparación completa.</p>
+            <DemoExamMini />
+          </a>
         </li>
-        <li class="card-surface flex flex-col border-t-[3px] border-t-[#c4a090] p-6">
-          <h3 class="heading-card">Repaso de errores</h3>
-          <p class="text-body mt-2 flex-1">Vuelve sobre lo que necesitas mejorar.</p>
-          <a href="/repaso" class="btn-secondary mt-6 w-full">Repasar errores</a>
-          <p class="text-support mt-3" id="home-repaso-hint">
-            Aquí aparecerán las preguntas que respondas incorrectamente.
-          </p>
+        <li>
+          <a href="/repaso" class="feature-card bg-yellow text-ink" id="home-repaso-card">
+            <h2 class="feature-card-title">Repasar errores</h2>
+            <p class="mt-1 text-sm font-medium text-ink/80" id="home-repaso-desc">
+              Vuelve sobre lo que necesitas mejorar.
+            </p>
+            <DemoReviewMini />
+          </a>
         </li>
       </ul>
-      <div id="home-continuar" class="mt-6 hidden text-center">
-        <a href="/practica/senales" class="btn-text" id="home-continuar-link">Continuar practicando</a>
-      </div>
     </div>
   </section>
 
-  <!-- Preview en panel de color (estilo producto) -->
-  <section class="section-y">
-    <div class="container-page">
-      <div class="panel-soft mx-auto flex max-w-3xl justify-center bg-panel-mist sm:p-8">
-        {
-          previewPayload ? (
-            <div class="w-full max-w-md">
+  <!-- SECTION 2: Entiende cada respuesta -->
+  <section class="section-y bg-surface">
+    <div class="container-page grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
+      <div class="order-1">
+        <h2 class="heading-section">Entiende cada respuesta</h2>
+        <p class="text-body mt-4 max-w-md">
+          Practica con preguntas del banco disponible y revisa las explicaciones publicadas para
+          comprender en qué puedes mejorar.
+        </p>
+        <a href="/practica/senales" class="btn-primary mt-8">Practicar por tema</a>
+      </div>
+      <div class="order-2">
+        <div class="stage-panel mx-auto w-full max-w-[520px] bg-cyan lg:mx-0 lg:ml-auto">
+          {
+            previewPayload ? (
               <PreviewPractice client:load question={previewPayload} />
-            </div>
-          ) : (
-            <div class="card-surface w-full max-w-md p-6">
-              <p class="badge">Así puedes practicar</p>
-              <p class="mt-4 text-body">Elige un tema o inicia un simulacro para comenzar.</p>
-            </div>
-          )
-        }
+            ) : (
+              <div class="rounded-[16px] border border-border bg-surface p-6 shadow-[var(--shadow-soft)]">
+                <p class="badge">Así puedes practicar</p>
+                <p class="mt-4 text-body">Elige un tema o inicia un simulacro para comenzar.</p>
+              </div>
+            )
+          }
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Trust -->
-  <section class="section-band">
-    <div class="container-page py-12 sm:py-14">
-      <ul class="grid gap-8 text-sm text-ink-muted sm:grid-cols-2 lg:grid-cols-4">
-        <li>
-          <p class="font-semibold text-ink">Fuente del banco</p>
-          <p class="mt-1.5">
-            Balotarios públicos en{' '}
-            <a href={site.sources.balotarios} target="_blank" rel="noopener noreferrer">gob.pe</a>
-          </p>
-        </li>
-        <li>
-          <p class="font-semibold text-ink">Última revisión</p>
-          <p class="mt-1.5">{reviewDate}</p>
-        </li>
-        <li>
-          <p class="font-semibold text-ink">Metodología</p>
-          <p class="mt-1.5">
-            <a href="/acerca">Cómo preparamos las explicaciones</a>
-          </p>
-        </li>
-        <li>
-          <p class="font-semibold text-ink">Independiente</p>
-          <p class="mt-1.5">Plataforma independiente de preparación. No somos un sitio oficial del Estado.</p>
-        </li>
-      </ul>
+  <!-- SECTION 3: Simulacro -->
+  <section class="section-y bg-surface">
+    <div class="container-page grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
+      <div class="order-1 lg:order-2">
+        <h2 class="heading-section">Pon a prueba lo que sabes</h2>
+        <p class="text-body mt-4 max-w-md">
+          Realiza un simulacro y revisa tus resultados para identificar qué temas necesitas reforzar.
+        </p>
+        <a href="/simulacro/a-i" class="btn-primary mt-8">Empezar simulacro</a>
+      </div>
+      <div class="order-2 lg:order-1">
+        <div class="mx-auto w-full max-w-[520px] lg:mx-0">
+          <StageSimulacro />
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Topics -->
-  <section class="section-y">
+  <!-- SECTION 4: Errores -->
+  <section class="bg-lavender">
+    <div class="container-page section-y grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
+      <div>
+        <h2 class="heading-section">Convierte tus errores en aprendizaje</h2>
+        <p class="text-body mt-4 max-w-md">
+          Vuelve a las preguntas que necesitas reforzar y sigue practicando a tu ritmo.
+        </p>
+        <a href="/repaso" class="btn-primary mt-8" id="home-repaso-cta">Repasar mis errores</a>
+        <p class="text-support mt-3" id="home-repaso-hint">
+          Si aún no tienes errores guardados, puedes empezar practicando por tema.
+        </p>
+      </div>
+      <div>
+        <StageRepaso />
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5: Temas -->
+  <section id="temas" class="section-y bg-surface">
     <div class="container-page">
-      <div class="mx-auto max-w-2xl text-center">
-        <h2 class="heading-section">Temas para practicar</h2>
-        <p class="text-body mt-3">Elige un bloque del balotario y practica con feedback inmediato.</p>
-      </div>
-      <ul class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <h2 class="heading-section text-center">¿Qué tema quieres practicar?</h2>
+      <ul class="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {
           temas.map((t) => (
             <li>
               <a
                 href={`/practica/${t.slug}`}
-                class="card-surface group flex h-full flex-col p-5 no-underline transition-shadow hover:shadow-[var(--shadow-soft)] hover:no-underline"
+                class="group flex h-full items-start gap-3 rounded-[16px] border border-border bg-surface p-4 no-underline transition-colors hover:border-brand/40 hover:bg-soft hover:no-underline"
               >
-                <span class="flex h-11 w-11 items-center justify-center rounded-[14px] bg-panel-mist text-brand">
+                <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-[12px] bg-soft text-brand">
                   <TopicIcon name={t.icon} />
                 </span>
-                <h3 class="heading-card mt-4">{t.nombre}</h3>
-                <p class="text-body mt-2 flex-1 text-[15px]">{t.descripcion}</p>
-                <span class="mt-4 text-sm font-semibold text-brand group-hover:underline">{t.accion}</span>
+                <span class="min-w-0">
+                  <span class="block text-base font-bold text-ink group-hover:text-brand">{t.nombre}</span>
+                  <span class="mt-1 block text-sm leading-snug text-ink-muted">{t.descripcion}</span>
+                </span>
               </a>
             </li>
           ))
@@ -231,46 +243,59 @@ const reviewDate = new Date(`${site.lastContentReview}T12:00:00`).toLocaleDateSt
     </div>
   </section>
 
-  <!-- Guides -->
-  <section class="section-y section-band">
+  <!-- SECTION 6: Guías -->
+  <section class="section-y bg-soft">
     <div class="container-page">
-      <div class="mx-auto max-w-2xl text-center">
-        <h2 class="heading-section">Guías para sacar el brevete</h2>
-        <p class="text-body mt-3">
-          Lecturas propias, con respuesta directa al inicio y fuentes citadas.
-        </p>
+      <h2 class="heading-section">Guías para preparar tu brevete</h2>
+      <p class="text-body mt-3 max-w-2xl">
+        Lecturas propias, con respuesta directa al inicio y fuentes citadas.
+      </p>
+
+      <div class="mt-8 grid gap-6 lg:grid-cols-[1.15fr_1fr]">
+        <a
+          href={guiaDestacada.href}
+          class="card-surface flex flex-col p-6 no-underline transition-shadow hover:shadow-[var(--shadow-soft)] hover:no-underline sm:p-8"
+        >
+          <span class="badge-accent">{guiaDestacada.label}</span>
+          <h3 class="mt-3 text-2xl font-extrabold tracking-tight text-ink">{guiaDestacada.title}</h3>
+          <p class="text-body mt-3 flex-1">{guiaDestacada.desc}</p>
+          <span class="mt-6 text-sm font-bold text-brand">Leer guía →</span>
+        </a>
+
+        <ul class="divide-y divide-border rounded-[20px] border border-border bg-surface">
+          {
+            guiasSecundarias.map((g) => (
+              <li>
+                <a
+                  href={g.href}
+                  class="group flex flex-col gap-1 px-5 py-4 no-underline hover:bg-soft hover:no-underline sm:flex-row sm:items-baseline sm:justify-between sm:gap-6"
+                >
+                  <span>
+                    <span class="badge-accent">{g.label}</span>
+                    <span class="mt-1 block font-bold text-ink group-hover:text-brand">{g.title}</span>
+                    <span class="mt-1 block text-sm text-ink-muted">{g.desc}</span>
+                  </span>
+                  <span class="shrink-0 text-sm font-bold text-brand">Leer →</span>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
       </div>
-      <ul class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {
-          guias.map((g) => (
-            <li>
-              <a
-                href={g.href}
-                class="card-surface group flex h-full flex-col p-5 no-underline transition-shadow hover:shadow-[var(--shadow-soft)] hover:no-underline"
-              >
-                <span class="badge-accent">{g.label}</span>
-                <h3 class="mt-2 text-lg font-semibold text-ink group-hover:text-brand">{g.title}</h3>
-                <p class="text-support mt-2 flex-1">{g.desc}</p>
-                <span class="mt-4 text-sm font-semibold text-brand">Leer guía →</span>
-              </a>
-            </li>
-          ))
-        }
-      </ul>
     </div>
   </section>
 
-  <!-- FAQ -->
-  <section class="section-y pb-16 sm:pb-20">
-    <div class="container-page max-w-3xl">
+  <!-- SECTION 7: FAQ + trust -->
+  <section class="section-y bg-surface">
+    <div class="mx-auto max-w-[800px] px-4 sm:px-6">
       <h2 class="heading-section text-center">Preguntas frecuentes</h2>
-      <div class="card-surface mt-10 divide-y divide-border overflow-hidden">
+      <div class="mt-10 divide-y divide-border rounded-[20px] border border-border bg-surface">
         {
           faqs.map((f, i) => (
             <div>
               <button
                 type="button"
-                class="faq-trigger flex min-h-14 w-full items-center justify-between gap-4 px-5 py-4 text-left text-base font-semibold text-ink"
+                class="faq-trigger flex min-h-14 w-full items-center justify-between gap-4 px-5 py-4 text-left text-base font-bold text-ink"
                 aria-expanded="false"
                 aria-controls={`faq-panel-${i}`}
                 id={`faq-btn-${i}`}
@@ -287,6 +312,33 @@ const reviewDate = new Date(`${site.lastContentReview}T12:00:00`).toLocaleDateSt
           ))
         }
       </div>
+
+      <aside class="mt-10 rounded-[20px] border border-border bg-soft p-5 sm:p-6">
+        <h3 class="text-base font-bold text-ink">Transparencia</h3>
+        <ul class="mt-4 grid gap-4 text-sm text-ink-muted sm:grid-cols-2">
+          <li>
+            <p class="font-semibold text-ink">Fuente del banco</p>
+            <p class="mt-1">
+              Balotarios públicos en{' '}
+              <a href={site.sources.balotarios} target="_blank" rel="noopener noreferrer">gob.pe</a>
+            </p>
+          </li>
+          <li>
+            <p class="font-semibold text-ink">Última revisión</p>
+            <p class="mt-1">{reviewDate}</p>
+          </li>
+          <li>
+            <p class="font-semibold text-ink">Metodología</p>
+            <p class="mt-1">
+              <a href="/acerca">Cómo preparamos las explicaciones</a>
+            </p>
+          </li>
+          <li>
+            <p class="font-semibold text-ink">Independiente</p>
+            <p class="mt-1">Plataforma independiente de preparación. No somos un sitio oficial del Estado.</p>
+          </li>
+        </ul>
+      </aside>
     </div>
   </section>
 
@@ -315,19 +367,33 @@ const reviewDate = new Date(`${site.lastContentReview}T12:00:00`).toLocaleDateSt
 
     try {
       const raw = localStorage.getItem('practicabrevete.progress.v1');
+      const hint = document.getElementById('home-repaso-hint');
+      const desc = document.getElementById('home-repaso-desc');
+      const card = document.getElementById('home-repaso-card') as HTMLAnchorElement | null;
+      const cta = document.getElementById('home-repaso-cta') as HTMLAnchorElement | null;
+
       if (raw) {
         const data = JSON.parse(raw);
-        const hasHistory = Array.isArray(data.historial) && data.historial.length > 0;
-        const hasPractice =
-          data.practicaPorTema &&
-          Object.values(data.practicaPorTema).some((t: { vistas?: number }) => (t?.vistas ?? 0) > 0);
         const errors = Array.isArray(data.errores) ? data.errores.length : 0;
-        const hint = document.getElementById('home-repaso-hint');
-        if (errors > 0 && hint) {
-          hint.textContent = `Tienes ${errors} pregunta${errors === 1 ? '' : 's'} para repasar.`;
+        if (errors > 0) {
+          if (hint) {
+            hint.textContent = `Tienes ${errors} pregunta${errors === 1 ? '' : 's'} para repasar.`;
+          }
+          if (desc) {
+            desc.textContent = `${errors} pregunta${errors === 1 ? '' : 's'} listas para repasar.`;
+          }
+        } else {
+          if (card) card.href = '/practica/senales';
+          if (cta) {
+            cta.href = '/practica/senales';
+            cta.textContent = 'Empezar a practicar';
+          }
         }
-        if (hasHistory || hasPractice) {
-          document.getElementById('home-continuar')?.classList.remove('hidden');
+      } else {
+        if (card) card.href = '/practica/senales';
+        if (cta) {
+          cta.href = '/practica/senales';
+          cta.textContent = 'Empezar a practicar';
         }
       }
     } catch {

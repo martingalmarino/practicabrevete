@@ -1,0 +1,37 @@
+---
+/**
+ * Vista ilustrativa estática (no interactiva) para la card de práctica.
+ */
+const options = [
+  { letter: 'A', text: 'Los vehículos deben avanzar.', state: 'idle' as const },
+  { letter: 'B', text: 'Los vehículos deben detenerse.', state: 'idle' as const },
+  { letter: 'C', text: 'Detenerse si es seguro; si no, despejar.', state: 'selected' as const },
+];
+---
+
+<div class="demo-ui mt-4 flex flex-1 flex-col" aria-hidden="true">
+  <div class="flex items-center justify-between gap-2">
+    <p class="text-xs font-bold uppercase tracking-wide text-ink-muted">Señales · Ejemplo</p>
+    <span class="rounded-md bg-soft px-2 py-0.5 text-[11px] font-semibold text-ink-muted">1 / 12</span>
+  </div>
+  <p class="mt-3 text-[15px] font-semibold leading-snug text-ink">
+    El color ámbar del semáforo significa que:
+  </p>
+  <ul class="mt-3 space-y-2">
+    {
+      options.map((op) => (
+        <li
+          class:list={[
+            'rounded-[12px] border px-3 py-2.5 text-[13px] leading-snug',
+            op.state === 'selected'
+              ? 'border-brand bg-brand-soft font-semibold text-ink'
+              : 'border-border bg-surface text-ink-muted',
+          ]}
+        >
+          <span class="mr-1.5 font-bold text-ink">{op.letter}.</span>{' '}
+          {op.text}
+        </li>
+      ))
+    }
+  </ul>
+</div>

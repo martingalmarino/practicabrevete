@@ -1,0 +1,31 @@
+---
+/**
+ * Vista ilustrativa estática del simulacro.
+ */
+import { site } from '../../config/site';
+
+const total = site.examRules.questionCount;
+const current = 12;
+---
+
+<div class="demo-ui mt-4 flex flex-1 flex-col" aria-hidden="true">
+  <div class="flex items-center justify-between gap-2">
+    <p class="text-xs font-bold uppercase tracking-wide text-ink-muted">Simulacro · Ejemplo</p>
+    <span class="rounded-md bg-soft px-2 py-0.5 text-[11px] font-semibold text-ink-muted">
+      {current}/{total}
+    </span>
+  </div>
+  <div class="mt-3 h-1.5 overflow-hidden rounded-full bg-border">
+    <div class="h-full rounded-full bg-brand" style={`width: ${(current / total) * 100}%`}></div>
+  </div>
+  <p class="mt-3 text-[15px] font-semibold leading-snug text-ink">
+    En intersecciones sin señales de PARE, ¿quién tiene preferencia?
+  </p>
+  <ul class="mt-3 space-y-2">
+    <li class="rounded-[12px] border border-border px-3 py-2 text-[13px] text-ink-muted">A. Quien llega primero</li>
+    <li class="rounded-[12px] border border-brand bg-brand-soft px-3 py-2 text-[13px] font-semibold text-ink">
+      B. El de la derecha
+    </li>
+    <li class="rounded-[12px] border border-border px-3 py-2 text-[13px] text-ink-muted">C. El más rápido</li>
+  </ul>
+</div>
