@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#F7F5EF"/>
-  <rect x="0" y="0" width="1200" height="12" fill="#146454"/>
+  <rect width="1200" height="630" fill="#FAF6F4"/>
+  <rect x="0" y="0" width="1200" height="12" fill="#C8102E"/>
   <rect x="64" y="120" width="8" height="100" fill="#E6B655"/>
-  <text x="96" y="170" font-family="Public Sans, Arial, sans-serif" font-size="48" font-weight="700" fill="#182D32">Practica Brevete</text>
-  <text x="96" y="240" font-family="Public Sans, Arial, sans-serif" font-size="34" fill="#526368">Prepárate para tu examen de reglas de tránsito</text>
-  <text x="96" y="310" font-family="Public Sans, Arial, sans-serif" font-size="24" fill="#146454">Simulacro · Práctica por tema · Repaso de errores</text>
-  <text x="96" y="560" font-family="Public Sans, Arial, sans-serif" font-size="20" fill="#526368">practicabrevete.pe · Plataforma independiente</text>
+  <text x="96" y="170" font-family="Public Sans, Arial, sans-serif" font-size="48" font-weight="700" fill="#1C1917">Practica Brevete</text>
+  <text x="96" y="240" font-family="Public Sans, Arial, sans-serif" font-size="34" fill="#57534E">Preparate para tu examen de reglas de transito</text>
+  <text x="96" y="310" font-family="Public Sans, Arial, sans-serif" font-size="24" fill="#C8102E">Simulacro · Practica por tema · Repaso de errores</text>
+  <text x="96" y="560" font-family="Public Sans, Arial, sans-serif" font-size="20" fill="#57534E">practicabrevete.pe · Plataforma independiente</text>
 </svg>
