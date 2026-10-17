@@ -249,26 +249,30 @@ const reviewDate = new Date(`${site.lastContentReview}T12:00:00`).toLocaleDateSt
         Lecturas propias, con respuesta directa al inicio y fuentes citadas.
       </p>
 
-      <div class="mt-8 grid gap-6 lg:grid-cols-[1.15fr_1fr]">
+      <div class="mt-8 space-y-4">
         <a
           href={guiaDestacada.href}
-          class="card-surface flex flex-col p-6 no-underline transition-shadow hover:shadow-[var(--shadow-soft)] hover:no-underline sm:p-8"
+          class="card-surface flex flex-col gap-2 p-5 no-underline transition-shadow hover:shadow-[var(--shadow-soft)] hover:no-underline sm:flex-row sm:items-center sm:justify-between sm:gap-8 sm:p-6"
         >
-          <span class="badge-accent">{guiaDestacada.label}</span>
-          <h3 class="mt-3 text-2xl font-extrabold tracking-tight text-ink">{guiaDestacada.title}</h3>
-          <p class="text-body mt-3 flex-1">{guiaDestacada.desc}</p>
-          <span class="mt-6 text-sm font-bold text-brand">Leer guía →</span>
+          <span class="min-w-0">
+            <span class="badge-accent">{guiaDestacada.label}</span>
+            <h3 class="mt-2 text-xl font-extrabold tracking-tight text-ink sm:text-2xl">
+              {guiaDestacada.title}
+            </h3>
+            <p class="text-body mt-2 max-w-xl">{guiaDestacada.desc}</p>
+          </span>
+          <span class="shrink-0 text-sm font-bold text-brand">Leer guía →</span>
         </a>
 
-        <ul class="divide-y divide-border rounded-[20px] border border-border bg-surface">
+        <ul class="overflow-hidden rounded-[20px] border border-border bg-surface divide-y divide-border">
           {
             guiasSecundarias.map((g) => (
               <li>
                 <a
                   href={g.href}
-                  class="group flex flex-col gap-1 px-5 py-4 no-underline hover:bg-soft hover:no-underline sm:flex-row sm:items-baseline sm:justify-between sm:gap-6"
+                  class="group flex flex-col gap-1 px-5 py-4 no-underline hover:bg-white hover:no-underline sm:flex-row sm:items-center sm:justify-between sm:gap-6"
                 >
-                  <span>
+                  <span class="min-w-0">
                     <span class="badge-accent">{g.label}</span>
                     <span class="mt-1 block font-bold text-ink group-hover:text-brand">{g.title}</span>
                     <span class="mt-1 block text-sm text-ink-muted">{g.desc}</span>
