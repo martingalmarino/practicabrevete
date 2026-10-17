@@ -97,7 +97,7 @@
   }
 
   .feature-copy {
-    @apply max-w-[440px];
+    @apply mx-auto max-w-[440px] text-center lg:mx-0 lg:text-left;
   }
 
   .feature-copy .text-body {
@@ -106,6 +106,10 @@
 
   .feature-copy .btn-primary {
     @apply mt-6;
+  }
+
+  .feature-copy .text-support {
+    @apply mt-3;
   }
 
   /* Typography */
