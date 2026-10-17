@@ -27,7 +27,7 @@ export default function PreviewPractice({ question }: Props) {
   }
 
   return (
-    <div class="card-surface p-5 shadow-[var(--shadow-soft)] sm:p-6">
+    <div class="rounded-[20px] border border-border bg-surface p-5 shadow-[var(--shadow-soft)] sm:p-6">
       <div class="flex flex-wrap items-center justify-between gap-2">
         <p class="badge">Así puedes practicar</p>
         <p class="text-support">Vista previa · no guarda progreso</p>

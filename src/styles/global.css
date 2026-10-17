@@ -1,25 +1,31 @@
 @import "tailwindcss";
 
 @theme {
-  /* Paleta cálida inspirada en rojo/blanco peruano */
-  --color-bg: #f8f0e8;
-  --color-surface: #fffdfb;
-  --color-ink: #1c1412;
-  --color-ink-muted: #5c4f49;
+  /* Base limpia + acentos cálidos (rojo peruano) */
+  --color-bg: #ffffff;
+  --color-surface: #ffffff;
+  --color-ink: #1a1d28;
+  --color-ink-muted: #5b6170;
   --color-brand: #c8102e;
   --color-brand-hover: #a00d25;
-  --color-brand-soft: #fde8eb;
-  --color-accent: #e0a84a;
-  --color-border: #e8d9cf;
+  --color-brand-soft: #fce9ec;
+  --color-accent: #e8b04a;
+  --color-border: #e6e8ee;
   --color-success: #216547;
   --color-error: #8f1d1d;
   --color-success-soft: #e8f3ec;
   --color-error-soft: #f8e9e9;
-  --color-footer: #3b0f16;
+  --color-footer: #1a1d28;
+  --color-panel-rose: #f8dfe4;
+  --color-panel-amber: #f7ecd4;
+  --color-panel-peach: #f3e4dc;
+  --color-panel-mist: #f3f4f8;
   --font-sans: "Public Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --radius-card: 16px;
-  --radius-control: 12px;
-  --shadow-soft: 0 1px 2px rgb(60 30 20 / 0.05), 0 10px 28px rgb(120 50 40 / 0.08);
+  --radius-card: 20px;
+  --radius-control: 14px;
+  --radius-panel: 28px;
+  --shadow-soft: 0 2px 8px rgb(26 29 40 / 0.06), 0 12px 32px rgb(26 29 40 / 0.08);
+  --shadow-card: 0 1px 2px rgb(26 29 40 / 0.04), 0 8px 24px rgb(26 29 40 / 0.06);
 }
 
 @layer base {
@@ -37,7 +43,6 @@
     *::after {
       animation-duration: 0.01ms !important;
       animation-iteration-count: 1 !important;
-      transition-duration: 0.01ms !important;
     }
   }
 
@@ -46,9 +51,6 @@
     font-size: 17px;
     line-height: 1.6;
     min-height: 100dvh;
-    background-image:
-      radial-gradient(ellipse 90% 55% at 0% -10%, rgb(200 16 46 / 0.07), transparent 55%),
-      radial-gradient(ellipse 70% 45% at 100% 0%, rgb(224 168 74 / 0.12), transparent 50%);
   }
 
   :focus-visible {
@@ -71,15 +73,15 @@
   }
 
   .section-y {
-    @apply py-12 sm:py-16;
+    @apply py-14 sm:py-20;
   }
 
   .heading-hero {
-    @apply text-[2rem] font-bold leading-tight tracking-tight text-ink sm:text-[2.75rem] lg:text-[3.25rem];
+    @apply text-[2.125rem] font-bold leading-[1.12] tracking-tight text-ink sm:text-[2.875rem] lg:text-[3.5rem];
   }
 
   .heading-section {
-    @apply text-[1.625rem] font-bold leading-tight text-ink sm:text-[2rem];
+    @apply text-[1.75rem] font-bold leading-tight tracking-tight text-ink sm:text-[2.125rem];
   }
 
   .heading-card {
@@ -95,63 +97,43 @@
   }
 
   .btn-primary {
-    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-[12px] bg-brand px-5 py-3 text-base font-semibold text-white no-underline transition-colors hover:bg-brand-hover hover:no-underline disabled:cursor-not-allowed disabled:opacity-50;
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-[14px] bg-brand px-6 py-3 text-base font-semibold text-white no-underline transition-colors hover:bg-brand-hover hover:no-underline disabled:cursor-not-allowed disabled:opacity-50;
   }
 
   .btn-secondary {
-    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-[12px] border border-border bg-surface px-5 py-3 text-base font-semibold text-ink no-underline transition-colors hover:border-brand hover:text-brand hover:no-underline disabled:cursor-not-allowed disabled:opacity-50;
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-[14px] border border-border bg-surface px-6 py-3 text-base font-semibold text-ink no-underline transition-colors hover:border-ink/20 hover:bg-panel-mist hover:no-underline disabled:cursor-not-allowed disabled:opacity-50;
   }
 
   .btn-text {
-    @apply inline-flex min-h-11 items-center justify-center gap-1 rounded-[12px] px-3 py-2 text-sm font-semibold text-brand no-underline transition-colors hover:bg-brand-soft hover:no-underline;
+    @apply inline-flex min-h-11 items-center justify-center gap-1 rounded-[14px] px-3 py-2 text-sm font-semibold text-brand no-underline transition-colors hover:bg-brand-soft hover:no-underline;
   }
 
-  /* Meta label — sin pill; acento lateral fino */
   .badge {
-    @apply inline-flex items-center border-l-2 border-brand pl-3 text-sm font-medium leading-snug text-ink-muted;
+    @apply inline-flex items-center text-sm font-semibold text-ink-muted;
   }
 
   .badge-accent {
-    @apply inline-flex text-[0.8125rem] font-medium tracking-wide text-ink-muted;
+    @apply inline-flex text-[0.8125rem] font-semibold text-ink-muted;
   }
 
   .card-surface {
-    @apply rounded-[16px] border border-border bg-surface shadow-[var(--shadow-soft)];
+    @apply rounded-[20px] border border-border bg-surface shadow-[var(--shadow-card)];
   }
 
-  /* Hero cálido con trama muy sutil */
-  .hero-atmosphere {
-    position: relative;
-    isolation: isolate;
-    overflow: hidden;
-    border-bottom: 1px solid var(--color-border);
-    background:
-      radial-gradient(ellipse 70% 60% at 12% 18%, rgb(200 16 46 / 0.05), transparent 55%),
-      radial-gradient(ellipse 55% 45% at 88% 12%, rgb(224 168 74 / 0.12), transparent 50%),
-      linear-gradient(165deg, #fffaf6 0%, #f8f0e8 50%, #f5ebe3 100%);
+  .panel-soft {
+    @apply rounded-[28px] p-6 sm:p-8;
   }
 
-  .hero-atmosphere::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-    pointer-events: none;
-    opacity: 0.35;
-    background-image:
-      radial-gradient(rgb(28 20 18 / 0.035) 0.6px, transparent 0.7px);
-    background-size: 16px 16px;
+  .mode-panel {
+    @apply flex h-full flex-col rounded-[28px] p-5 sm:p-6;
   }
 
-  .hero-atmosphere > * {
-    position: relative;
-    z-index: 1;
+  .mode-panel-inner {
+    @apply flex flex-1 flex-col rounded-[20px] bg-surface p-5 shadow-[var(--shadow-soft)];
   }
 
-  @media (prefers-reduced-motion: reduce) {
-    .hero-atmosphere::before {
-      opacity: 0.2;
-    }
+  .section-band {
+    @apply bg-panel-mist;
   }
 
   .prose-guide {
@@ -184,7 +166,7 @@
   }
 
   .direct-answer {
-    @apply mb-8 rounded-[12px] border border-border border-l-4 border-l-accent bg-surface p-4 text-ink;
+    @apply mb-8 rounded-[16px] border border-border border-l-4 border-l-accent bg-surface p-4 text-ink;
   }
 
   .quiz-shell {

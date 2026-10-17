@@ -54,7 +54,7 @@ const guias = [
   {
     href: '/guias/como-sacar-brevete-a-i',
     title: 'Cómo sacar el brevete A-I',
-    desc: 'Orden general del proceso, requisitos tipicos y enlaces a fuentes oficiales.',
+    desc: 'Orden general del trámite, requisitos tipicos y enlaces a fuentes oficiales.',
     label: 'Proceso',
   },
   {
@@ -100,32 +100,76 @@ const reviewDate = new Date(`${site.lastContentReview}T12:00:00`).toLocaleDateSt
   title={`${site.name}: simulador del examen de reglas de tránsito`}
   description={site.description}
 >
-  <!-- Hero -->
-  <section class="hero-atmosphere">
-    <div class="container-page grid items-start gap-10 py-10 sm:py-12 lg:grid-cols-2 lg:gap-14 lg:py-14">
-      <div>
-        <p class="badge">Disponible para categoría A-I</p>
-        <h1 class="heading-hero mt-4">Prepárate para tu examen de reglas de tránsito</h1>
-        <p class="text-body mt-4 max-w-xl text-[1.05rem] sm:text-lg">
-          Practica a tu ritmo, entiende cada respuesta y repasa tus errores antes de rendir.
-        </p>
-        <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-          <a href="/simulacro/a-i" class="btn-primary shadow-[0_6px_16px_rgb(200_16_46_/_0.14)]">
-            Empezar simulacro A-I
-          </a>
-          <a href="/practica/senales" class="btn-secondary bg-surface/90 backdrop-blur-sm">
-            Practicar por tema
-          </a>
-        </div>
-        <p class="text-support mt-5">Sin registro · Progreso guardado en este dispositivo</p>
+  <!-- Hero centrado -->
+  <section class="bg-surface">
+    <div class="container-page flex flex-col items-center px-4 pb-4 pt-12 text-center sm:pt-16 lg:pt-20">
+      <p class="badge">Disponible para categoría A-I</p>
+      <h1 class="heading-hero mt-5 max-w-3xl">Prepárate para tu examen de reglas de tránsito</h1>
+      <p class="text-body mt-5 max-w-2xl text-[1.05rem] sm:text-lg">
+        Practica a tu ritmo, entiende cada respuesta y repasa tus errores antes de rendir.
+      </p>
+      <div class="mt-8 flex w-full max-w-md flex-col gap-3 sm:max-w-none sm:flex-row sm:justify-center">
+        <a href="/simulacro/a-i" class="btn-primary">
+          Empezar simulacro A-I
+        </a>
+        <a href="/practica/senales" class="btn-secondary">
+          Practicar por tema
+        </a>
       </div>
+      <p class="text-support mt-5">Sin registro · Progreso guardado en este dispositivo</p>
+    </div>
+  </section>
 
-      <div class="lg:justify-self-end lg:w-full lg:max-w-md">
+  <!-- Modos de estudio (paneles de color) -->
+  <section class="bg-surface pb-14 sm:pb-20">
+    <div class="container-page">
+      <div class="mx-auto max-w-2xl text-center">
+        <h2 class="heading-section">Elige cómo quieres estudiar</h2>
+        <p class="text-body mt-3">Tres formas claras de preparar tu examen de reglas.</p>
+      </div>
+      <ul class="mt-10 grid gap-4 md:grid-cols-3 md:gap-5">
+        <li class="mode-panel bg-panel-rose">
+          <div class="mode-panel-inner">
+            <h3 class="heading-card">Simulacro</h3>
+            <p class="text-body mt-2 flex-1">Evalúa tu preparación en una sesión completa.</p>
+            <a href="/simulacro/a-i" class="btn-primary mt-6 w-full">Empezar simulacro</a>
+          </div>
+        </li>
+        <li class="mode-panel bg-panel-amber">
+          <div class="mode-panel-inner">
+            <h3 class="heading-card">Práctica por tema</h3>
+            <p class="text-body mt-2 flex-1">Refuerza un tema con explicaciones.</p>
+            <a href="/practica/senales" class="btn-secondary mt-6 w-full">Elegir tema</a>
+          </div>
+        </li>
+        <li class="mode-panel bg-panel-peach">
+          <div class="mode-panel-inner">
+            <h3 class="heading-card">Repaso de errores</h3>
+            <p class="text-body mt-2 flex-1">Vuelve sobre lo que necesitas mejorar.</p>
+            <a href="/repaso" class="btn-secondary mt-6 w-full">Repasar errores</a>
+            <p class="text-support mt-3" id="home-repaso-hint">
+              Aquí aparecerán las preguntas que respondas incorrectamente.
+            </p>
+          </div>
+        </li>
+      </ul>
+      <div id="home-continuar" class="mt-6 hidden text-center">
+        <a href="/practica/senales" class="btn-text" id="home-continuar-link">Continuar practicando</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preview en panel de color (estilo producto) -->
+  <section class="section-y">
+    <div class="container-page">
+      <div class="panel-soft mx-auto flex max-w-3xl justify-center bg-panel-rose sm:p-10">
         {
           previewPayload ? (
-            <PreviewPractice client:load question={previewPayload} />
+            <div class="w-full max-w-md">
+              <PreviewPractice client:load question={previewPayload} />
+            </div>
           ) : (
-            <div class="card-surface p-6">
+            <div class="card-surface w-full max-w-md p-6">
               <p class="badge">Así puedes practicar</p>
               <p class="mt-4 text-body">Elige un tema o inicia un simulacro para comenzar.</p>
             </div>
@@ -136,79 +180,50 @@ const reviewDate = new Date(`${site.lastContentReview}T12:00:00`).toLocaleDateSt
   </section>
 
   <!-- Trust -->
-  <section class="border-b border-border bg-surface">
-    <div class="container-page py-8 sm:py-10">
-      <ul class="grid gap-6 text-sm text-ink-muted sm:grid-cols-2 lg:grid-cols-4">
+  <section class="section-band">
+    <div class="container-page py-12 sm:py-14">
+      <ul class="grid gap-8 text-sm text-ink-muted sm:grid-cols-2 lg:grid-cols-4">
         <li>
           <p class="font-semibold text-ink">Fuente del banco</p>
-          <p class="mt-1">
+          <p class="mt-1.5">
             Balotarios públicos en{' '}
             <a href={site.sources.balotarios} target="_blank" rel="noopener noreferrer">gob.pe</a>
           </p>
         </li>
         <li>
           <p class="font-semibold text-ink">Última revisión</p>
-          <p class="mt-1">{reviewDate}</p>
+          <p class="mt-1.5">{reviewDate}</p>
         </li>
         <li>
           <p class="font-semibold text-ink">Metodología</p>
-          <p class="mt-1">
+          <p class="mt-1.5">
             <a href="/acerca">Cómo preparamos las explicaciones</a>
           </p>
         </li>
         <li>
           <p class="font-semibold text-ink">Independiente</p>
-          <p class="mt-1">Plataforma independiente de preparación. No somos un sitio oficial del Estado.</p>
+          <p class="mt-1.5">Plataforma independiente de preparación. No somos un sitio oficial del Estado.</p>
         </li>
       </ul>
-    </div>
-  </section>
-
-  <!-- Learning modes -->
-  <section class="section-y">
-    <div class="container-page">
-      <h2 class="heading-section">Elige cómo quieres estudiar</h2>
-      <p class="text-body mt-3 max-w-2xl">Tres formas claras de preparar tu examen de reglas.</p>
-      <ul class="mt-8 grid gap-4 md:grid-cols-3">
-        <li class="card-surface flex flex-col p-6">
-          <h3 class="heading-card">Simulacro</h3>
-          <p class="text-body mt-2 flex-1">Evalúa tu preparación en una sesión completa.</p>
-          <a href="/simulacro/a-i" class="btn-primary mt-6 w-full">Empezar simulacro</a>
-        </li>
-        <li class="card-surface flex flex-col p-6">
-          <h3 class="heading-card">Práctica por tema</h3>
-          <p class="text-body mt-2 flex-1">Refuerza un tema con explicaciones.</p>
-          <a href="/practica/senales" class="btn-secondary mt-6 w-full">Elegir tema</a>
-        </li>
-        <li class="card-surface flex flex-col p-6">
-          <h3 class="heading-card">Repaso de errores</h3>
-          <p class="text-body mt-2 flex-1">Vuelve sobre lo que necesitas mejorar.</p>
-          <a href="/repaso" class="btn-secondary mt-6 w-full">Repasar errores</a>
-          <p class="text-support mt-3" id="home-repaso-hint">
-            Aquí aparecerán las preguntas que respondas incorrectamente.
-          </p>
-        </li>
-      </ul>
-      <div id="home-continuar" class="mt-6 hidden">
-        <a href="/practica/senales" class="btn-text" id="home-continuar-link">Continuar practicando</a>
-      </div>
     </div>
   </section>
 
   <!-- Topics -->
-  <section class="section-y border-y border-border bg-surface">
+  <section class="section-y">
     <div class="container-page">
-      <h2 class="heading-section">Temas para practicar</h2>
-      <p class="text-body mt-3 max-w-2xl">Elige un bloque del balotario y practica con feedback inmediato.</p>
-      <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="mx-auto max-w-2xl text-center">
+        <h2 class="heading-section">Temas para practicar</h2>
+        <p class="text-body mt-3">Elige un bloque del balotario y practica con feedback inmediato.</p>
+      </div>
+      <ul class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {
           temas.map((t) => (
             <li>
               <a
                 href={`/practica/${t.slug}`}
-                class="card-surface group flex h-full flex-col p-5 no-underline transition-colors hover:border-brand hover:no-underline focus-visible:border-brand"
+                class="card-surface group flex h-full flex-col p-5 no-underline transition-shadow hover:shadow-[var(--shadow-soft)] hover:no-underline"
               >
-                <span class="flex h-11 w-11 items-center justify-center rounded-[12px] bg-brand-soft text-brand">
+                <span class="flex h-11 w-11 items-center justify-center rounded-[14px] bg-panel-mist text-brand">
                   <TopicIcon name={t.icon} />
                 </span>
                 <h3 class="heading-card mt-4">{t.nombre}</h3>
@@ -223,26 +238,26 @@ const reviewDate = new Date(`${site.lastContentReview}T12:00:00`).toLocaleDateSt
   </section>
 
   <!-- Guides -->
-  <section class="section-y">
+  <section class="section-y section-band">
     <div class="container-page">
-      <h2 class="heading-section">Guías para sacar el brevete</h2>
-      <p class="text-body mt-3 max-w-2xl">
-        Lecturas propias, con respuesta directa al inicio y fuentes citadas.
-      </p>
-      <ul class="mt-8 divide-y divide-border border-y border-border">
+      <div class="mx-auto max-w-2xl text-center">
+        <h2 class="heading-section">Guías para sacar el brevete</h2>
+        <p class="text-body mt-3">
+          Lecturas propias, con respuesta directa al inicio y fuentes citadas.
+        </p>
+      </div>
+      <ul class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {
           guias.map((g) => (
             <li>
               <a
                 href={g.href}
-                class="group flex flex-col gap-1 py-5 no-underline hover:no-underline sm:flex-row sm:items-baseline sm:justify-between sm:gap-8"
+                class="card-surface group flex h-full flex-col p-5 no-underline transition-shadow hover:shadow-[var(--shadow-soft)] hover:no-underline"
               >
-                <div class="min-w-0">
-                  <span class="badge-accent">{g.label}</span>
-                  <h3 class="mt-1.5 text-lg font-semibold text-ink group-hover:text-brand">{g.title}</h3>
-                  <p class="text-support mt-1 max-w-xl">{g.desc}</p>
-                </div>
-                <span class="shrink-0 text-sm font-semibold text-brand">Leer guía →</span>
+                <span class="badge-accent">{g.label}</span>
+                <h3 class="mt-2 text-lg font-semibold text-ink group-hover:text-brand">{g.title}</h3>
+                <p class="text-support mt-2 flex-1">{g.desc}</p>
+                <span class="mt-4 text-sm font-semibold text-brand">Leer guía →</span>
               </a>
             </li>
           ))
@@ -252,16 +267,16 @@ const reviewDate = new Date(`${site.lastContentReview}T12:00:00`).toLocaleDateSt
   </section>
 
   <!-- FAQ -->
-  <section class="section-y border-t border-border bg-surface pb-12 sm:pb-14">
+  <section class="section-y pb-16 sm:pb-20">
     <div class="container-page max-w-3xl">
-      <h2 class="heading-section">Preguntas frecuentes</h2>
-      <div class="mt-8 divide-y divide-border rounded-[16px] border border-border bg-bg">
+      <h2 class="heading-section text-center">Preguntas frecuentes</h2>
+      <div class="card-surface mt-10 divide-y divide-border overflow-hidden">
         {
           faqs.map((f, i) => (
-            <div class="px-1">
+            <div>
               <button
                 type="button"
-                class="faq-trigger flex min-h-14 w-full items-center justify-between gap-4 px-4 py-4 text-left text-base font-semibold text-ink"
+                class="faq-trigger flex min-h-14 w-full items-center justify-between gap-4 px-5 py-4 text-left text-base font-semibold text-ink"
                 aria-expanded="false"
                 aria-controls={`faq-panel-${i}`}
                 id={`faq-btn-${i}`}
@@ -271,7 +286,7 @@ const reviewDate = new Date(`${site.lastContentReview}T12:00:00`).toLocaleDateSt
                   <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.17l3.71-3.94a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
                 </svg>
               </button>
-              <div id={`faq-panel-${i}`} class="hidden px-4 pb-4 text-body" role="region" aria-labelledby={`faq-btn-${i}`}>
+              <div id={`faq-panel-${i}`} class="hidden px-5 pb-4 text-body" role="region" aria-labelledby={`faq-btn-${i}`}>
                 {f.a}
               </div>
             </div>
