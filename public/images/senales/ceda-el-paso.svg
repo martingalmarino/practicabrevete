@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
-  <title id="title">Señal CEDA EL PASO</title>
-  <desc id="desc">Triángulo invertido blanco con borde rojo</desc>
+  <title id="title">Senal CEDA EL PASO</title>
+  <desc id="desc">Triangulo invertido blanco con borde rojo</desc>
   <polygon points="60,108 10,20 110,20" fill="#fff" stroke="#e10600" stroke-width="10" stroke-linejoin="round"/>
 </svg>
