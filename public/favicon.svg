@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Practica Brevete">
-  <rect width="48" height="48" rx="14" fill="#C8102E"/>
+  <rect width="48" height="48" rx="14" fill="#4F46E5"/>
   <circle cx="24" cy="24" r="13.25" fill="none" stroke="#FFFFFF" stroke-width="3.4"/>
   <circle cx="24" cy="24" r="4" fill="#FFFFFF"/>
   <path d="M11.2 24H20M28 24h8.8M24 28v9.5" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>

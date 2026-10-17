@@ -3,32 +3,41 @@ import { site } from '../../config/site';
 
 interface Props {
   variant?: 'full' | 'mark';
+  /** Tamaño del lockup: header (default) o footer */
+  size?: 'header' | 'footer';
   inverted?: boolean;
   class?: string;
 }
 
-const { variant = 'full', inverted = false, class: className = '' } = Astro.props;
-const fg = inverted ? '#C8102E' : '#FFFFFF';
-const bg = inverted ? '#FFFFFF' : '#C8102E';
+const { variant = 'full', size = 'header', inverted = false, class: className = '' } = Astro.props;
+
+const BRAND = '#4F46E5';
+const fg = inverted ? BRAND : '#FFFFFF';
+const bg = inverted ? '#FFFFFF' : BRAND;
+
+const isFooter = size === 'footer';
 ---
 
 <a
   href="/"
   class:list={[
-    'group inline-flex min-h-11 items-center gap-2.5 no-underline hover:no-underline',
+    'inline-flex items-center no-underline hover:no-underline',
+    isFooter ? 'gap-2.5' : 'gap-3',
     className,
   ]}
-  aria-label={`${site.name} — inicio`}
+  aria-label={`${site.name} — Inicio`}
 >
-  <span class="relative inline-flex h-9 w-9 shrink-0 sm:h-10 sm:w-10" aria-hidden="true">
-    <svg viewBox="0 0 48 48" class="h-full w-full" xmlns="http://www.w3.org/2000/svg" role="img">
-      <title>{site.name}</title>
+  <span
+    class:list={[
+      'relative inline-flex shrink-0',
+      isFooter ? 'h-9 w-9' : 'h-9 w-9 md:h-12 md:w-12',
+    ]}
+    aria-hidden="true"
+  >
+    <svg viewBox="0 0 48 48" class="h-full w-full" xmlns="http://www.w3.org/2000/svg" focusable="false">
       <rect width="48" height="48" rx="14" fill={bg} />
-      <!-- Volante: aro -->
       <circle cx="24" cy="24" r="13.25" fill="none" stroke={fg} stroke-width="3.4" />
-      <!-- Cubo central -->
       <circle cx="24" cy="24" r="4" fill={fg} />
-      <!-- Tres radios: izquierda, derecha, abajo -->
       <path
         d="M11.2 24H20M28 24h8.8M24 28v9.5"
         stroke={fg}
@@ -43,19 +52,24 @@ const bg = inverted ? '#FFFFFF' : '#C8102E';
       <span class="flex min-w-0 flex-col leading-none">
         <span
           class:list={[
-            'text-[0.95rem] font-semibold tracking-[-0.02em] sm:text-[1.05rem]',
-            inverted ? 'text-white group-hover:text-white/90' : 'text-ink group-hover:text-ink',
+            'tracking-[-0.02em] text-ink',
+            isFooter
+              ? 'text-[1.125rem]'
+              : 'text-[1.1875rem] md:text-[1.5rem]',
           ]}
         >
-          Practica <span class="font-bold">Brevete</span>
+          <span class="font-semibold">Practica</span>{' '}
+          <span class="font-extrabold">Brevete</span>
         </span>
         <span
           class:list={[
-            'mt-0.5 hidden text-[0.65rem] font-medium tracking-[0.04em] uppercase sm:block',
-            inverted ? 'text-white/55' : 'text-ink-muted',
+            'font-medium text-ink-muted',
+            isFooter
+              ? 'mt-1 hidden text-[11px] sm:block'
+              : 'mt-1 hidden text-xs md:block',
           ]}
         >
-          Examen de reglas
+          Prepárate para conducir
         </span>
       </span>
     )

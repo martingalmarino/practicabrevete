@@ -10,22 +10,32 @@ const links = [
 ];
 ---
 
-<header class="sticky top-0 z-40 border-b border-border bg-surface/95 backdrop-blur-md">
-  <div class="container-wide flex h-[72px] items-center justify-between gap-3">
-    <Logo variant="full" />
+<header
+  id="site-header"
+  class="site-header sticky top-0 z-40 border-b border-border bg-surface"
+>
+  <div
+    class="container-wide grid h-[68px] grid-cols-[1fr_auto] items-center gap-3 md:h-20 md:grid-cols-[1fr_auto_1fr]"
+  >
+    <div class="min-w-0 justify-self-start">
+      <Logo variant="full" size="header" />
+    </div>
 
-    <nav class="hidden items-center gap-1 md:flex" aria-label="Principal">
+    <nav class="hidden items-center gap-2 md:flex" aria-label="Principal">
       {
         links.map((link) => {
-          const active = pathname.startsWith(link.match);
+          const sectionActive = pathname.startsWith(link.match);
+          const isCurrentPage = pathname === link.href;
           return (
             <a
               href={link.href}
               class:list={[
-                'inline-flex min-h-11 items-center rounded-[12px] px-3.5 text-sm font-semibold no-underline transition-colors hover:no-underline',
-                active ? 'text-brand' : 'text-ink-muted hover:text-ink',
+                'inline-flex min-h-11 items-center rounded-[12px] px-4 text-base font-semibold no-underline transition-colors hover:no-underline',
+                sectionActive
+                  ? 'bg-brand-soft font-bold text-brand'
+                  : 'text-ink-muted hover:bg-brand-soft hover:text-brand',
               ]}
-              aria-current={active ? 'page' : undefined}
+              aria-current={isCurrentPage ? 'page' : undefined}
             >
               {link.label}
             </a>
@@ -34,8 +44,8 @@ const links = [
       }
     </nav>
 
-    <div class="flex items-center gap-2">
-      <a href="/simulacro/a-i" class="btn-header hidden sm:inline-flex">
+    <div class="flex items-center justify-end gap-2 justify-self-end">
+      <a href="/simulacro/a-i" class="btn-header hidden md:inline-flex">
         Empezar simulacro
       </a>
 
@@ -57,19 +67,22 @@ const links = [
     </div>
   </div>
 
-  <div id="nav-mobile" class="hidden border-t border-border bg-surface md:hidden" hidden>
+  <div id="nav-mobile" class="border-t border-border bg-surface md:hidden" hidden>
     <nav class="container-wide flex flex-col gap-1 py-3" aria-label="Menú móvil">
       {
         links.map((link) => {
-          const active = pathname.startsWith(link.match);
+          const sectionActive = pathname.startsWith(link.match);
+          const isCurrentPage = pathname === link.href;
           return (
             <a
               href={link.href}
               class:list={[
-                'inline-flex min-h-12 items-center rounded-[12px] px-3 text-base font-semibold no-underline hover:no-underline',
-                active ? 'bg-brand-soft text-brand' : 'text-ink hover:bg-soft',
+                'inline-flex min-h-12 items-center rounded-[12px] px-4 text-base font-semibold no-underline hover:no-underline',
+                sectionActive
+                  ? 'bg-brand-soft font-bold text-brand'
+                  : 'text-ink hover:bg-brand-soft hover:text-brand',
               ]}
-              aria-current={active ? 'page' : undefined}
+              aria-current={isCurrentPage ? 'page' : undefined}
             >
               {link.label}
             </a>
@@ -82,20 +95,27 @@ const links = [
 </header>
 
 <script>
+  const header = document.getElementById('site-header');
   const toggle = document.getElementById('nav-toggle');
   const panel = document.getElementById('nav-mobile');
   const iconOpen = document.getElementById('nav-icon-open');
   const iconClose = document.getElementById('nav-icon-close');
+
+  function setScrolled() {
+    header?.classList.toggle('is-scrolled', window.scrollY > 4);
+  }
 
   function setOpen(open: boolean) {
     if (!toggle || !panel) return;
     toggle.setAttribute('aria-expanded', String(open));
     toggle.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
     panel.hidden = !open;
-    panel.classList.toggle('hidden', !open);
     iconOpen?.classList.toggle('hidden', open);
     iconClose?.classList.toggle('hidden', !open);
   }
+
+  setScrolled();
+  window.addEventListener('scroll', setScrolled, { passive: true });
 
   toggle?.addEventListener('click', () => {
     const open = toggle.getAttribute('aria-expanded') === 'true';
