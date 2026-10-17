@@ -127,7 +127,7 @@
   }
 
   .feature-card {
-    @apply relative flex h-full min-h-[340px] flex-col overflow-hidden rounded-[24px] px-5 pt-5 no-underline transition-transform hover:no-underline sm:min-h-[370px] sm:px-6 sm:pt-6 lg:min-h-[380px];
+    @apply relative flex h-full min-h-[340px] flex-col overflow-hidden rounded-[24px] p-5 no-underline transition-transform hover:no-underline sm:min-h-[370px] sm:p-6 lg:min-h-[380px];
   }
 
   .feature-card:hover {
@@ -145,9 +145,7 @@
   }
 
   .feature-card .demo-ui {
-    margin-top: 1rem;
-    margin-bottom: -1.5rem;
-    flex: 1 1 auto;
+    @apply mt-4 flex-1;
   }
 
   .demo-ui {
