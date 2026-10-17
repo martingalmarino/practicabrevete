@@ -127,30 +127,24 @@ const reviewDate = new Date(`${site.lastContentReview}T12:00:00`).toLocaleDateSt
         <h2 class="heading-section">Elige cómo quieres estudiar</h2>
         <p class="text-body mt-3">Tres formas claras de preparar tu examen de reglas.</p>
       </div>
-      <ul class="mt-10 grid gap-4 md:grid-cols-3 md:gap-5">
-        <li class="mode-panel bg-panel-rose">
-          <div class="mode-panel-inner">
-            <h3 class="heading-card">Simulacro</h3>
-            <p class="text-body mt-2 flex-1">Evalúa tu preparación en una sesión completa.</p>
-            <a href="/simulacro/a-i" class="btn-primary mt-6 w-full">Empezar simulacro</a>
-          </div>
+      <ul class="mt-10 grid gap-4 md:grid-cols-3">
+        <li class="card-surface flex flex-col border-t-[3px] border-t-brand p-6">
+          <h3 class="heading-card">Simulacro</h3>
+          <p class="text-body mt-2 flex-1">Evalúa tu preparación en una sesión completa.</p>
+          <a href="/simulacro/a-i" class="btn-primary mt-6 w-full">Empezar simulacro</a>
         </li>
-        <li class="mode-panel bg-panel-amber">
-          <div class="mode-panel-inner">
-            <h3 class="heading-card">Práctica por tema</h3>
-            <p class="text-body mt-2 flex-1">Refuerza un tema con explicaciones.</p>
-            <a href="/practica/senales" class="btn-secondary mt-6 w-full">Elegir tema</a>
-          </div>
+        <li class="card-surface flex flex-col border-t-[3px] border-t-accent p-6">
+          <h3 class="heading-card">Práctica por tema</h3>
+          <p class="text-body mt-2 flex-1">Refuerza un tema con explicaciones.</p>
+          <a href="/practica/senales" class="btn-secondary mt-6 w-full">Elegir tema</a>
         </li>
-        <li class="mode-panel bg-panel-peach">
-          <div class="mode-panel-inner">
-            <h3 class="heading-card">Repaso de errores</h3>
-            <p class="text-body mt-2 flex-1">Vuelve sobre lo que necesitas mejorar.</p>
-            <a href="/repaso" class="btn-secondary mt-6 w-full">Repasar errores</a>
-            <p class="text-support mt-3" id="home-repaso-hint">
-              Aquí aparecerán las preguntas que respondas incorrectamente.
-            </p>
-          </div>
+        <li class="card-surface flex flex-col border-t-[3px] border-t-[#c4a090] p-6">
+          <h3 class="heading-card">Repaso de errores</h3>
+          <p class="text-body mt-2 flex-1">Vuelve sobre lo que necesitas mejorar.</p>
+          <a href="/repaso" class="btn-secondary mt-6 w-full">Repasar errores</a>
+          <p class="text-support mt-3" id="home-repaso-hint">
+            Aquí aparecerán las preguntas que respondas incorrectamente.
+          </p>
         </li>
       </ul>
       <div id="home-continuar" class="mt-6 hidden text-center">
@@ -162,7 +156,7 @@ const reviewDate = new Date(`${site.lastContentReview}T12:00:00`).toLocaleDateSt
   <!-- Preview en panel de color (estilo producto) -->
   <section class="section-y">
     <div class="container-page">
-      <div class="panel-soft mx-auto flex max-w-3xl justify-center bg-panel-rose sm:p-10">
+      <div class="panel-soft mx-auto flex max-w-3xl justify-center bg-panel-mist sm:p-8">
         {
           previewPayload ? (
             <div class="w-full max-w-md">
