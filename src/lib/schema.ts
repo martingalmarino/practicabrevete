@@ -8,7 +8,7 @@ export function organizationSchema() {
     url: site.url,
     email: site.email,
     description: site.description,
-    logo: `${site.url}/favicon.svg`,
+    logo: `${site.url}/brand/logo.svg`,
   };
 }
 

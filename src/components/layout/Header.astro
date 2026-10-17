@@ -1,5 +1,5 @@
 ---
-import { site } from '../../config/site';
+import Logo from '../brand/Logo.astro';
 
 const pathname = Astro.url.pathname;
 
@@ -12,17 +12,7 @@ const links = [
 
 <header class="sticky top-0 z-40 border-b border-border bg-surface/95 backdrop-blur-sm">
   <div class="container-page flex min-h-16 items-center justify-between gap-3 py-2">
-    <a href="/" class="group flex min-h-11 items-center gap-2.5 no-underline hover:no-underline" aria-label={`${site.name} — inicio`}>
-      <span
-        class="flex h-9 w-9 items-center justify-center rounded-[10px] bg-brand text-sm font-bold text-white"
-        aria-hidden="true"
-      >
-        PB
-      </span>
-      <span class="text-base font-semibold text-ink group-hover:text-brand sm:text-lg">
-        {site.name}
-      </span>
-    </a>
+    <Logo variant="full" />
 
     <nav class="hidden items-center gap-1 md:flex" aria-label="Principal">
       {
