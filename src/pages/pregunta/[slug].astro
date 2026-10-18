@@ -51,6 +51,8 @@ const wordCount = question.explicacion.texto.trim().split(/\s+/).length;
           <img
             src={question.imagen.src}
             alt={question.imagen.alt}
+            width={question.imagen.width}
+            height={question.imagen.height}
             class="h-auto max-h-64 w-full max-w-xl object-contain"
             loading="eager"
           />

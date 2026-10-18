@@ -31,7 +31,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/senales/r-6-prohibido-izquierda.svg",
-      "alt": "Señal reglamentaria R-6: prohibido voltear a la izquierda"
+      "alt": "Señal reglamentaria R-6: prohibido voltear a la izquierda",
+      "width": 120,
+      "height": 120
     },
     "slug": "la-senal-vertical-reglamentaria-r-6-prohibido-voltear-a-la-i-b-iib-002",
     "publish": false,
@@ -52,7 +54,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/senales/r-3-solo-adelante.svg",
-      "alt": "Señal reglamentaria R-3: continuar de frente"
+      "alt": "Señal reglamentaria R-3: continuar de frente",
+      "width": 120,
+      "height": 120
     },
     "slug": "la-senal-vertical-reglamentaria-r-3-significa-que-b-iib-003",
     "publish": false,
@@ -91,7 +95,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/senales/semaforo.svg",
-      "alt": "Semáforo vertical con luces roja, ámbar y verde"
+      "alt": "Semáforo vertical con luces roja, ámbar y verde",
+      "width": 80,
+      "height": 160
     },
     "slug": "el-color-ambar-o-amarillo-del-semaforo-significa-que-b-iib-005",
     "publish": false,
@@ -112,7 +118,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/senales/semaforo.svg",
-      "alt": "Semáforo vertical con luces roja, ámbar y verde"
+      "alt": "Semáforo vertical con luces roja, ámbar y verde",
+      "width": 80,
+      "height": 160
     },
     "slug": "los-colores-del-semaforo-tienen-el-siguiente-significado-roj-b-iib-006",
     "publish": false,
@@ -151,7 +159,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-008.png",
-      "alt": "Señal R-53 del balotario B-IIa/B-IIb"
+      "alt": "Señal R-53 del balotario B-IIa/B-IIb",
+      "width": 159,
+      "height": 152
     },
     "slug": "la-siguiente-senal-vertical-reglamentaria-r-53-b-iib-008",
     "publish": false,
@@ -208,7 +218,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/senales/pare.svg",
-      "alt": "Señal octogonal de PARE"
+      "alt": "Señal octogonal de PARE",
+      "width": 120,
+      "height": 120
     },
     "slug": "la-luz-intermitente-roja-es-igual-que-una-senal-de-pare-b-iib-011",
     "publish": false,
@@ -319,7 +331,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-017.png",
-      "alt": "Señal R-29 del balotario B-IIa/B-IIb"
+      "alt": "Señal R-29 del balotario B-IIa/B-IIb",
+      "width": 120,
+      "height": 138
     },
     "slug": "la-siguiente-senal-vertical-reglamentaria-r-29-b-iib-017",
     "publish": false,
@@ -556,7 +570,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-030.png",
-      "alt": "Señal P-2A del balotario B-IIa/B-IIb"
+      "alt": "Señal P-2A del balotario B-IIa/B-IIb",
+      "width": 136,
+      "height": 169
     },
     "slug": "cual-es-la-diferencia-entre-las-senales-p-2a-y-p-1a-b-iib-030",
     "publish": false,
@@ -577,7 +593,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-031.png",
-      "alt": "Señal R-30F del balotario B-IIa/B-IIb"
+      "alt": "Señal R-30F del balotario B-IIa/B-IIb",
+      "width": 124,
+      "height": 160
     },
     "slug": "que-indica-la-senal-r-30f-b-iib-031",
     "publish": false,
@@ -598,7 +616,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-032.png",
-      "alt": "Señal R-23 del balotario B-IIa/B-IIb"
+      "alt": "Señal R-23 del balotario B-IIa/B-IIb",
+      "width": 157,
+      "height": 156
     },
     "slug": "que-indica-la-siguiente-senal-r-23-b-iib-032",
     "publish": false,
@@ -619,7 +639,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-033.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
+      "width": 296,
+      "height": 197
     },
     "slug": "si-dos-vehiculos-se-aproximan-simultaneamente-a-una-intersec-b-iib-033",
     "publish": false,
@@ -730,7 +752,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-039.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
+      "width": 155,
+      "height": 191
     },
     "slug": "la-siguiente-senal-indica-b-iib-039",
     "publish": false,
@@ -877,7 +901,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-047.png",
-      "alt": "Señal P-17A del balotario B-IIa/B-IIb"
+      "alt": "Señal P-17A del balotario B-IIa/B-IIb",
+      "width": 146,
+      "height": 164
     },
     "slug": "la-siguiente-senal-vertical-reglamentaria-p-17a-indica-b-iib-047",
     "publish": false,
@@ -1168,7 +1194,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-063.png",
-      "alt": "Señal P-33A del balotario B-IIa/B-IIb"
+      "alt": "Señal P-33A del balotario B-IIa/B-IIb",
+      "width": 125,
+      "height": 149
     },
     "slug": "la-senal-preventiva-p-33a-significa-b-iib-063",
     "publish": false,
@@ -1603,7 +1631,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-087.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
+      "width": 400,
+      "height": 347
     },
     "slug": "si-un-conductor-que-circula-por-el-carril-derecho-de-una-via-b-iib-087",
     "publish": false,
@@ -1696,7 +1726,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-092.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
+      "width": 400,
+      "height": 144
     },
     "slug": "en-el-caso-representado-en-el-siguiente-grafico-el-vehiculo--b-iib-092",
     "publish": false,
@@ -1717,7 +1749,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-093.png",
-      "alt": "Señal R-17 del balotario B-IIa/B-IIb"
+      "alt": "Señal R-17 del balotario B-IIa/B-IIb",
+      "width": 175,
+      "height": 194
     },
     "slug": "la-siguiente-senal-r-17-significa-b-iib-093",
     "publish": false,
@@ -1738,7 +1772,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-094.png",
-      "alt": "Señal R-4 del balotario B-IIa/B-IIb"
+      "alt": "Señal R-4 del balotario B-IIa/B-IIb",
+      "width": 176,
+      "height": 158
     },
     "slug": "si-usted-se-encuentra-conduciendo-su-vehiculo-por-una-via-y--b-iib-094",
     "publish": false,
@@ -1759,7 +1795,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-095.png",
-      "alt": "Señal P-36 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-36 del balotario B-IIa/B-IIb",
+      "width": 181,
+      "height": 133
     },
     "slug": "la-siguiente-senal-p-36-significa-b-iib-095",
     "publish": false,
@@ -1780,7 +1818,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-096.png",
-      "alt": "Señal R-14 del balotario B-IIa/B-IIb"
+      "alt": "Señal R-14 del balotario B-IIa/B-IIb",
+      "width": 175,
+      "height": 190
     },
     "slug": "la-siguiente-senal-r-14-significa-b-iib-096",
     "publish": false,
@@ -1801,7 +1841,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-097.png",
-      "alt": "Señal P-6 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-6 del balotario B-IIa/B-IIb",
+      "width": 179,
+      "height": 182
     },
     "slug": "la-siguiente-senal-p-6-significa-b-iib-097",
     "publish": false,
@@ -1822,7 +1864,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-098.png",
-      "alt": "Señal R-30C del balotario B-IIa/B-IIb"
+      "alt": "Señal R-30C del balotario B-IIa/B-IIb",
+      "width": 159,
+      "height": 191
     },
     "slug": "la-siguiente-senal-r-30c-significa-b-iib-098",
     "publish": false,
@@ -1843,7 +1887,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-099.png",
-      "alt": "Señal R-5-4 del balotario B-IIa/B-IIb"
+      "alt": "Señal R-5-4 del balotario B-IIa/B-IIb",
+      "width": 140,
+      "height": 197
     },
     "slug": "la-siguiente-senal-r-5-4-significa-b-iib-099",
     "publish": false,
@@ -1864,7 +1910,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-100.png",
-      "alt": "Señal R-9 del balotario B-IIa/B-IIb"
+      "alt": "Señal R-9 del balotario B-IIa/B-IIb",
+      "width": 159,
+      "height": 141
     },
     "slug": "la-siguiente-senal-r-9-significa-b-iib-100",
     "publish": false,
@@ -1885,7 +1933,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-101.png",
-      "alt": "Señal R-5-2 del balotario B-IIa/B-IIb"
+      "alt": "Señal R-5-2 del balotario B-IIa/B-IIb",
+      "width": 144,
+      "height": 167
     },
     "slug": "la-siguiente-senal-r-5-2-significa-b-iib-101",
     "publish": false,
@@ -1906,7 +1956,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-102.png",
-      "alt": "Señal R-20 del balotario B-IIa/B-IIb"
+      "alt": "Señal R-20 del balotario B-IIa/B-IIb",
+      "width": 130,
+      "height": 157
     },
     "slug": "la-siguiente-senal-r-20-significa-b-iib-102",
     "publish": false,
@@ -1945,7 +1997,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-104.png",
-      "alt": "Señal R-48 del balotario B-IIa/B-IIb"
+      "alt": "Señal R-48 del balotario B-IIa/B-IIb",
+      "width": 168,
+      "height": 202
     },
     "slug": "la-siguiente-senal-r-48-significa-b-iib-104",
     "publish": false,
@@ -1966,7 +2020,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-105.png",
-      "alt": "Señal R-49 del balotario B-IIa/B-IIb"
+      "alt": "Señal R-49 del balotario B-IIa/B-IIb",
+      "width": 167,
+      "height": 200
     },
     "slug": "la-siguiente-senal-r-49-significa-b-iib-105",
     "publish": false,
@@ -1987,7 +2043,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-106.png",
-      "alt": "Señal R-50 del balotario B-IIa/B-IIb"
+      "alt": "Señal R-50 del balotario B-IIa/B-IIb",
+      "width": 175,
+      "height": 237
     },
     "slug": "la-siguiente-senal-r-50-significa-b-iib-106",
     "publish": false,
@@ -2008,7 +2066,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-107.png",
-      "alt": "Señal R-5-1 del balotario B-IIa/B-IIb"
+      "alt": "Señal R-5-1 del balotario B-IIa/B-IIb",
+      "width": 155,
+      "height": 179
     },
     "slug": "la-senal-r-5-1-es-b-iib-107",
     "publish": false,
@@ -2029,7 +2089,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-108.png",
-      "alt": "Señal P-3A del balotario B-IIa/B-IIb"
+      "alt": "Señal P-3A del balotario B-IIa/B-IIb",
+      "width": 130,
+      "height": 162
     },
     "slug": "la-senal-p-3a-le-indica-al-conductor-que-b-iib-108",
     "publish": false,
@@ -2050,7 +2112,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-109.png",
-      "alt": "Señal P-5-1A del balotario B-IIa/B-IIb"
+      "alt": "Señal P-5-1A del balotario B-IIa/B-IIb",
+      "width": 134,
+      "height": 188
     },
     "slug": "la-siguiente-senal-p-5-1a-le-advierte-al-conductor-que-b-iib-109",
     "publish": false,
@@ -2071,7 +2135,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-110.png",
-      "alt": "Señal P-61 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-61 del balotario B-IIa/B-IIb",
+      "width": 128,
+      "height": 160
     },
     "slug": "la-siguiente-senal-p-61-le-advierte-al-conductor-que-b-iib-110",
     "publish": false,
@@ -2092,7 +2158,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-111.png",
-      "alt": "Señal P-34 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-34 del balotario B-IIa/B-IIb",
+      "width": 128,
+      "height": 158
     },
     "slug": "la-siguiente-senal-p-34-le-advierte-al-conductor-que-b-iib-111",
     "publish": false,
@@ -2113,7 +2181,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-112.png",
-      "alt": "Señal P-60 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-60 del balotario B-IIa/B-IIb",
+      "width": 131,
+      "height": 111
     },
     "slug": "la-siguiente-senal-p-60-es-b-iib-112",
     "publish": false,
@@ -2134,7 +2204,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-113.png",
-      "alt": "Señal P-46 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-46 del balotario B-IIa/B-IIb",
+      "width": 167,
+      "height": 190
     },
     "slug": "la-siguiente-senal-p-46-indica-b-iib-113",
     "publish": false,
@@ -2155,7 +2227,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-114.png",
-      "alt": "Señal P-46-A del balotario B-IIa/B-IIb"
+      "alt": "Señal P-46-A del balotario B-IIa/B-IIb",
+      "width": 148,
+      "height": 171
     },
     "slug": "la-siguiente-senal-p-46-a-indica-b-iib-114",
     "publish": false,
@@ -2176,7 +2250,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-115.png",
-      "alt": "Señal P-46B del balotario B-IIa/B-IIb"
+      "alt": "Señal P-46B del balotario B-IIa/B-IIb",
+      "width": 153,
+      "height": 206
     },
     "slug": "la-siguiente-senal-p-46b-indica-b-iib-115",
     "publish": false,
@@ -2197,7 +2273,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-116.png",
-      "alt": "Señal P-48 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-48 del balotario B-IIa/B-IIb",
+      "width": 157,
+      "height": 186
     },
     "slug": "la-siguiente-senal-p-48-indica-b-iib-116",
     "publish": false,
@@ -2218,7 +2296,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-117.png",
-      "alt": "Señal P-48A del balotario B-IIa/B-IIb"
+      "alt": "Señal P-48A del balotario B-IIa/B-IIb",
+      "width": 130,
+      "height": 155
     },
     "slug": "la-siguiente-senal-p-48a-indica-b-iib-117",
     "publish": false,
@@ -2239,7 +2319,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-118.png",
-      "alt": "Señal P-48-B del balotario B-IIa/B-IIb"
+      "alt": "Señal P-48-B del balotario B-IIa/B-IIb",
+      "width": 129,
+      "height": 221
     },
     "slug": "la-siguiente-senal-p-48-b-indica-b-iib-118",
     "publish": false,
@@ -2260,7 +2342,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-119.png",
-      "alt": "Señal P-49 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-49 del balotario B-IIa/B-IIb",
+      "width": 138,
+      "height": 176
     },
     "slug": "la-siguiente-senal-p-49-indica-b-iib-119",
     "publish": false,
@@ -2281,7 +2365,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-120.png",
-      "alt": "Señal P-49A del balotario B-IIa/B-IIb"
+      "alt": "Señal P-49A del balotario B-IIa/B-IIb",
+      "width": 136,
+      "height": 172
     },
     "slug": "la-siguiente-senal-p-49a-indica-b-iib-120",
     "publish": false,
@@ -2302,7 +2388,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-121.png",
-      "alt": "Señal P-49B del balotario B-IIa/B-IIb"
+      "alt": "Señal P-49B del balotario B-IIa/B-IIb",
+      "width": 148,
+      "height": 254
     },
     "slug": "la-siguiente-senal-p-49b-indica-b-iib-121",
     "publish": false,
@@ -2323,7 +2411,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-122.png",
-      "alt": "Señal P-50 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-50 del balotario B-IIa/B-IIb",
+      "width": 137,
+      "height": 176
     },
     "slug": "la-siguiente-senal-p-50-indica-b-iib-122",
     "publish": false,
@@ -2344,7 +2434,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-123.png",
-      "alt": "Señal P-51 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-51 del balotario B-IIa/B-IIb",
+      "width": 141,
+      "height": 181
     },
     "slug": "la-siguiente-senal-p-51-indica-b-iib-123",
     "publish": false,
@@ -2365,7 +2457,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-124.png",
-      "alt": "Señal P-53 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-53 del balotario B-IIa/B-IIb",
+      "width": 123,
+      "height": 122
     },
     "slug": "la-siguiente-senal-p-53-indica-b-iib-124",
     "publish": false,
@@ -2386,7 +2480,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-125.png",
-      "alt": "Señal P-55 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-55 del balotario B-IIa/B-IIb",
+      "width": 158,
+      "height": 173
     },
     "slug": "la-siguiente-senal-p-55-indica-b-iib-125",
     "publish": false,
@@ -2407,7 +2503,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-126.png",
-      "alt": "Señal P-58 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-58 del balotario B-IIa/B-IIb",
+      "width": 163,
+      "height": 211
     },
     "slug": "la-siguiente-senal-p-58-le-indica-b-iib-126",
     "publish": false,
@@ -2428,7 +2526,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-127.png",
-      "alt": "Señal P-59 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-59 del balotario B-IIa/B-IIb",
+      "width": 157,
+      "height": 196
     },
     "slug": "la-siguiente-senal-p-59-le-indica-b-iib-127",
     "publish": false,
@@ -2449,7 +2549,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-128.png",
-      "alt": "Señal P-41 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-41 del balotario B-IIa/B-IIb",
+      "width": 149,
+      "height": 197
     },
     "slug": "la-siguiente-senal-p-41-le-indica-b-iib-128",
     "publish": false,
@@ -2470,7 +2572,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-129.png",
-      "alt": "Señal P-45 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-45 del balotario B-IIa/B-IIb",
+      "width": 132,
+      "height": 173
     },
     "slug": "la-siguiente-senal-p-45-indica-b-iib-129",
     "publish": false,
@@ -2491,7 +2595,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-130.png",
-      "alt": "Señal P-52 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-52 del balotario B-IIa/B-IIb",
+      "width": 150,
+      "height": 198
     },
     "slug": "la-siguiente-senal-p-52-le-indica-b-iib-130",
     "publish": false,
@@ -2512,7 +2618,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-131.png",
-      "alt": "Señal P-66 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-66 del balotario B-IIa/B-IIb",
+      "width": 167,
+      "height": 222
     },
     "slug": "la-siguiente-senal-p-66-le-indica-b-iib-131",
     "publish": false,
@@ -2533,7 +2641,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-132.png",
-      "alt": "Señal P-66A del balotario B-IIa/B-IIb"
+      "alt": "Señal P-66A del balotario B-IIa/B-IIb",
+      "width": 184,
+      "height": 239
     },
     "slug": "la-siguiente-senal-p-66a-le-indica-b-iib-132",
     "publish": false,
@@ -2554,7 +2664,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-133.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
+      "width": 166,
+      "height": 189
     },
     "slug": "si-al-conducir-su-vehiculo-se-encuentra-con-la-senal-vertica-b-iib-133",
     "publish": false,
@@ -2575,7 +2687,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-134.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
+      "width": 278,
+      "height": 175
     },
     "slug": "si-al-conducir-su-vehiculo-se-encuentra-con-la-senal-vertica-b-iib-134",
     "publish": false,
@@ -2596,7 +2710,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-135.png",
-      "alt": "Señal I-14 del balotario B-IIa/B-IIb"
+      "alt": "Señal I-14 del balotario B-IIa/B-IIb",
+      "width": 172,
+      "height": 218
     },
     "slug": "la-siguiente-senal-i-14-significa-1-14-b-iib-135",
     "publish": false,
@@ -2617,7 +2733,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-136.png",
-      "alt": "Señal I-31 del balotario B-IIa/B-IIb"
+      "alt": "Señal I-31 del balotario B-IIa/B-IIb",
+      "width": 156,
+      "height": 198
     },
     "slug": "la-siguiente-senal-i-31-significa-1-31-b-iib-136",
     "publish": false,
@@ -2638,7 +2756,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-137.png",
-      "alt": "Señal I-9 del balotario B-IIa/B-IIb"
+      "alt": "Señal I-9 del balotario B-IIa/B-IIb",
+      "width": 130,
+      "height": 187
     },
     "slug": "la-siguiente-senal-i-9-significa-b-iib-137",
     "publish": false,
@@ -2659,7 +2779,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-138.png",
-      "alt": "Señal I-18 del balotario B-IIa/B-IIb"
+      "alt": "Señal I-18 del balotario B-IIa/B-IIb",
+      "width": 154,
+      "height": 181
     },
     "slug": "la-siguiente-senal-i-18-se-utiliza-para-indicar-b-iib-138",
     "publish": false,
@@ -2680,7 +2802,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-139.png",
-      "alt": "Señal I-19 del balotario B-IIa/B-IIb"
+      "alt": "Señal I-19 del balotario B-IIa/B-IIb",
+      "width": 136,
+      "height": 169
     },
     "slug": "la-siguiente-senal-i-19-se-utiliza-para-indicar-b-iib-139",
     "publish": false,
@@ -2701,7 +2825,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-140.png",
-      "alt": "Señal I-20 del balotario B-IIa/B-IIb"
+      "alt": "Señal I-20 del balotario B-IIa/B-IIb",
+      "width": 140,
+      "height": 172
     },
     "slug": "la-siguiente-senal-i-20-se-utiliza-para-indicar-1-29-b-iib-140",
     "publish": false,
@@ -2722,7 +2848,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-141.png",
-      "alt": "Señal R-16A del balotario B-IIa/B-IIb"
+      "alt": "Señal R-16A del balotario B-IIa/B-IIb",
+      "width": 155,
+      "height": 239
     },
     "slug": "la-siguiente-senal-r-16a-se-utiliza-para-indicar-b-iib-141",
     "publish": false,
@@ -2779,7 +2907,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-144.png",
-      "alt": "Señal P-61 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-61 del balotario B-IIa/B-IIb",
+      "width": 146,
+      "height": 171
     },
     "slug": "la-siguiente-senal-p-61-muestra-b-iib-144",
     "publish": false,
@@ -3142,7 +3272,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-164.png",
-      "alt": "Señal P-15 del balotario B-IIa/B-IIb"
+      "alt": "Señal P-15 del balotario B-IIa/B-IIb",
+      "width": 178,
+      "height": 185
     },
     "slug": "la-siguiente-senal-p-15-se-utiliza-para-advertir-al-conducto-b-iib-164",
     "publish": false,
@@ -3163,7 +3295,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-165.png",
-      "alt": "Señal P-31A del balotario B-IIa/B-IIb"
+      "alt": "Señal P-31A del balotario B-IIa/B-IIb",
+      "width": 191,
+      "height": 197
     },
     "slug": "la-siguiente-senal-p-31a-indica-b-iib-165",
     "publish": false,
@@ -3256,7 +3390,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-170.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
+      "width": 222,
+      "height": 219
     },
     "slug": "cual-es-la-accion-correcta-del-conductor-segun-las-normas-de-b-iib-170",
     "publish": false,
@@ -3481,7 +3617,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-182.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
+      "width": 237,
+      "height": 496
     },
     "slug": "de-acuerdo-al-siguienten-grafico-es-correcto-afirmar-que-b-iib-182",
     "publish": false,
@@ -3718,7 +3856,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-195.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
+      "width": 144,
+      "height": 145
     },
     "slug": "la-siguiente-senal-de-autorizacion-le-indica-que-b-iib-195",
     "publish": false,

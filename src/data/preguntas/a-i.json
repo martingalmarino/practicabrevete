@@ -62,7 +62,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/senales/r-6-prohibido-izquierda.svg",
-      "alt": "Señal reglamentaria R-6: prohibido voltear a la izquierda"
+      "alt": "Señal reglamentaria R-6: prohibido voltear a la izquierda",
+      "width": 120,
+      "height": 120
     },
     "explicacion": {
       "texto": "La señal reglamentaria R-6 prohíbe girar a la izquierda. Esa restricción también impide el giro en U en el mismo punto, porque el giro en U implica un giro a la izquierda. Debes continuar de frente o girar solo donde esté permitido. Identificar el código de la señal ayuda a no confundirla con otras prohibiciones.",
@@ -89,7 +91,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-004.png",
-      "alt": "Señal reglamentaria R-3: círculo rojo con flecha negra hacia arriba"
+      "alt": "Señal reglamentaria R-3: círculo rojo con flecha negra hacia arriba",
+      "width": 162,
+      "height": 158
     },
     "explicacion": {
       "texto": "La señal vertical reglamentaria R-3 indica sentido obligatorio de circulación hacia adelante: el único desplazamiento permitido es continuar de frente. No señala zonas restringidas ni autoriza adelantar. Ante esta señal debes mantener el carril y el sentido indicado, sin giros laterales.",
@@ -140,7 +144,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/senales/semaforo.svg",
-      "alt": "Semáforo vertical con luces roja, ámbar y verde"
+      "alt": "Semáforo vertical con luces roja, ámbar y verde",
+      "width": 80,
+      "height": 160
     },
     "explicacion": {
       "texto": "El ámbar o amarillo del semáforo advierte que el derecho de paso está por terminar. Debes detenerte antes de la intersección si tu velocidad y ubicación lo permiten; si ya no es seguro frenar, cruza y despeja la intersección. No aceleres para “ganar” el amarillo.",
@@ -167,7 +173,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/senales/semaforo.svg",
-      "alt": "Semáforo vertical con luces roja, ámbar y verde"
+      "alt": "Semáforo vertical con luces roja, ámbar y verde",
+      "width": 80,
+      "height": 160
     },
     "explicacion": {
       "texto": "En el semáforo, el rojo ordena detención, el ámbar o amarillo indica prevención y el verde autoriza el paso cuando la vía está despejada. Memorizar “detención – prevención – paso” evita confusiones con significados inventados como circular más rápido en verde.",
@@ -218,7 +226,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-009.png",
-      "alt": "Señal reglamentaria R-53: vehículo sobre una cuadrícula, cruzado por una diagonal roja"
+      "alt": "Señal reglamentaria R-53: vehículo sobre una cuadrícula, cruzado por una diagonal roja",
+      "width": 176,
+      "height": 183
     },
     "explicacion": {
       "texto": "Cuando el semáforo está en rojo debes detener el vehículo. No avances ni “te adelantes” a la línea de parada. Solo puedes cruzar si un efectivo policial asignado al tránsito te lo indica o si existe una excepción expresa de la norma. La detención protege a quienes tienen luz verde.",
@@ -293,7 +303,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/senales/pare.svg",
-      "alt": "Señal octogonal de PARE"
+      "alt": "Señal octogonal de PARE",
+      "width": 120,
+      "height": 120
     },
     "explicacion": {
       "texto": "La luz roja intermitente se comporta como una señal de PARE: debes detenerte por completo y solo continuar cuando sea seguro y te corresponda el paso. No necesitas que un policía confirme la orden. Esta equivalencia evita confusiones en intersecciones con semáforo en modo intermitente.",
@@ -440,7 +452,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-018.png",
-      "alt": "Señal reglamentaria R-29: bocina tachada con una diagonal roja"
+      "alt": "Señal reglamentaria R-29: bocina tachada con una diagonal roja",
+      "width": 143,
+      "height": 176
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Prohíbe el uso de la bocina.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -683,7 +697,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-028.png",
-      "alt": "Señal preventiva P-22C: rombo amarillo con dos carriles que convergen en uno"
+      "alt": "Señal preventiva P-22C: rombo amarillo con dos carriles que convergen en uno",
+      "width": 151,
+      "height": 181
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Se aproxima un carril adicional.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -782,7 +798,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-032.png",
-      "alt": "Señales preventivas P-1A y P-2A: dos rombos amarillos con flecha de giro a la derecha, una en ángulo recto y otra en curva"
+      "alt": "Señales preventivas P-1A y P-2A: dos rombos amarillos con flecha de giro a la derecha, una en ángulo recto y otra en curva",
+      "width": 336,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «La señal P-1A advierte la presencia de curva pronunciada a la derecha mientras que la P-2A advierte la presencia de curva suave a la derecha.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -809,7 +827,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-033.png",
-      "alt": "Señal reglamentaria R-30F: 40 km/h dentro de un círculo rojo sobre fondo amarillo"
+      "alt": "Señal reglamentaria R-30F: 40 km/h dentro de un círculo rojo sobre fondo amarillo",
+      "width": 154,
+      "height": 180
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Regula la velocidad máxima permitida en curvas.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -860,7 +880,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-035.png",
-      "alt": "Gráfico de una intersección sin señalización con dos vehículos que llegan desde vías diferentes"
+      "alt": "Gráfico de una intersección sin señalización con dos vehículos que llegan desde vías diferentes",
+      "width": 309,
+      "height": 203
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «El que se aproxime por la derecha del otro.». Esta pregunta del balotario de clase A categoría I evalúa prioridad. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -1223,7 +1245,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-050.png",
-      "alt": "Señal preventiva P-17A: rombo amarillo con dos líneas que se acercan, indicando un estrechamiento de la calzada"
+      "alt": "Señal preventiva P-17A: rombo amarillo con dos líneas que se acercan, indicando un estrechamiento de la calzada",
+      "width": 162,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Reducción de la calzada en ambos lados.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -1634,7 +1658,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-067.png",
-      "alt": "Señal preventiva P-33A: rombo amarillo con el perfil de un resalto en la vía"
+      "alt": "Señal preventiva P-33A: rombo amarillo con el perfil de un resalto en la vía",
+      "width": 163,
+      "height": 184
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Señal de proximidad de un reductor de velocidad tipo resalto.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2261,7 +2287,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/a-i/a-i-093.png",
-      "alt": "Gráfico de dos vías con flechas inclinadas pintadas en el pavimento sobre el carril derecho y vehículos circulando"
+      "alt": "Gráfico de dos vías con flechas inclinadas pintadas en el pavimento sobre el carril derecho y vehículos circulando",
+      "width": 400,
+      "height": 512
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Cambiarse al carril izquierdo con precaución.». Esta pregunta del balotario de clase A categoría I evalúa prioridad. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2408,7 +2436,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-099.png",
-      "alt": "Gráfico de una vía de doble sentido con un vehículo rojo detrás de un vehículo azul, separados por línea amarilla"
+      "alt": "Gráfico de una vía de doble sentido con un vehículo rojo detrás de un vehículo azul, separados por línea amarilla",
+      "width": 400,
+      "height": 143
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «No puede hacerlo.». Esta pregunta del balotario de clase A categoría I evalúa prioridad. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2435,7 +2465,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-100.png",
-      "alt": "Señal reglamentaria R-17: automóvil tachado con una diagonal roja"
+      "alt": "Señal reglamentaria R-17: automóvil tachado con una diagonal roja",
+      "width": 166,
+      "height": 160
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Prohibida la circulación de vehículos automotores.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2462,7 +2494,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-101.png",
-      "alt": "Señal reglamentaria R-4: círculo rojo con franja blanca y el texto NO ENTRE"
+      "alt": "Señal reglamentaria R-4: círculo rojo con franja blanca y el texto NO ENTRE",
+      "width": 162,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que está por ingresar a una vía de sentido contrario y no debe entrar.». Esta pregunta del balotario de clase A categoría I evalúa prioridad. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2489,7 +2523,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-102.png",
-      "alt": "Señal preventiva P-36: rombo amarillo con un vehículo derrapando"
+      "alt": "Señal preventiva P-36: rombo amarillo con un vehículo derrapando",
+      "width": 162,
+      "height": 159
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Superficie deslizante.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2516,7 +2552,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-103.png",
-      "alt": "Señal reglamentaria R-14: flecha negra hacia la derecha dentro de un círculo rojo, con el texto CIRCULACIÓN"
+      "alt": "Señal reglamentaria R-14: flecha negra hacia la derecha dentro de un círculo rojo, con el texto CIRCULACIÓN",
+      "width": 131,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Circular solo en el sentido indicado por la flecha.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2543,7 +2581,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-104.png",
-      "alt": "Señal reglamentaria R-11A: círculo rojo con una flecha hacia abajo y dos flechas hacia arriba"
+      "alt": "Señal reglamentaria R-11A: círculo rojo con una flecha hacia abajo y dos flechas hacia arriba",
+      "width": 152,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que es una vía de tres carriles y usted puede utilizar los dos de la derecha.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2570,7 +2610,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-105.png",
-      "alt": "Señal reglamentaria R-30C: placa SALIDA sobre un círculo rojo con 50 km/h"
+      "alt": "Señal reglamentaria R-30C: placa SALIDA sobre un círculo rojo con 50 km/h",
+      "width": 131,
+      "height": 166
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que al salir de la vía por donde está circulando, la velocidad máxima es 50 km/h.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2597,7 +2639,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-106.png",
-      "alt": "Señal reglamentaria R-5-4: flechas de giro a la izquierda y a la derecha con el texto SOLO"
+      "alt": "Señal reglamentaria R-5-4: flechas de giro a la izquierda y a la derecha con el texto SOLO",
+      "width": 129,
+      "height": 180
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que la intersección contempla giros tangentes a la izquierda en ambos sentidos.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2624,7 +2668,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-107.png",
-      "alt": "Señal reglamentaria R-9: flecha en U dentro de un círculo rojo"
+      "alt": "Señal reglamentaria R-9: flecha en U dentro de un círculo rojo",
+      "width": 158,
+      "height": 182
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que está permitido el giro en U.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2651,7 +2697,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-108.png",
-      "alt": "Señal reglamentaria R-5-2: flecha recta y flecha hacia la izquierda que salen de un mismo tronco"
+      "alt": "Señal reglamentaria R-5-2: flecha recta y flecha hacia la izquierda que salen de un mismo tronco",
+      "width": 133,
+      "height": 179
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que el carril por donde circula permite girar a la izquierda o seguir de frente.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2678,7 +2726,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-109.png",
-      "alt": "Señal reglamentaria R-20: peatón con una flecha hacia la izquierda dentro de un círculo rojo"
+      "alt": "Señal reglamentaria R-20: peatón con una flecha hacia la izquierda dentro de un círculo rojo",
+      "width": 147,
+      "height": 179
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que los peatones deben circular por la izquierda.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2705,7 +2755,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/a-i/a-i-110.png",
-      "alt": "Señal reglamentaria R-40: símbolo de faro con luces dentro de un círculo rojo"
+      "alt": "Señal reglamentaria R-40: símbolo de faro con luces dentro de un círculo rojo",
+      "width": 153,
+      "height": 179
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Circular con luces bajas.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2732,7 +2784,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-111.png",
-      "alt": "Señal reglamentaria R-48: camión y peatón dentro de un círculo rojo"
+      "alt": "Señal reglamentaria R-48: camión y peatón dentro de un círculo rojo",
+      "width": 155,
+      "height": 181
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Zona de carga y descarga.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2759,7 +2813,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-112.png",
-      "alt": "Señal reglamentaria R-49: dos automóviles en carriles dentro de un círculo rojo"
+      "alt": "Señal reglamentaria R-49: dos automóviles en carriles dentro de un círculo rojo",
+      "width": 153,
+      "height": 182
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Se debe mantener la distancia de seguridad entre vehículos.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2786,7 +2842,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-113.png",
-      "alt": "Señal reglamentaria R-50: flechas en sentidos opuestos con el texto PREFERENCIA AL SENTIDO CONTRARIO"
+      "alt": "Señal reglamentaria R-50: flechas en sentidos opuestos con el texto PREFERENCIA AL SENTIDO CONTRARIO",
+      "width": 143,
+      "height": 242
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que si solo hay un carril no tiene preferencia el que está mirando la señal y debe darle paso al del sentido contrario.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2813,7 +2871,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-114.png",
-      "alt": "Señal reglamentaria R-5-1: flecha curva hacia la izquierda con el texto SOLO"
+      "alt": "Señal reglamentaria R-5-1: flecha curva hacia la izquierda con el texto SOLO",
+      "width": 137,
+      "height": 160
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Una señal de obligación.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2840,7 +2900,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-115.png",
-      "alt": "Señal preventiva P-3A: rombo amarillo con flecha en curva y contracurva"
+      "alt": "Señal preventiva P-3A: rombo amarillo con flecha en curva y contracurva",
+      "width": 148,
+      "height": 178
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Hay una curva y contra- curva pronunciada a la derecha.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2867,7 +2929,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/a-i/a-i-116.png",
-      "alt": "Señal preventiva P-5-1A: rombo amarillo con flecha sinuosa"
+      "alt": "Señal preventiva P-5-1A: rombo amarillo con flecha sinuosa",
+      "width": 158,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Se aproxima a un camino sinuoso a la izquierda.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2894,7 +2958,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-117.png",
-      "alt": "Señal preventiva P-61: rectángulo amarillo con un chevron negro hacia la derecha"
+      "alt": "Señal preventiva P-61: rectángulo amarillo con un chevron negro hacia la derecha",
+      "width": 113,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Está circulando por una curva horizontal.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2921,7 +2987,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/a-i/a-i-118.png",
-      "alt": "Señal preventiva P-34: rombo amarillo con el perfil de un badén"
+      "alt": "Señal preventiva P-34: rombo amarillo con el perfil de un badén",
+      "width": 162,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Se aproxima a un badén.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2948,7 +3016,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-119.png",
-      "alt": "Señal preventiva P-60: banderola amarilla triangular con el texto NO ADELANTAR"
+      "alt": "Señal preventiva P-60: banderola amarilla triangular con el texto NO ADELANTAR",
+      "width": 192,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Una señal preventiva.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -2975,7 +3045,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-120.png",
-      "alt": "Señal preventiva P-46: rombo amarillo verdoso con una bicicleta"
+      "alt": "Señal preventiva P-46: rombo amarillo verdoso con una bicicleta",
+      "width": 159,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Ciclistas en la vía.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3002,7 +3074,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-121.png",
-      "alt": "Señal preventiva P-46A: rombo amarillo verdoso con una bicicleta entre líneas discontinuas"
+      "alt": "Señal preventiva P-46A: rombo amarillo verdoso con una bicicleta entre líneas discontinuas",
+      "width": 160,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que nos aproximamos a un cruce de ciclovía.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3029,7 +3103,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/a-i/a-i-122.png",
-      "alt": "Señal preventiva P-46B: rombo con bicicleta y placa con flecha diagonal hacia abajo"
+      "alt": "Señal preventiva P-46B: rombo con bicicleta y placa con flecha diagonal hacia abajo",
+      "width": 146,
+      "height": 237
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «La ubicación de un cruce de ciclistas.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3056,7 +3132,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-123.png",
-      "alt": "Señal preventiva P-48: rombo amarillo verdoso con un peatón caminando"
+      "alt": "Señal preventiva P-48: rombo amarillo verdoso con un peatón caminando",
+      "width": 159,
+      "height": 184
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Zona con presencia de peatones.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3083,7 +3161,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-124.png",
-      "alt": "Señal preventiva P-48A: rombo amarillo verdoso con un peatón sobre franjas de cruce"
+      "alt": "Señal preventiva P-48A: rombo amarillo verdoso con un peatón sobre franjas de cruce",
+      "width": 160,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Proximidad a un cruce peatonal.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3110,7 +3190,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-125.png",
-      "alt": "Señal preventiva P-48B: rombo con peatón sobre franjas y placa con flecha diagonal hacia abajo"
+      "alt": "Señal preventiva P-48B: rombo con peatón sobre franjas y placa con flecha diagonal hacia abajo",
+      "width": 144,
+      "height": 237
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Ubicación de un cruce peatonal.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3137,7 +3219,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/a-i/a-i-126.png",
-      "alt": "Señal preventiva P-49: pentágono amarillo verdoso con dos escolares caminando"
+      "alt": "Señal preventiva P-49: pentágono amarillo verdoso con dos escolares caminando",
+      "width": 163,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Zona escolar.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3164,7 +3248,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-127.png",
-      "alt": "Señal preventiva P-49A: pentágono amarillo verdoso con dos escolares sobre franjas de cruce"
+      "alt": "Señal preventiva P-49A: pentágono amarillo verdoso con dos escolares sobre franjas de cruce",
+      "width": 152,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Proximidad a un cruce escolar.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3191,7 +3277,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-128.png",
-      "alt": "Señal preventiva P-49B: pentágono con escolares y placa con flecha diagonal hacia abajo"
+      "alt": "Señal preventiva P-49B: pentágono con escolares y placa con flecha diagonal hacia abajo",
+      "width": 145,
+      "height": 237
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Ubicación de un cruce escolar». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3218,7 +3306,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/a-i/a-i-129.png",
-      "alt": "Señal preventiva P-50: rombo amarillo verdoso con un niño corriendo tras una pelota"
+      "alt": "Señal preventiva P-50: rombo amarillo verdoso con un niño corriendo tras una pelota",
+      "width": 160,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Niños jugando.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3245,7 +3335,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-130.png",
-      "alt": "Señal preventiva P-51: rombo amarillo con un tractor"
+      "alt": "Señal preventiva P-51: rombo amarillo con un tractor",
+      "width": 167,
+      "height": 195
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Maquinaria agrícola en la vía.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3272,7 +3364,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-131.png",
-      "alt": "Señal preventiva P-53: rombo amarillo con una vaca"
+      "alt": "Señal preventiva P-53: rombo amarillo con una vaca",
+      "width": 172,
+      "height": 195
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Animales en la vía.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3299,7 +3393,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-132.png",
-      "alt": "Señal preventiva P-55: rombo amarillo con un semáforo"
+      "alt": "Señal preventiva P-55: rombo amarillo con un semáforo",
+      "width": 179,
+      "height": 195
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Proximidad a un semáforo.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3326,7 +3422,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/a-i/a-i-133.png",
-      "alt": "Señal preventiva P-58: rombo amarillo con flecha hacia arriba y señal de PARE"
+      "alt": "Señal preventiva P-58: rombo amarillo con flecha hacia arriba y señal de PARE",
+      "width": 159,
+      "height": 193
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que usted se aproxima a una señal de PARE.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3353,7 +3451,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/a-i/a-i-134.png",
-      "alt": "Señal preventiva P-59: rombo amarillo con flecha hacia arriba y triángulo de ceda el paso"
+      "alt": "Señal preventiva P-59: rombo amarillo con flecha hacia arriba y triángulo de ceda el paso",
+      "width": 179,
+      "height": 195
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que usted se aproxima a una señal de CEDA EL PASO.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3380,7 +3480,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-135.png",
-      "alt": "Señal preventiva P-41: rombo amarillo con la silueta de la boca de un túnel"
+      "alt": "Señal preventiva P-41: rombo amarillo con la silueta de la boca de un túnel",
+      "width": 176,
+      "height": 194
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que usted se aproxima a un túnel.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3407,7 +3509,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-136.png",
-      "alt": "Señal preventiva P-45: rombo amarillo con un avión"
+      "alt": "Señal preventiva P-45: rombo amarillo con un avión",
+      "width": 164,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Vuelo de aviones a baja altura.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3434,7 +3538,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-137.png",
-      "alt": "Señal preventiva P-52: rombo amarillo con un camión de bomberos"
+      "alt": "Señal preventiva P-52: rombo amarillo con un camión de bomberos",
+      "width": 168,
+      "height": 195
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que se aproxima a una salida de vehículos de bomberos.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3461,7 +3567,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-138.png",
-      "alt": "Señal preventiva P-66: rombo amarillo con un árbol inclinado por el viento"
+      "alt": "Señal preventiva P-66: rombo amarillo con un árbol inclinado por el viento",
+      "width": 170,
+      "height": 193
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que se aproxima una zona donde hay ráfagas de viento lateral.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3488,7 +3596,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-139.png",
-      "alt": "Señal preventiva P-66A: rombo amarillo con una vía y elementos desprendiéndose de un talud"
+      "alt": "Señal preventiva P-66A: rombo amarillo con una vía y elementos desprendiéndose de un talud",
+      "width": 157,
+      "height": 184
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que se acerca a una zona de arenamiento en la vía.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3515,7 +3625,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-140.png",
-      "alt": "Señal informativa verde con un esquema de calles, una prohibición de girar a la izquierda y el texto AV. ORIENTE"
+      "alt": "Señal informativa verde con un esquema de calles, una prohibición de girar a la izquierda y el texto AV. ORIENTE",
+      "width": 194,
+      "height": 229
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «En la siguiente intersección está prohibido girar a la izquierda y por lo tanto, si desea seguir esa ruta debe tomar el camino alternativo que muestra la señal.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3542,7 +3654,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/a-i/a-i-141.png",
-      "alt": "Señal informativa verde con un esquema de manzanas y una flecha que rodea la cuadra"
+      "alt": "Señal informativa verde con un esquema de manzanas y una flecha que rodea la cuadra",
+      "width": 298,
+      "height": 184
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Si quiere girar a la izquierda debe pasar la intersección y dar la vuelta a la manzana.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3569,7 +3683,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-142.png",
-      "alt": "Señal informativa I-14: letra H blanca sobre fondo azul"
+      "alt": "Señal informativa I-14: letra H blanca sobre fondo azul",
+      "width": 156,
+      "height": 193
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Señal de hospital.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3596,7 +3712,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/a-i/a-i-143.png",
-      "alt": "Señal informativa I-31: vía con bordes y línea discontinua sobre fondo azul"
+      "alt": "Señal informativa I-31: vía con bordes y línea discontinua sobre fondo azul",
+      "width": 158,
+      "height": 195
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Proximidad de un estacionamiento para emergencias.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3623,7 +3741,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-144.png",
-      "alt": "Señal informativa I-9: silueta de una persona con un teléfono sobre fondo azul"
+      "alt": "Señal informativa I-9: silueta de una persona con un teléfono sobre fondo azul",
+      "width": 149,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Zona militar.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3650,7 +3770,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-145.png",
-      "alt": "Señal informativa I-18: llave de herramienta sobre fondo azul"
+      "alt": "Señal informativa I-18: llave de herramienta sobre fondo azul",
+      "width": 183,
+      "height": 178
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Cercanía a un servicio mecánico.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3677,7 +3799,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-146.png",
-      "alt": "Señal informativa I-19: surtidor de combustible sobre fondo azul"
+      "alt": "Señal informativa I-19: surtidor de combustible sobre fondo azul",
+      "width": 147,
+      "height": 181
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Cercanía a un grifo.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3704,7 +3828,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/a-i/a-i-147.png",
-      "alt": "Señal informativa I-20: neumático sobre fondo azul"
+      "alt": "Señal informativa I-20: neumático sobre fondo azul",
+      "width": 157,
+      "height": 194
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Cercanía a una llantería.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3731,7 +3857,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-148.png",
-      "alt": "Señal reglamentaria R-16A: automóviles tachados con diagonal negra y el texto FIN RESTRICCIÓN"
+      "alt": "Señal reglamentaria R-16A: automóviles tachados con diagonal negra y el texto FIN RESTRICCIÓN",
+      "width": 135,
+      "height": 241
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Fin de la restricción de prohibido adelantar.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3806,7 +3934,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-151.png",
-      "alt": "Señal preventiva P-61: rectángulo amarillo con un chevron negro hacia la derecha"
+      "alt": "Señal preventiva P-61: rectángulo amarillo con un chevron negro hacia la derecha",
+      "width": 117,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Delineadores de curva, que guían al conductor.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -4529,7 +4659,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/a-i/a-i-181.png",
-      "alt": "Señal preventiva P-15: rombo amarillo con tres flechas en círculo (rotonda)"
+      "alt": "Señal preventiva P-15: rombo amarillo con tres flechas en círculo (rotonda)",
+      "width": 149,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «La proximidad de una intersección rotatoria (óvalo o rotonda).». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -4556,7 +4688,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/a-i/a-i-182.png",
-      "alt": "Señal preventiva P-31A: rombo amarillo con una vía de calzadas separadas"
+      "alt": "Señal preventiva P-31A: rombo amarillo con una vía de calzadas separadas",
+      "width": 160,
+      "height": 183
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «, indica: a) La proximidad del final de la vía.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -4679,7 +4813,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-187.png",
-      "alt": "Gráfico de una intersección en cruz con un vehículo rojo que se aproxima"
+      "alt": "Gráfico de una intersección en cruz con un vehículo rojo que se aproxima",
+      "width": 294,
+      "height": 289
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Dar preferencia de paso al peatón para que cruce la calzada.». Esta pregunta del balotario de clase A categoría I evalúa prioridad. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -4922,7 +5058,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/a-i/a-i-197.png",
-      "alt": "Gráfico de una zona escolar vista desde arriba con señales verticales y marcas en el pavimento"
+      "alt": "Gráfico de una zona escolar vista desde arriba con señales verticales y marcas en el pavimento",
+      "width": 400,
+      "height": 137
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Señalización de tránsito vertical y horizontal en una zona escolar.». Esta pregunta del balotario de clase A categoría I evalúa prioridad. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -4973,7 +5111,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/a-i/a-i-199.png",
-      "alt": "Marcas en el pavimento: malla ortogonal amarilla en el área de una intersección"
+      "alt": "Marcas en el pavimento: malla ortogonal amarilla en el área de una intersección",
+      "width": 214,
+      "height": 172
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que no puede detener el vehículo dentro del área de intersección.». Esta pregunta del balotario de clase A categoría I evalúa prioridad. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -5000,7 +5140,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-200.png",
-      "alt": "Gráfico de una vía con líneas amarillas, un vehículo rojo y uno amarillo vistos desde arriba"
+      "alt": "Gráfico de una vía con líneas amarillas, un vehículo rojo y uno amarillo vistos desde arriba",
+      "width": 231,
+      "height": 322
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «La zona de no adelantar inicia con las líneas amarillas continuas.». Esta pregunta del balotario de clase A categoría I evalúa prioridad. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",

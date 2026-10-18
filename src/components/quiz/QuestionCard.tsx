@@ -52,6 +52,8 @@ export function QuestionCard({
             <img
               src={question.imagen.src}
               alt={question.imagen.alt}
+              width={question.imagen.width}
+              height={question.imagen.height}
               class="h-auto max-h-48 w-full max-w-md object-contain"
               loading={index === 0 ? 'eager' : 'lazy'}
             />
