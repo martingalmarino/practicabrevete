@@ -8,23 +8,14 @@ function normalizePath(pathname: string): string {
   return path;
 }
 
-function looksLikeFile(path: string): boolean {
-  const last = path.split('/').filter(Boolean).pop() ?? '';
-  return /\.[a-z0-9]{2,8}$/i.test(last);
-}
-
 /**
  * URL absoluta en el dominio canónico (`https://www.simulacrobrevete.pe`).
- * Páginas con trailing slash (como el sitemap); archivos sin slash final.
+ * Sin trailing slash en rutas internas (salvo la home `/`).
  */
 export function absoluteUrl(pathname = '/'): string {
   let path = normalizePath(pathname);
 
-  if (path !== '/' && !looksLikeFile(path) && !path.endsWith('/')) {
-    path = `${path}/`;
-  }
-
-  if (looksLikeFile(path) && path.endsWith('/')) {
+  if (path !== '/' && path.endsWith('/')) {
     path = path.slice(0, -1);
   }
 

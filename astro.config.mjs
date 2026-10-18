@@ -11,7 +11,7 @@ import { categorias } from './src/data/categorias.ts';
 export default defineConfig({
   site: site.url,
   output: 'static',
-  trailingSlash: 'always',
+  trailingSlash: 'never',
   vite: {
     plugins: [tailwindcss()],
   },
