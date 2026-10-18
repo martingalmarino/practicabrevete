@@ -30,8 +30,11 @@ export function quizSchema(opts: {
   description: string;
   url: string;
   educationalLevel: string;
+  numberOfQuestions?: number;
+  isBasedOn?: string;
+  about?: string;
 }) {
-  return {
+  const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'Quiz',
     name: opts.name,
@@ -40,9 +43,12 @@ export function quizSchema(opts: {
     educationalLevel: opts.educationalLevel,
     learningResourceType: 'Quiz',
     inLanguage: site.locale,
-    numberOfQuestions: site.examRules.questionCount,
+    numberOfQuestions: opts.numberOfQuestions ?? site.examRules.questionCount,
     provider: { '@type': 'Organization', name: site.name, url: site.url },
   };
+  if (opts.isBasedOn) schema.isBasedOn = opts.isBasedOn;
+  if (opts.about) schema.about = opts.about;
+  return schema;
 }
 
 export function breadcrumbSchema(items: { name: string; url: string }[]) {
@@ -54,6 +60,21 @@ export function breadcrumbSchema(items: { name: string; url: string }[]) {
       position: i + 1,
       name: item.name,
       item: item.url,
+    })),
+  };
+}
+
+export function faqSchema(faqs: { q: string; a: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.a,
+      },
     })),
   };
 }

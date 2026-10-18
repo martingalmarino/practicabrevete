@@ -4,9 +4,9 @@ import Logo from '../brand/Logo.astro';
 const pathname = Astro.url.pathname;
 
 const links = [
-  { href: '/practica/senales', label: 'Practicar', match: '/practica' },
-  { href: '/simulacro/a-i', label: 'Simulacro', match: '/simulacro' },
-  { href: '/guias/como-sacar-brevete-a-i', label: 'Guías', match: '/guias' },
+  { href: '/practica/senales/', label: 'Practicar', match: '/practica' },
+  { href: '/simulacro/', label: 'Simulacro', match: '/simulacro' },
+  { href: '/guias/como-sacar-brevete-a-i/', label: 'Guías', match: '/guias' },
 ];
 ---
 
@@ -45,7 +45,7 @@ const links = [
     </nav>
 
     <div class="flex items-center justify-end gap-2 justify-self-end">
-      <a href="/simulacro/a-i" class="btn-header hidden md:inline-flex">
+      <a href="/simulacro/a-i/" class="btn-header hidden md:inline-flex">
         Empezar simulacro
       </a>
 
@@ -89,7 +89,7 @@ const links = [
           );
         })
       }
-      <a href="/simulacro/a-i" class="btn-primary mt-2 w-full">Empezar simulacro</a>
+      <a href="/simulacro/a-i/" class="btn-primary mt-2 w-full">Empezar simulacro</a>
     </nav>
   </div>
 </header>

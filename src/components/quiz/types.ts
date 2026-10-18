@@ -6,7 +6,7 @@ export interface QuizQuestion {
   opciones: string[];
   correcta: number;
   imagen?: { src: string; alt: string } | null;
-  explicacion: {
+  explicacion?: {
     texto: string;
     status: string;
     baseLegal: string;

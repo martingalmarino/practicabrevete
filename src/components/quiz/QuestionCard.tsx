@@ -126,26 +126,32 @@ export function QuestionCard({
         </p>
       )}
 
-      {showFeedback && question.explicacion?.texto && (
-        <div class="mt-4">
-          {onToggleExplicacion && (
-            <button type="button" class="btn-secondary !min-h-11 text-sm" onClick={onToggleExplicacion}>
-              {showExplicacion ? 'Ocultar explicación' : 'Ver explicación'}
-            </button>
-          )}
-          {(showExplicacion || !onToggleExplicacion) && (
-            <div class="mt-3 rounded-[12px] border border-border bg-bg p-4 text-sm text-ink-muted">
-              <p class="font-semibold text-ink">Explicación</p>
-              <p class="mt-2 leading-relaxed">{question.explicacion.texto}</p>
-              {question.explicacion.baseLegal && !question.explicacion.baseLegal.startsWith('TODO') && (
-                <p class="mt-3 text-xs text-ink-muted">
-                  <span class="font-medium text-ink">Referencia:</span> {question.explicacion.baseLegal}
-                </p>
-              )}
-            </div>
-          )}
-        </div>
-      )}
+      {showFeedback &&
+        question.explicacion?.texto &&
+        question.explicacion.texto.length > 0 &&
+        !question.explicacion.texto.startsWith('TODO') &&
+        question.explicacion.status === 'revisada' && (
+          <div class="mt-4">
+            {onToggleExplicacion && (
+              <button type="button" class="btn-secondary !min-h-11 text-sm" onClick={onToggleExplicacion}>
+                {showExplicacion ? 'Ocultar explicación' : 'Ver explicación'}
+              </button>
+            )}
+            {(showExplicacion || !onToggleExplicacion) && (
+              <div class="mt-3 rounded-[12px] border border-border bg-bg p-4 text-sm text-ink-muted">
+                <p class="font-semibold text-ink">Explicación</p>
+                <p class="mt-2 leading-relaxed">{question.explicacion.texto}</p>
+                {question.explicacion.baseLegal &&
+                  question.explicacion.baseLegal.length > 0 &&
+                  !question.explicacion.baseLegal.startsWith('TODO') && (
+                    <p class="mt-3 text-xs text-ink-muted">
+                      <span class="font-medium text-ink">Referencia:</span> {question.explicacion.baseLegal}
+                    </p>
+                  )}
+              </div>
+            )}
+          </div>
+        )}
     </article>
   );
 }

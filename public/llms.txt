@@ -10,23 +10,28 @@ Sitio no oficial; no afiliado a entidades del Estado.
 
 ## URLs clave
 - https://www.simulacrobrevete.pe/
-- https://www.simulacrobrevete.pe/simulacro/a-i
-- https://www.simulacrobrevete.pe/practica/senales
-- https://www.simulacrobrevete.pe/practica/prioridad
-- https://www.simulacrobrevete.pe/repaso
-- https://www.simulacrobrevete.pe/guias/como-sacar-brevete-a-i
-- https://www.simulacrobrevete.pe/guias/senales-de-transito
-- https://www.simulacrobrevete.pe/guias/prioridad-de-paso-y-rotondas
-- https://www.simulacrobrevete.pe/guias/errores-comunes-examen
-- https://www.simulacrobrevete.pe/guias/como-estudiar-en-7-dias
-- https://www.simulacrobrevete.pe/guias/examen-de-manejo-practico
-- https://www.simulacrobrevete.pe/acerca
-- https://www.simulacrobrevete.pe/contacto
-- https://www.simulacrobrevete.pe/aviso-legal
+- https://www.simulacrobrevete.pe/simulacro/
+- https://www.simulacrobrevete.pe/simulacro/a-i/
+- https://www.simulacrobrevete.pe/simulacro/b-iib/
+- https://www.simulacrobrevete.pe/practica/senales/
+- https://www.simulacrobrevete.pe/practica/prioridad/
+- https://www.simulacrobrevete.pe/repaso/
+- https://www.simulacrobrevete.pe/guias/como-sacar-brevete-a-i/
+- https://www.simulacrobrevete.pe/guias/senales-de-transito/
+- https://www.simulacrobrevete.pe/guias/prioridad-de-paso-y-rotondas/
+- https://www.simulacrobrevete.pe/guias/errores-comunes-examen/
+- https://www.simulacrobrevete.pe/guias/como-estudiar-en-7-dias/
+- https://www.simulacrobrevete.pe/guias/examen-de-manejo-practico/
+- https://www.simulacrobrevete.pe/acerca/
+- https://www.simulacrobrevete.pe/contacto/
+- https://www.simulacrobrevete.pe/aviso-legal/
 
 ## Fuentes oficiales citadas
 - https://www.gob.pe/139-obtener-primera-licencia-de-conducir-brevete-examen-de-reglas-de-transito
 - https://www.gob.pe/institucion/mtc/informes-publicaciones/1928110-examen-de-conocimientos-para-postulantes-a-licencias-de-conducir
+- https://cdn.www.gob.pe/uploads/document/file/3298271/Balotario%20clase%20B%20categor%C3%ADas%20II-a%20y%20II-b.pdf.pdf
+- https://portal.mtc.gob.pe/transportes/terrestre/documentos/RD_Topicos_evaluacion_de_conocimientos.pdf
+- https://sierdgtt.mtc.gob.pe/
 
 ## Contacto
 contacto@simulacrobrevete.pe
