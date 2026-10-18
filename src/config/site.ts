@@ -3,9 +3,9 @@ export const site = {
   tagline: 'Simulador gratuito del examen de reglas de tránsito en Perú',
   description:
     'Practica el examen de conocimientos para el brevete con explicaciones, repaso de errores y progreso. Sitio independiente, no oficial.',
-  url: 'https://practicabrevete.pe',
-  domain: 'practicabrevete.pe',
-  email: 'contacto@practicabrevete.pe',
+  url: 'https://www.simulacrobrevete.pe',
+  domain: 'www.simulacrobrevete.pe',
+  email: 'contacto@simulacrobrevete.pe',
   locale: 'es-PE',
   language: 'es',
   /** Año del balotario de preguntas utilizado como fuente */

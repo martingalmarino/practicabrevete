@@ -2,8 +2,8 @@
 
 Simulador estático (Astro + Tailwind + Preact) del examen de reglas de tránsito para el brevete en Perú. Sitio **independiente**, no oficial.
 
-- Dominio configurado: `practicabrevete.pe`
-- Contacto: `contacto@practicabrevete.pe`
+- Dominio configurado: `www.simulacrobrevete.pe`
+- Contacto: `contacto@simulacrobrevete.pe`
 - Configuración central: [`src/config/site.ts`](src/config/site.ts)
 
 ## Requisitos

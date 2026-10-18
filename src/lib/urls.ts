@@ -14,7 +14,7 @@ function looksLikeFile(path: string): boolean {
 }
 
 /**
- * URL absoluta en el dominio canónico (`https://practicabrevete.pe`).
+ * URL absoluta en el dominio canónico (`https://www.simulacrobrevete.pe`).
  * Páginas con trailing slash (como el sitemap); archivos sin slash final.
  */
 export function absoluteUrl(pathname = '/'): string {

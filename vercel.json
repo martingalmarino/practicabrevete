@@ -2,8 +2,8 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.practicabrevete.pe" }],
-      "destination": "https://practicabrevete.pe/:path*",
+      "has": [{ "type": "host", "value": "simulacrobrevete.pe" }],
+      "destination": "https://www.simulacrobrevete.pe/:path*",
       "permanent": true
     }
   ],
