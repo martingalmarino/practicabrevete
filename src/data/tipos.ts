@@ -28,7 +28,7 @@ export interface Pregunta {
   opciones: string[];
   correcta: number;
   imagen?: PreguntaImagen | null;
-  explicacion: Explicacion;
+  explicacion?: Explicacion;
   slug: string;
   publish: boolean;
   fuente: string;

@@ -1,12 +1,21 @@
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 import type { Pregunta, TemaId } from '../data/tipos';
 import aI from '../data/preguntas/a-i.json';
+import bIIb from '../data/preguntas/b-iib.json';
 
 const banks: Record<string, Pregunta[]> = {
   'a-i': aI as Pregunta[],
+  'b-iib': bIIb as Pregunta[],
 };
 
 export function getBank(categoriaSlug: string): Pregunta[] {
-  return banks[categoriaSlug] ?? [];
+  const rawBank = banks[categoriaSlug] ?? [];
+  return rawBank.filter((q) => {
+    if (!q.imagen?.src) return true;
+    const publicPath = join(process.cwd(), 'public', q.imagen.src);
+    return existsSync(publicPath);
+  });
 }
 
 export function getAllQuestions(): Pregunta[] {

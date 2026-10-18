@@ -6,7 +6,7 @@ import ExamApp from '../../components/quiz/ExamApp';
 import { categorias, getCategoria } from '../../data/categorias';
 import { getBank } from '../../lib/questions';
 import { site } from '../../config/site';
-import { breadcrumbSchema, quizSchema } from '../../lib/schema';
+import { breadcrumbSchema, quizSchema, faqSchema } from '../../lib/schema';
 import { absoluteUrl } from '../../lib/urls';
 
 export function getStaticPaths() {
@@ -29,56 +29,178 @@ const questions = getBank(cat.slug).map((q) => ({
   slug: q.slug,
   publish: q.publish,
 }));
+
+const hasQuestions = questions.length > 0;
+const shouldIndex = cat.disponible && hasQuestions;
 ---
 
 <BaseLayout
-  title={`Simulacro ${cat.codigo}: examen de reglas de tránsito`}
-  description={`Simulacro gratuito de ${site.examRules.questionCount} preguntas para la categoría ${cat.codigo}. ${cat.descripcionCorta}`}
+  title={cat.seoTitle ?? `Simulacro ${cat.codigo}: examen de reglas de tránsito`}
+  description={cat.metaDescription ?? `Simulacro gratuito de ${site.examRules.questionCount} preguntas para la categoría ${cat.codigo}. ${cat.descripcionCorta}`}
+  noindex={!shouldIndex}
 >
   <Breadcrumbs
     items={[
       { label: 'Inicio', href: '/' },
-      { label: 'Simulacro', href: '/simulacro/a-i' },
+      { label: 'Simulacros', href: '/simulacro/' },
       { label: cat.codigo },
     ]}
   />
 
   <section class="container-page pb-14">
     <div class="quiz-shell">
-      <h1 class="heading-section">Simulacro {cat.codigo}</h1>
-      <p class="text-body mt-3">{cat.evalua}</p>
-      <p class="text-support mt-3">
-        Formato de práctica: {site.examRules.questionCount} preguntas · umbral de referencia{' '}
-        {site.examRules.passScore} · temporizador opcional de {site.examRules.timeLimitMinutes}{' '}
-        minutos.{' '}
-        <a href={site.examRules.sourceUrl} target="_blank" rel="noopener noreferrer">Fuente</a>
-      </p>
+      <h1 class="heading-section">{cat.h1 ?? `Simulacro ${cat.codigo}`}</h1>
+      
+      {cat.respuestaDirecta && (
+        <p class="text-body mt-4 leading-relaxed">{cat.respuestaDirecta}</p>
+      )}
 
-      <div class="mt-8">
-        <ExamApp
-          client:load
-          questions={questions}
-          categoria={cat.codigo}
-          passScore={site.examRules.passScore}
-          timeLimitMinutes={site.examRules.timeLimitMinutes}
-        />
-      </div>
+      <p class="text-body mt-3">{cat.evalua}</p>
+
+      {hasQuestions && (
+        <>
+          <p class="text-support mt-3">
+            Formato de práctica: {Math.min(site.examRules.questionCount, questions.length)} preguntas · umbral de referencia{' '}
+            {site.examRules.passScore} · temporizador opcional de {site.examRules.timeLimitMinutes}{' '}
+            minutos.
+          </p>
+
+          <div class="mt-8">
+            <ExamApp
+              client:load
+              questions={questions}
+              categoria={cat.codigo}
+              passScore={site.examRules.passScore}
+              timeLimitMinutes={site.examRules.timeLimitMinutes}
+            />
+          </div>
+        </>
+      )}
+
+      {!hasQuestions && (
+        <div class="mt-6 rounded-[12px] border border-border bg-surface p-6">
+          <p class="text-ink">
+            El banco de preguntas para esta categoría está en preparación. Consulta las guías generales mientras tanto:
+          </p>
+          <ul class="mt-3 space-y-2">
+            <li>
+              <a href="/guias/senales-de-transito/" class="text-brand hover:underline">
+                Señales de tránsito
+              </a>
+            </li>
+            <li>
+              <a href="/guias/prioridad-de-paso-y-rotondas/" class="text-brand hover:underline">
+                Prioridad de paso y rotondas
+              </a>
+            </li>
+          </ul>
+        </div>
+      )}
+
+      {cat.balotarioUrl && (
+        <div class="mt-8 rounded-[12px] border border-border bg-bg p-5">
+          <p class="text-sm font-semibold text-ink">Fuentes oficiales</p>
+          <ul class="mt-3 space-y-2 text-sm text-ink-muted">
+            <li>
+              <a href={cat.balotarioUrl} target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">
+                Balotario oficial (RD 004-2020-MTC/18)
+              </a>
+            </li>
+            <li>
+              <a href="https://portal.mtc.gob.pe/transportes/terrestre/documentos/RD_Topicos_evaluacion_de_conocimientos.pdf" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">
+                Directiva de evaluación del MTC
+              </a>
+            </li>
+            <li>
+              <a href="https://sierdgtt.mtc.gob.pe/" target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">
+                Simulador oficial del MTC
+              </a>
+            </li>
+          </ul>
+          <p class="mt-3 text-xs text-ink-muted">
+            Este sitio es independiente y no oficial. El examen real lo administra el MTC a través de las municipalidades.
+          </p>
+        </div>
+      )}
+
+      {cat.slug === 'a-i' && (
+        <div class="mt-8 rounded-[12px] border border-brand bg-brand-soft p-5">
+          <p class="text-sm font-semibold text-ink">¿Moto lineal?</p>
+          <p class="mt-2 text-sm text-ink-muted">
+            Si vas por brevete de moto lineal (B-IIb), practica el{' '}
+            <a href="/simulacro/b-iib/" class="font-semibold text-brand hover:underline">
+              simulacro B-IIb
+            </a>.
+          </p>
+        </div>
+      )}
+
+      {cat.slug === 'b-iib' && (
+        <div class="mt-8 space-y-4">
+          <div class="rounded-[12px] border border-border bg-surface p-5">
+            <p class="text-sm font-semibold text-ink">Enlaces relacionados</p>
+            <ul class="mt-3 space-y-2 text-sm">
+              <li>
+                <a href="/guias/senales-de-transito/" class="text-brand hover:underline">
+                  Señales de tránsito que más se preguntan
+                </a>
+              </li>
+              <li>
+                <a href="/guias/prioridad-de-paso-y-rotondas/" class="text-brand hover:underline">
+                  Prioridad de paso y rotondas
+                </a>
+              </li>
+              <li>
+                <a href="/simulacro/b-iic/" class="text-brand hover:underline">
+                  ¿Manejas mototaxi? Simulacro B-IIc
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      )}
+
+      {cat.faqs && cat.faqs.length > 0 && (
+        <div class="mt-10">
+          <h2 class="text-2xl font-bold text-ink">Preguntas frecuentes</h2>
+          <div class="mt-5 space-y-4">
+            {cat.faqs.map((faq) => (
+              <div class="rounded-[12px] border border-border bg-surface p-5">
+                <p class="font-semibold text-ink">{faq.q}</p>
+                <p class="mt-2 text-sm leading-relaxed text-ink-muted">{faq.a}</p>
+                {faq.fuenteUrl && (
+                  <p class="mt-2 text-xs text-ink-muted">
+                    Fuente:{' '}
+                    <a href={faq.fuenteUrl} target="_blank" rel="noopener noreferrer" class="text-brand hover:underline">
+                      {faq.fuenteUrl.includes('gob.pe') ? 'Portal del Estado peruano' : 'Enlace externo'}
+                    </a>
+                  </p>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   </section>
 
   <JsonLd
     data={[
-      quizSchema({
+      shouldIndex && quizSchema({
         name: `Simulacro ${cat.codigo}`,
         description: cat.evalua,
         url: absoluteUrl(Astro.url.pathname),
         educationalLevel: cat.codigo,
+        numberOfQuestions: Math.min(site.examRules.questionCount, questions.length),
+        isBasedOn: cat.balotarioUrl,
+        about: `Licencia de conducir clase ${cat.codigo.charAt(0)} categoría ${cat.codigo.substring(2)}`,
       }),
       breadcrumbSchema([
         { name: 'Inicio', url: absoluteUrl('/') },
-        { name: 'Simulacro', url: absoluteUrl('/simulacro/a-i') },
+        { name: 'Simulacros', url: absoluteUrl('/simulacro/') },
         { name: cat.codigo, url: absoluteUrl(Astro.url.pathname) },
       ]),
-    ]}
+      cat.faqs && cat.faqs.length > 0 && faqSchema(cat.faqs),
+    ].filter(Boolean)}
   />
 </BaseLayout>

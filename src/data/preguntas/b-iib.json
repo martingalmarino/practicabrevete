@@ -1,0 +1,3818 @@
+[
+  {
+    "id": "b-iib-001",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Respecto de los dispositivos de control o regulación del tránsito:",
+    "opciones": [
+      "Solo los peatones están obligados a su obediencia.",
+      "Los conductores y los peatones están obligados a su obediencia, salvo instrucción de la Policía Nacional del Perú asignada al tránsito que indique lo contrario.",
+      "Solo los conductores están obligados a su obediencia.",
+      "Los conductores están obligados a su obediencia, aun cuando la Policía Nacional del Perú asignada al tránsito pueda indicar lo contrario."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "respecto-de-los-dispositivos-de-control-o-regulacion-del-tra-b-iib-001",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-002",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La señal vertical reglamentaria R-6 \"prohibido voltear a la izquierda\", significa que:",
+    "opciones": [
+      "Está prohibido voltear a la izquierda y, por lo tanto también está prohibido el giro en U.",
+      "Está prohibido voltear a la izquierda, sin embargo, está permitido el giro en U.",
+      "El único sentido de desplazamiento es continuar de frente.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": {
+      "src": "/images/senales/r-6-prohibido-izquierda.svg",
+      "alt": "Señal reglamentaria R-6: prohibido voltear a la izquierda"
+    },
+    "slug": "la-senal-vertical-reglamentaria-r-6-prohibido-voltear-a-la-i-b-iib-002",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-003",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La señal vertical reglamentaria R-3 significa que:",
+    "opciones": [
+      "Nos acercamos a una zona restringida al tránsito.",
+      "Está permitido adelantar vehículos.",
+      "El único sentido de desplazamiento es continuar de frente.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/senales/r-3-solo-adelante.svg",
+      "alt": "Señal reglamentaria R-3: continuar de frente"
+    },
+    "slug": "la-senal-vertical-reglamentaria-r-3-significa-que-b-iib-003",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-004",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "En las vías, las marcas en el pavimento que son del tipo central discontinua y de color amarillo significan que:",
+    "opciones": [
+      "Está permitido cruzar al otro carril para el adelantamiento vehicular, si es que es seguro hacerlo.",
+      "No está permitido cruzar al otro carril para el adelantamiento vehicular.",
+      "Se está reduciendo el ancho de la calzada de la vía por donde se circula.",
+      "Se está frente a un lugar de cruce peatonal."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "en-las-vias-las-marcas-en-el-pavimento-que-son-del-tipo-cent-b-iib-004",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-005",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "El color ámbar o amarillo del semáforo significa que:",
+    "opciones": [
+      "Los vehículos deben avanzar.",
+      "Los vehículos deben detenerse.",
+      "Los vehículos deben acelerar la marcha.",
+      "Los vehículos deben detenerse antes de ingresar a la intersección si su velocidad y ubicación lo permiten; de lo contrario, deberán cruzar y despejar la intersección."
+    ],
+    "correcta": 3,
+    "imagen": {
+      "src": "/images/senales/semaforo.svg",
+      "alt": "Semáforo vertical con luces roja, ámbar y verde"
+    },
+    "slug": "el-color-ambar-o-amarillo-del-semaforo-significa-que-b-iib-005",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-006",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "Los colores del semáforo tienen el siguiente significado: rojo: ____ ; ámbar o amarillo: ____ ; verde: ____.",
+    "opciones": [
+      "Detención - prevención - paso.",
+      "Detención - paso con prevención - circulación rápida.",
+      "Disminución de la velocidad - prevención - paso rápido.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": {
+      "src": "/images/senales/semaforo.svg",
+      "alt": "Semáforo vertical con luces roja, ámbar y verde"
+    },
+    "slug": "los-colores-del-semaforo-tienen-el-siguiente-significado-roj-b-iib-006",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-007",
+    "categoria": "B-IIb",
+    "tema": "mecanica",
+    "enunciado": "¿Qué indica una flecha verde en un semáforo vehicular?",
+    "opciones": [
+      "Se puede continuar con precaución únicamente en la dirección de la flecha y desde el carril que esta flecha controla.",
+      "No está permitida la circulación en el sentido que indica la flecha.",
+      "Se debe respetar únicamente la luz circular.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "que-indica-una-flecha-verde-en-un-semaforo-vehicular-b-iib-007",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-008",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La siguiente señal vertical reglamentaria R-53:",
+    "opciones": [
+      "Prohíbe estacionar.",
+      "Prohíbe al conductor detener el vehículo dentro del área de la intersección.",
+      "Prohíbe la carga y descarga.",
+      "Prohíbe la circulación de vehículos motorizados."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-008.png",
+      "alt": "Señal R-53 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-vertical-reglamentaria-r-53-b-iib-008",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-009",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si llega a una intersección y visualiza el semáforo con una flecha roja hacia la izquierda y la luz circular verde prendidas al mismo tiempo, la acción correcta es:",
+    "opciones": [
+      "Avanzar en cualquier sentido, ya que la luz circular está en verde.",
+      "Avanzar, pero el giro a la izquierda está prohibido por la flecha roja.",
+      "Avanzar únicamente hacia la izquierda, pues continuar de frente está prohibido.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "si-llega-a-una-interseccion-y-visualiza-el-semaforo-con-una--b-iib-009",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-010",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si llega a una intersección donde el semáforo muestra una luz intermitente, qué afirmación es correcta:",
+    "opciones": [
+      "Si la luz intermitente es roja, ésta es equivalente a un \"CEDA EL PASO\".",
+      "Si la luz intermitente es ámbar, tiene preferencia, debiendo reducir la velocidad y continuar con precaución.",
+      "Si la luz intermitente es verde, ésta es equivalente a un \"PARE\".",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "si-llega-a-una-interseccion-donde-el-semaforo-muestra-una-lu-b-iib-010",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-011",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "¿La luz intermitente roja es igual que una señal de PARE?",
+    "opciones": [
+      "Verdad.",
+      "Es verdad siempre y cuando también se encuentre un Policía de Tránsito indicando la señal de Pare.",
+      "Falso.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": {
+      "src": "/images/senales/pare.svg",
+      "alt": "Señal octogonal de PARE"
+    },
+    "slug": "la-luz-intermitente-roja-es-igual-que-una-senal-de-pare-b-iib-011",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-012",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Al aproximarse a una intersección con giro permitido a la izquierda, la conducta correcta es:",
+    "opciones": [
+      "Girar desde cualquier carril.",
+      "Colocarse en el carril derecho, luego girar con precaución.",
+      "Colocarse en el carril más despejado de tráfico, luego girar con precaución.",
+      "Hacer la señal de volteo a la izquierda con las luces direccionales, ubicar con antelación el vehículo en el carril de circulación de la izquierda y girar con precaución."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "al-aproximarse-a-una-interseccion-con-giro-permitido-a-la-iz-b-iib-012",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-013",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Al cambiar de carril en una vía de un solo sentido con múltiples carriles, ¿cuál es la conducta correcta?",
+    "opciones": [
+      "Se deben encender las luces direccionales primero, buscar una brecha y realizar el cambio de carril con precaución.",
+      "Se debe encontrar una brecha, luego cambiar de carril con precaución; no es necesario el uso de luces direccionales para cambios de carril.",
+      "Se debe advertir utilizando el claxon, identificar una brecha y realizar el cambio de carril con precaución.",
+      "Está prohibido el cambio de carril en vías de un solo sentido."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "al-cambiar-de-carril-en-una-via-de-un-solo-sentido-con-multi-b-iib-013",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-014",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Respecto a los cruces a nivel con vías férreas, señale la afirmación correcta:",
+    "opciones": [
+      "Los vehículos que transitan por la vía férrea tienen preferencia de paso sobre los que transitan por la vía que la cruza.",
+      "Los vehículos que transitan por la vía que cruza la línea férrea tienen preferencia de paso sobre los que transitan por la vía férrea.",
+      "El vehículo que llegue primero tiene preferencia.",
+      "Tiene preferencia el conductor que viene por la derecha del otro."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "respecto-a-los-cruces-a-nivel-con-vias-ferreas-senale-la-afi-b-iib-014",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-015",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "Ante la señal de color rojo del semáforo y la indicación de continuar la marcha del efectivo de la Policiía Nacional del Perú asignado al control del tránsito, corresponde:",
+    "opciones": [
+      "Detenerse hasta que cambie a luz verde.",
+      "Continuar la marcha.",
+      "Estar prevenido.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "ante-la-senal-de-color-rojo-del-semaforo-y-la-indicacion-de--b-iib-015",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-016",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Está prohibido estacionar un vehículo:",
+    "opciones": [
+      "En las curvas.",
+      "Dentro de una intersección.",
+      "Frente a la entrada de garajes y de recintos militares o policiales.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "esta-prohibido-estacionar-un-vehiculo-b-iib-016",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-017",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal vertical reglamentaria (R-29:",
+    "opciones": [
+      "Prohíbe el uso de la bocina en vías urbanas.",
+      "Prohíbe el uso de la bocina en carreteras.",
+      "Prohíbe el uso de la bocina.",
+      "Prohíbe hacer ruido."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-017.png",
+      "alt": "Señal R-29 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-vertical-reglamentaria-r-29-b-iib-017",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-018",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "Se le impondrá el pago de una multa y no podrá obtener la licencia de conducir por 3 años a la persona que:",
+    "opciones": [
+      "Conduzca un vehículo automotor sin tener licencia de conducir.",
+      "Conduzca un vehículo que no cuente con el equipamiento para brindar una máxima comodidad a sus ocupantes.",
+      "Conduzca un vehículo sin contar con el SOAT.",
+      "a y c son correctas"
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "se-le-impondra-el-pago-de-una-multa-y-no-podra-obtener-la-li-b-iib-018",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-019",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "En el supuesto que se encuentre manejando y un vehículo que tiene la intención de sobrepasarlo o adelantarlo lo alcance, ¿qué debería hacer usted?",
+    "opciones": [
+      "Debe aumentar la velocidad para no dejar que el otro vehículo lo pase.",
+      "No debe aumentar la velocidad hasta que el vehículo lo sobrepase.",
+      "Debe disminuir drásticamente la velocidad de su vehículo.",
+      "Debe detener su vehículo."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "en-el-supuesto-que-se-encuentre-manejando-y-un-vehiculo-que--b-iib-019",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-020",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "opciones": [
+      "El conductor debe respetar los límites máximos y mínimos de velocidad establecidos.",
+      "El conductor debe respetar únicamente los límites máximos de velocidad, pues no existen límites mínimos.",
+      "El conductor puede conducir a la velocidad que desee, siempre que lo haga de manera prudente.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "cual-de-las-siguientes-afirmaciones-es-correcta-b-iib-020",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-021",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "En la circulación vehicular, es correcto afirmar que:",
+    "opciones": [
+      "Los vehículos deben circular sobre líneas continuas delimitadoras de carriles, ante la congestion vehicular.",
+      "Los vehículos pueden circular sobre líneas continuas delimitadoras de carriles, ante la congestion vehicular.",
+      "Los vehículos deben circular dentro de las líneas de carril, salvo cuando se realicen las maniobras que indica el Reglamento Nacional de Tránsito.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "en-la-circulacion-vehicular-es-correcto-afirmar-que-b-iib-021",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-022",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "En caso de accidentes, el SOAT cubre los daños que sufren:",
+    "opciones": [
+      "Solo los ocupantes del vehículo.",
+      "Los ocupantes y terceros no ocupantes del vehículo.",
+      "Solo terceros afectados.",
+      "Solo el conductor del vehículo."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "en-caso-de-accidentes-el-soat-cubre-los-danos-que-sufren-b-iib-022",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-023",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "¿Cuál de los siguientes seguros es exigible para conducir un vehículo automotor?",
+    "opciones": [
+      "Cualquier tipo de seguro de accidentes personales que comercialicen las empresas de seguro.",
+      "Cualquier tipo de seguro vehicular, siempre que cubra a los ocupantes del vehículo y terceros afectados por un accidente de tránsito.",
+      "El Seguro Obligatorio de Accidentes de Tránsito - SOAT.",
+      "No es obligatorio contar con un seguro."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "cual-de-los-siguientes-seguros-es-exigible-para-conducir-un--b-iib-023",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-024",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Cuándo es obligatorio darle preferencia de paso a un vehículo de emergencia o vehículo oficial:",
+    "opciones": [
+      "Cuando emita señales visibles.",
+      "Cuando emita señales audibles.",
+      "Cuando emita señales audibles y visibles.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "cuando-es-obligatorio-darle-preferencia-de-paso-a-un-vehicul-b-iib-024",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-025",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si por el carril por donde está conduciendo se aproxima a un vehículo de transporte escolar que se encuentra detenido, recogiendo o dejando escolares ¿Qué debe hacer?",
+    "opciones": [
+      "Detener el vehículo y no continuar la marcha hasta que haya culminado el ascenso o descenso de los escolares.",
+      "Adelantar por el lado izquierdo, pero con precaución.",
+      "Tocar el claxon para alertar que está pasando.",
+      "Adelantar muy despacio."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "si-por-el-carril-por-donde-esta-conduciendo-se-aproxima-a-un-b-iib-025",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-026",
+    "categoria": "B-IIb",
+    "tema": "primeros-auxilios",
+    "enunciado": "¿Qué significa un triángulo rojo de seguridad colocado en la calzada?",
+    "opciones": [
+      "La presencia de un vehículo inmovilizado en la vía pública por alguna circunstancia.",
+      "Zona de obras por reparación en la calzada.",
+      "Que el vehículo que lo enfrenta debe detenerse.",
+      "a y c son correctas."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "que-significa-un-triangulo-rojo-de-seguridad-colocado-en-la--b-iib-026",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-027",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "¿En la conducción vehicular, existe excepción a la obligación de conservar la distancia obligatoria entre vehículos?",
+    "opciones": [
+      "Si existe, y es para los cortejos fúnebres, convoyes militares y policiales y caravanas autorizadas.",
+      "No existe ninguna excepción.",
+      "Si existe, y es para el caso de congestión vehicular.",
+      "La norma no regula la obligación de conservar una distancia obligatoria entre vehículos."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "en-la-conduccion-vehicular-existe-excepcion-a-la-obligacion--b-iib-027",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-028",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "En intersecciones que no tienen señales de Pare, Ceda el Paso o Semáforo, ¿las vías de doble sentido tienen prioridad de paso respecto a las vías de un solo sentido de igual clasificación?",
+    "opciones": [
+      "No.",
+      "Sí.",
+      "Depende de la intersección.",
+      "No se encuentra regulado en el reglamento."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "en-intersecciones-que-no-tienen-senales-de-pare-ceda-el-paso-b-iib-028",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-029",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si usted se aproxima a una señal de PARE colocada verticalmente o pintada en la vía, la acción correcta es:",
+    "opciones": [
+      "Disminuir su velocidad y cederle el paso a los vehículos que circulan por la transversal.",
+      "Disminuir su velocidad y pasar con cuidado.",
+      "Sobre parar y pasar rápidamente.",
+      "Parar por completo, ceder el paso a los usuarios que tengan preferencia y luego continuar con precaución."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "si-usted-se-aproxima-a-una-senal-de-pare-colocada-verticalme-b-iib-029",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-030",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "¿Cuál es la diferencia entre las señales P-2A y P-1A?",
+    "opciones": [
+      "No hay diferencia, se usan indistintamente.",
+      "La señal P-2A se utiliza en situaciones de mayor riesgo.",
+      "La señal P-1A advierte la presencia de curva pronunciada a la derecha mientras que la P-2A advierte la presencia de curva suave a la derecha.",
+      "La señal P-2A advierte la presencia de curva pronunciada a la derecha mientras que la P-1A advierte la presencia de curva suave a la derecha."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-030.png",
+      "alt": "Señal P-2A del balotario B-IIa/B-IIb"
+    },
+    "slug": "cual-es-la-diferencia-entre-las-senales-p-2a-y-p-1a-b-iib-030",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-031",
+    "categoria": "B-IIb",
+    "tema": "velocidades",
+    "enunciado": "¿Qué indica la señal R-30F?",
+    "opciones": [
+      "Tener precaución con vehículos lentos.",
+      "Regula la velocidad máxima permitida en curvas.",
+      "Regula la velocidad máxima en zonas rurales.",
+      "No se encuentra regulada en la norma."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-031.png",
+      "alt": "Señal R-30F del balotario B-IIa/B-IIb"
+    },
+    "slug": "que-indica-la-senal-r-30f-b-iib-031",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-032",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "¿Que indica la siguiente señal R-23?",
+    "opciones": [
+      "Prohibida la circulación de motocicletas.",
+      "No estacionar motocicletas.",
+      "a) y b) son correctas.",
+      "No se encuentra regulada en la norma."
+    ],
+    "correcta": 0,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-032.png",
+      "alt": "Señal R-23 del balotario B-IIa/B-IIb"
+    },
+    "slug": "que-indica-la-siguiente-senal-r-23-b-iib-032",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-033",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si dos vehículos se aproximan simultáneamente a una intersección no regulada (sin señalización) procedentes de vías diferentes, ¿quién tiene preferencia de paso?",
+    "opciones": [
+      "Cualquiera de los dos.",
+      "El que se aproxime por la derecha del otro.",
+      "El que se aproxime por la izquierda del otro.",
+      "El que haga sonar la bocina primero."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-033.png",
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+    },
+    "slug": "si-dos-vehiculos-se-aproximan-simultaneamente-a-una-intersec-b-iib-033",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-034",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "En una intersección no regulada (sin señalización) tiene preferencia de paso:",
+    "opciones": [
+      "El vehículo que ingresó primero a la intersección.",
+      "El vehículo que haga sonar la bocina primero.",
+      "El vehículo que haga cambio de luces primero.",
+      "Cualquier vehículo."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "en-una-interseccion-no-regulada-sin-senalizacion-tiene-prefe-b-iib-034",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-035",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "En una rotonda, tiene prioridad de paso el vehículo que:",
+    "opciones": [
+      "Quiere ingresar a la rotonda.",
+      "Circula por ella.",
+      "Acelera primero.",
+      "Hace sonar la bocina."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "en-una-rotonda-tiene-prioridad-de-paso-el-vehiculo-que-b-iib-035",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-036",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "El sobrepaso o adelantamiento de un vehículo en movimiento se efectúa, salvo excepciones, por la ____ retornando el vehículo después de la maniobra a su carril original.",
+    "opciones": [
+      "Derecha.",
+      "Izquierda.",
+      "Berma.",
+      "Por la derecha o izquierda."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "el-sobrepaso-o-adelantamiento-de-un-vehiculo-en-movimiento-s-b-iib-036",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-037",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si un conductor está tomando medicamentos y por ello siente sueño ¿qué debe hacer?",
+    "opciones": [
+      "Manejar normalmente.",
+      "Manejar despacio.",
+      "Abstenerse de manejar.",
+      "Manejar con un copiloto"
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "si-un-conductor-esta-tomando-medicamentos-y-por-ello-siente--b-iib-037",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-038",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "Son documentos que deben portarse obligatoriamente, durante la conducción del vehículo, y exhibirse cuando la autoridad competente lo solicite:",
+    "opciones": [
+      "Documento de identidad, SOAT vigente (puede ser virtual) y tarjeta de identificación vehicular.",
+      "Certificado de Inspección Técnica Vehicular y contrato de compraventa del vehículo.",
+      "Contrato de compraventa del vehículo.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "son-documentos-que-deben-portarse-obligatoriamente-durante-l-b-iib-038",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-039",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal indica:",
+    "opciones": [
+      "Que solo las motocicletas tienen preferencia de paso en la vía o carril.",
+      "Que solo las motocicletas pueden circular por la vía o carril.",
+      "Que las motocicletas pueden compartir la vía o carril con otro vehículo.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-039.png",
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-indica-b-iib-039",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-040",
+    "categoria": "B-IIb",
+    "tema": "mecanica",
+    "enunciado": "Al cambiar de dirección, un conductor debe:",
+    "opciones": [
+      "Señalizar toda la maniobra hasta su culminación.",
+      "Cambiar de dirección y luego señalizar.",
+      "No existe ninguna obligación.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "al-cambiar-de-direccion-un-conductor-debe-b-iib-040",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-041",
+    "categoria": "B-IIb",
+    "tema": "mecanica",
+    "enunciado": "¿Está permitido conducir un vehículo con el motor en punto neutro?",
+    "opciones": [
+      "Sí, pero solo si está bajando una pendiente.",
+      "No, está prohibido.",
+      "Sí, en caso de que el conductor no sea novato.",
+      "No se encuentra regulado en la norma."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "esta-permitido-conducir-un-vehiculo-con-el-motor-en-punto-ne-b-iib-041",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-042",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "Si la licencia de conducir no se encuentra vigente, los vehículos que autoriza a conducir dicha licencia:",
+    "opciones": [
+      "No podrán ser conducidos.",
+      "Podrán ser conducidos únicamente en zonas urbanas.",
+      "Podrán ser conducidos hasta por 90 días posteriores a la pérdida de vigencia de la licencia.",
+      "Podrán ser conducidos con normalidad hasta que renueve su licencia."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "si-la-licencia-de-conducir-no-se-encuentra-vigente-los-vehic-b-iib-042",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-043",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "De acuerdo con el sistema de control de licencias de conducir por puntos:",
+    "opciones": [
+      "Determinadas infracciones suman puntos.",
+      "Una infracción puede sumar o disminuir puntos, a elección del infractor.",
+      "Determinadas infracciones restan puntos.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "de-acuerdo-con-el-sistema-de-control-de-licencias-de-conduci-b-iib-043",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-044",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "¿Cuál es la consecuencia de acumular 100 puntos en la licencia de conducir en un período de 24 meses?",
+    "opciones": [
+      "Suspensión de licencia de conducir.",
+      "Anulación de la Placa Única Nacional de Rodaje.",
+      "Inhabilitación definitiva para obtener una licencia de conducir.",
+      "Internamiento vehicular."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "cual-es-la-consecuencia-de-acumular-100-puntos-en-la-licenci-b-iib-044",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-045",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Se entiende por carril a la:",
+    "opciones": [
+      "Parte de la vía destinada a la circulación de peatones.",
+      "Parte de la calzada destinada al tránsito de una fila de vehículos.",
+      "Vía rural destinada a la circulación de peatones y animales.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "se-entiende-por-carril-a-la-b-iib-045",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-046",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Se entiende por línea de parada a:",
+    "opciones": [
+      "La línea transversal marcada en la calzada antes de la intersección, que indica al conductor el límite para detener el vehículo.",
+      "Las líneas que se encuentran en los lugares del estacionamiento.",
+      "El lugar utilizado para embarcar y desembarcar pasajeros.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "se-entiende-por-linea-de-parada-a-b-iib-046",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-047",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal vertical reglamentaria P-17A, indica:",
+    "opciones": [
+      "Reducción de la calzada al lado derecho.",
+      "Reducción de la calzada al lado izquierdo.",
+      "Reducción de la calzada en ambos lados.",
+      "Ensanchamiento de la calzada en ambos lados."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-047.png",
+      "alt": "Señal P-17A del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-vertical-reglamentaria-p-17a-indica-b-iib-047",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-048",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "En caso de encontrar marcación de doble línea amarilla compuesta por un trazo continuo y otro trazo discontinuo en una vía de doble sentido, ¿qué se debe hacer?",
+    "opciones": [
+      "Se puede adelantar en ambos sentidos.",
+      "No está permitido adelantar en ningún sentido.",
+      "Respetar la línea que está de su lado (si es continua, no adelantar; si es discontinua, está permitido adelantar).",
+      "Respetar la línea que está de su lado (si es discontinua, no adelantar; si es continua, está permitido adelantar)"
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "en-caso-de-encontrar-marcacion-de-doble-linea-amarilla-compu-b-iib-048",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-049",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Se define como zona rígida al::",
+    "opciones": [
+      "Área donde se prohíbe la circulación de vehículos.",
+      "Área donde se prohíbe la circulación de peatones.",
+      "Área de la vía en la que se prohíbe el estacionamiento de vehículos.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "se-define-como-zona-rigida-al-b-iib-049",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-050",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La posición de frente o de espaldas ejecutada por el efectivo de la Policía Nacional del Perú asignado al control de tránsito significa:",
+    "opciones": [
+      "Obligación de detenerse de quien así lo enfrente.",
+      "Continuar la marcha por el carril izquierdo de la calzada.",
+      "Continuar la marcha.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "la-posicion-de-frente-o-de-espaldas-ejecutada-por-el-efectiv-b-iib-050",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-051",
+    "categoria": "B-IIb",
+    "tema": "velocidades",
+    "enunciado": "Siempre que no exista una señal de límite de velocidad, en zonas urbanas el límite máximo de velocidad en calles y jirones es de:",
+    "opciones": [
+      "30km/h.",
+      "40 km/h",
+      "60 km/h.",
+      "80 km/h"
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "siempre-que-no-exista-una-senal-de-limite-de-velocidad-en-zo-b-iib-051",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-052",
+    "categoria": "B-IIb",
+    "tema": "velocidades",
+    "enunciado": "Siempre que no exista una señal de límite de velocidad, en zonas urbanas el límite máximo de velocidad en avenidas es de:",
+    "opciones": [
+      "30krn/h.",
+      "40 km/h.",
+      "60 km/h.",
+      "80 km/h."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "siempre-que-no-exista-una-senal-de-limite-de-velocidad-en-zo-b-iib-052",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-053",
+    "categoria": "B-IIb",
+    "tema": "velocidades",
+    "enunciado": "Siempre que no exista una señal de límite de velocidad en zonas urbanas, el límite máximo de velocidad en zona escolar es de:",
+    "opciones": [
+      "20km/h",
+      "30 km/h.",
+      "35 km/h.",
+      "50 km/h."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "siempre-que-no-exista-una-senal-de-limite-de-velocidad-en-zo-b-iib-053",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-054",
+    "categoria": "B-IIb",
+    "tema": "velocidades",
+    "enunciado": "Siempre que no exista una señal de límite de velocidad en carreteras, el límite máximo de velocidad para automóviles, camionetas y motocicletas es de:",
+    "opciones": [
+      "80 km/h.",
+      "90 km/h.",
+      "100 km/h.",
+      "110 km/h."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "siempre-que-no-exista-una-senal-de-limite-de-velocidad-en-ca-b-iib-054",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-055",
+    "categoria": "B-IIb",
+    "tema": "velocidades",
+    "enunciado": "Siempre que no exista una señal de límite de velocidad en carreteras, el límite máximo de velocidad es de:",
+    "opciones": [
+      "80 km/h. para automóviles",
+      "90 km/h. para camionetas",
+      "70 km/h. para motocicletas",
+      "100 km/h. para automóviles, camionetas y motocicletas."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "siempre-que-no-exista-una-senal-de-limite-de-velocidad-en-ca-b-iib-055",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-056",
+    "categoria": "B-IIb",
+    "tema": "velocidades",
+    "enunciado": "Siempre que no exista una señal de límite de velocidad mínima, el límite mínimo de velocidad en zona urbana y en carreteras es de:",
+    "opciones": [
+      "30km/h.",
+      "La mitad de la velocidad máxima establecida para cada tipo de vía.",
+      "20 km/h.",
+      "15 km/h."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "siempre-que-no-exista-una-senal-de-limite-de-velocidad-minim-b-iib-056",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-057",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "¿Cuál es la sanción por conducir con presencia de alcohol en la sangre en proporción mayor a lo previsto en el Código Penal, o bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobado con el examen respectivo, o por negarse al mismo y que haya participado en un accidente de tránsito?",
+    "opciones": [
+      "Multa.",
+      "Cancelación de licencia de conducir.",
+      "Suspensión de la licencia de conducir.",
+      "Multa, cancelación de la licencia de conducir e inhabilitación definitiva para obtener una licencia de conducir."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "cual-es-la-sancion-por-conducir-con-presencia-de-alcohol-en--b-iib-057",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-058",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "¿Cuál es la sanción si en un operativo de alcoholemia usted es intervenido y se comprueba que ha consumido alcohol por encima del límite legal, o está conduciendo bajo los efectos de estupefacientes, narcóticos y/o alucinógenos comprobada con el examen respectivo?",
+    "opciones": [
+      "Una multa",
+      "La suspensión de la licencia de conducir.",
+      "Multa y suspensión de la licencia de conducir por 3 años.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "cual-es-la-sancion-si-en-un-operativo-de-alcoholemia-usted-e-b-iib-058",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-059",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "La frecuencia de la inspección técnica de una moto (categoría L3) y de un sidecar (categoría L4) es:",
+    "opciones": [
+      "Cada medio año.",
+      "Cada año.",
+      "Cada dos años.",
+      "Cada tres años."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "la-frecuencia-de-la-inspeccion-tecnica-de-una-moto-categoria-b-iib-059",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-060",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "¿Cuál es el plazo de vigencia del SOAT?",
+    "opciones": [
+      "1 año.",
+      "6 meses.",
+      "4 años.",
+      "2 años."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "cual-es-el-plazo-de-vigencia-del-soat-b-iib-060",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-061",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si ocurre un accidente de tránsito, ¿qué obligación tiene el conductor, el propietario del vehículo o el prestador del servicio de transporte?",
+    "opciones": [
+      "Dar aviso a los bomberos.",
+      "Dar aviso solo a la compañía de seguros.",
+      "Dar aviso a la compañía de seguros y dejar constancia en la delegación de la Policía Nacional del Perú más cercana.",
+      "Dar aviso únicamente a la Policía Nacional del Perú."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "si-ocurre-un-accidente-de-transito-que-obligacion-tiene-el-c-b-iib-061",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-062",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "Si una licencia de conducir consiga alguna restricción, es correcto afirmar que:",
+    "opciones": [
+      "Dicha restricción es meramente informativa.",
+      "Es una obligación cumplir con la restricción.",
+      "Incumplir la restricción no genera un riesgo para la seguridad vial.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "si-una-licencia-de-conducir-consiga-alguna-restriccion-es-co-b-iib-062",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-063",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La señal preventiva P-33A, significa:",
+    "opciones": [
+      "Señal de curva sinuosa.",
+      "Señal de proximidad a un badén.",
+      "Señal de proximidad de un reductor de velocidad tipo resalto.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-063.png",
+      "alt": "Señal P-33A del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-senal-preventiva-p-33a-significa-b-iib-063",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-064",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "¿Está permitido usar la bocina de su vehículo para advertir al conductor del vehículo que circula delante, que será adelantado?",
+    "opciones": [
+      "Sí, siempre y cuando el sonido no sea estridente.",
+      "Si, salvo prohibición expresa mediante la correspondiente señal.",
+      "No, está prohibido.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "esta-permitido-usar-la-bocina-de-su-vehiculo-para-advertir-a-b-iib-064",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-065",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si observa que se aproxima una ambulancia sin las luces especiales encendidas y sin sirena, es correcto afirmar que:",
+    "opciones": [
+      "No estamos obligados a darle preferencia de paso.",
+      "Estamos obligados a darle prioridad de paso por ser una ambulancia.",
+      "Está informando que está en servicio de urgencia.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "si-observa-que-se-aproxima-una-ambulancia-sin-las-luces-espe-b-iib-065",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-066",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si se encuentra en una intersección y se enciende la luz verde del semáforo y observa que en la calle transversal hay vehículos o personas despejando la intersección, ¿qué debe hacer?",
+    "opciones": [
+      "No iniciar la marcha hasta que el vehículo o las personas terminen de cruzar.",
+      "Tocar el claxon para que se apuren en pasar.",
+      "Bajar del vehículo y reclamar la falta al infractor.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "si-se-encuentra-en-una-interseccion-y-se-enciende-la-luz-ver-b-iib-066",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-067",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "En señalética vial, el color ____ en el pavimento es utilizado para carriles de tráfico en sentido opuesto y el color ____ en el pavimento es utilizado como separador de carriles de tráfico en el mismo sentido.",
+    "opciones": [
+      "Amarillo - blanco.",
+      "Blanco - Amarillo.",
+      "Azul - rojo.",
+      "Rojo - Amarillo."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "en-senaletica-vial-el-color-en-el-pavimento-es-utilizado-par-b-iib-067",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-068",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si una fila de escolares cruza la calzada fuera del crucero peatonal, ¿qué acción se debe tomar?",
+    "opciones": [
+      "Advertir con el claxon.",
+      "Advertir a viva voz.",
+      "Parar y ceder el paso.",
+      "Continuar la marcha lentamente."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "si-una-fila-de-escolares-cruza-la-calzada-fuera-del-crucero--b-iib-068",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-069",
+    "categoria": "B-IIb",
+    "tema": "velocidades",
+    "enunciado": "Si se aproxima a una zona escolar, ¿que acción debe realizar?",
+    "opciones": [
+      "No tiene ninguna obligación si no hay señalización.",
+      "Disminuir la velocidad a 40 Km/h.",
+      "Disminuir la velocidad a 30 Km/h.",
+      "Disminuir la velocidad a 35 km/h."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "si-se-aproxima-a-una-zona-escolar-que-accion-debe-realizar-b-iib-069",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-070",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "Tienen el objetivo de notificar a los usuarios las limitaciones, prohibiciones o restricciones en el uso de la vía.",
+    "opciones": [
+      "Señales reguladoras o de reglamentación.",
+      "Señales preventivas.",
+      "Señales informativas.",
+      "Señales horizontales"
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "tienen-el-objetivo-de-notificar-a-los-usuarios-las-limitacio-b-iib-070",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-071",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "Tienen el propósito de advertir a los usuarios sobre la existencia Y naturaleza de un peligro en la vía.",
+    "opciones": [
+      "Señales reguladoras o de reglamentación.",
+      "Señales preventivas.",
+      "Señales informativas. 3° >I",
+      "Señales horizontales."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "tienen-el-proposito-de-advertir-a-los-usuarios-sobre-la-exis-b-iib-071",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-072",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Es una infracción de tránsito:",
+    "opciones": [
+      "No detenerse totalmente en una señal de PARE.",
+      "Arrojar, depositar o abandonar objetos o sustancias en la vía pública que dificulten la circulación.",
+      "Utilizar la bocina para llamar la atención en forma innecesaria.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "es-una-infraccion-de-transito-b-iib-072",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-073",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "¿Qué debería hacer el conductor al acercarse a una señal de \"CEDA EL PASO\" en una intersección?",
+    "opciones": [
+      "Ceder el paso a los vehículos de emergencia.",
+      "Mantener la velocidad y avanzar con cuidado.",
+      "Disminuir la velocidad, parar si es necesario y ceder el paso a los peatones o vehículos que circulan por la vía transversal.",
+      "Parar totalmente y luego avanzar con cuidado."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "que-deberia-hacer-el-conductor-al-acercarse-a-una-senal-de-c-b-iib-073",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-074",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "No se debe conducir un vehículo:",
+    "opciones": [
+      "Si no se cuenta con el SOAT.",
+      "En retroceso, salvo las excepciones que establece la norma.",
+      "Si no se tiene la licencia para el tipo de vehículo que se quiere conducir.",
+      "Todas son correctas."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "no-se-debe-conducir-un-vehiculo-b-iib-074",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-075",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "¿Qué debe hacer si se aproxima a una intersección sin semáforo y sin presencia de la Policía de Tránsito, y observa que un peatón está cruzando por el paso peatonal?",
+    "opciones": [
+      "Disminuir la velocidad y pasar con cuidado.",
+      "Detener el vehículo y ceder el paso al peatón.",
+      "Continuar porque usted tiene la prioridad.",
+      "Incrementar la velocidad para adelantar el cruce el peatón."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "que-debe-hacer-si-se-aproxima-a-una-interseccion-sin-semafor-b-iib-075",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-076",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Sobre el uso del casco protector en la conducción de la motocicleta, es correcto afirmar que:",
+    "opciones": [
+      "El uso del casco es obligatorio únicamente para el conductor.",
+      "El uso del casco es obligatorio para el conductor y el acompañante.",
+      "El uso del casco no es obligatorio.",
+      "Todas las aternativas son incorrectas."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "sobre-el-uso-del-casco-protector-en-la-conduccion-de-la-moto-b-iib-076",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-077",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Las motocicletas al circular por una vía deben hacerlo por el carril de",
+    "opciones": [
+      "La Izquierda.",
+      "El medio.",
+      "La derecha.",
+      "La izquierda y la derecha"
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "las-motocicletas-al-circular-por-una-via-deben-hacerlo-por-e-b-iib-077",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-078",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Sobre el uso de la bocina del vehículo, es correcto afirmar que:",
+    "opciones": [
+      "El conductor debe tratar de no utilizar la bocina para llamar la atención en forma innecesaria.",
+      "El uso de la bocina para llamar la atención en forma innecesaria no es una infracción al tránsito.",
+      "El conductor únicamente debe utilizar la bocina para evitar situaciones peligrosas.",
+      "a y b son correctas."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "sobre-el-uso-de-la-bocina-del-vehiculo-es-correcto-afirmar-q-b-iib-078",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-079",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "Una línea blanca continua en el sentido longitudinal de una vía, que se coloca en el pavimento, le indica al conductor:",
+    "opciones": [
+      "Que se puede adelantar, debido a que la línea no es amarilla continua.",
+      "Que está prohibido cruzar la línea y no hay excepciones.",
+      "Que está prohibido pasar al otro lado de la línea con algunas excepciones.",
+      "Que es zona de peatones."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "una-linea-blanca-continua-en-el-sentido-longitudinal-de-una--b-iib-079",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-080",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "¿Cuál es el número máximo de personas que puede transportar una motocicleta?",
+    "opciones": [
+      "Es igual al número de asientos señalados en la tarjeta de identificación vehicular.",
+      "No existe prohibición sobre un número máximo de personas que se puede transportar.",
+      "La restricción sobre un número máximo de personas que se puede transportar se aplica para el asiento delantero, para el asiento posterior no hay restricción.",
+      "Se puede transportar a todas las personas que entren en el vehículo, sin restricción, siempre y cuando no obstaculicen la visibilidad del conductor y todos sean de la misma familia."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "cual-es-el-numero-maximo-de-personas-que-puede-transportar-u-b-iib-080",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-081",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La acción correcta al abastecer de combustible su vehículo, es:",
+    "opciones": [
+      "Asegurarse de que todos los pasajeros permanezcan a bordo del vehículo.",
+      "Abstenerse de fumar tanto el conductor como sus acompañantes.",
+      "Mantener encendido el motor del vehículo.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "la-accion-correcta-al-abastecer-de-combustible-su-vehiculo-e-b-iib-081",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-082",
+    "categoria": "B-IIb",
+    "tema": "mecanica",
+    "enunciado": "Si usted desea realizar una competencia de carreras entre su vehículo y otro vehículo motorizado; para ello puede utilizar:",
+    "opciones": [
+      "Las vías aledañas del parque del distrito en el cual reside, en el horario de 11:00 pm. a 5:00 am.",
+      "Un circuito de carrera, autódromo o pista de aceleración autorizado por la autoridad competente.",
+      "Las vías aledañas del parque del distrito en el cual reside, siempre y cuando tenga el permiso municipal correspondiente.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "si-usted-desea-realizar-una-competencia-de-carreras-entre-su-b-iib-082",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-083",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "Señale cuál de las siguientes conductas constituye una infracción al tránsito:",
+    "opciones": [
+      "Circular en forma desordenada o hacienda maniobras peligrosas.",
+      "Utilizar la bocina para llamar la atención en forma innecesaria.",
+      "Conducir un vehículo con el motor en punto neutro o apagado.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "senale-cual-de-las-siguientes-conductas-constituye-una-infra-b-iib-083",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-084",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La marcas en el pavimento constituyen un elemento indispensable para la operación vehicular, pues su función es:",
+    "opciones": [
+      "Reemplazar a la señalización vertical cuando ésta no se encuentra en la vía, por tal motivo son colocadas donde no existe señales verticales.",
+      "Guiar a los usuarios únicamente en las vías que presentan peligros.",
+      "Reglamentar la circulación, así como advertir y guiar a los usuarios de la vía.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "la-marcas-en-el-pavimento-constituyen-un-elemento-indispensa-b-iib-084",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-085",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "Las marcas en el pavimento de color ____ complementan las señales informativas, como por ejemplo las zonas de estacionamiento para personas con movilidad reducida.",
+    "opciones": [
+      "Blanco.",
+      "Azul.",
+      "Rojo.",
+      "Gris."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "las-marcas-en-el-pavimento-de-color-complementan-las-senales-b-iib-085",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-086",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La línea central de color amarillo en el pavimento es continua cuando:",
+    "opciones": [
+      "No está permitido cruzar al otro carril.",
+      "Está permitido cruzar al otro carril para el adelantamiento.",
+      "Se trata de una vía de doble sentido de circulación, que permite cruzar al otro carril.",
+      "Separa corrientes de tráfico en el mismo sentido."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "la-linea-central-de-color-amarillo-en-el-pavimento-es-contin-b-iib-086",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-087",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si un conductor que circula por el carril derecho de una vía se encuentra con las flechas inclinadas que se muestran en la figura, su conducta correcta es: )",
+    "opciones": [
+      "Continuar la circulación por el carril en que se encuentra.",
+      "Adelantar al vehículo que se encuentra delante de él y que circula por el carril izquierdo.",
+      "No adelantar al vehículo que tiene adelante y que circula por el carril izquierdo y continuar por su carril.",
+      "Cambiarse al carril izquierdo con precaución."
+    ],
+    "correcta": 3,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-087.png",
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+    },
+    "slug": "si-un-conductor-que-circula-por-el-carril-derecho-de-una-via-b-iib-087",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-088",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si durante la conducción vehicular, un efectivo de la Policía de Tránsito le solicita al conductor someterse a una prueba de alcoholemia; la acción correcta del conductor es:",
+    "opciones": [
+      "Someterse a la prueba de alcoholemia, ya que está obligado a ello ante la solicitud del efectivo de la Policía de Tránsito.",
+      "Someterse o negarse a la prueba de alcoholemia, ya que no constituye una obligación del conductor realizarse dicha prueba.",
+      "Negarse a la prueba de alcoholemia, ya que únicamente es exigible si ha participado en un accidente de tránsito.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "si-durante-la-conduccion-vehicular-un-efectivo-de-la-policia-b-iib-088",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-089",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "¿Cuál de las siguientes conductas no es una infracción de tránsito?",
+    "opciones": [
+      "Llevar las placas de rodaje en el lugar que no corresponde.",
+      "Seguir a los vehículos de emergencia y vehículos oficiales para avanzar más rápidamente.",
+      "Arrojar objetos en la vía pública que dificulten la circulación.",
+      "Detenerse totalmente en una señal de PARE cuando no hay peatones y/o vehículos circulando por la vía transversal."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "cual-de-las-siguientes-conductas-no-es-una-infraccion-de-tra-b-iib-089",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-090",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si la persona conduciendo sale de su propiedad y tiene que cruzar la acera e ingresar a una vía, la conducta correcta es:",
+    "opciones": [
+      "Dar preferencia de paso solo a los vehículos que circulan por la vía, pero no a los peatones.",
+      "Dar preferencia de paso a los vehículos que circulan por la vía y a los peatones que circulan por la acera.",
+      "Tocar el claxon para advertir a los peatones que circulen por la acera, que se detengan. Ecl",
+      "Salir rápidamente, a fin de evitar accidentes."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "si-la-persona-conduciendo-sale-de-su-propiedad-y-tiene-que-c-b-iib-090",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-091",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "¿Qué significa una línea continua blanca pintada entre el carril de la derecha y la berma de una carretera?",
+    "opciones": [
+      "Un carril para motocicletas.",
+      "Una línea que divide el área peatonal y el área de vehículos.",
+      "Una línea que puede cruzarse para rebasar en caso de congestion.",
+      "Que no se debe conducir atravesándola, al menos que haya una situación de emergencia."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "que-significa-una-linea-continua-blanca-pintada-entre-el-car-b-iib-091",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-092",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "En el caso representado en el siguiente gráfico ¿el vehículo rojo puede rebasar al azul?",
+    "opciones": [
+      "Puede hacerlo si no viene un vehículo en el sentido contrario.",
+      "Puede hacerlo solo si, el vehículo en sentido contrario está lejos y alcanza hacer la maniobra con seguridad.",
+      "No puede hacerlo.",
+      "Puede hacerlo por la izquierda."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-092.png",
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+    },
+    "slug": "en-el-caso-representado-en-el-siguiente-grafico-el-vehiculo--b-iib-092",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-093",
+    "categoria": "B-IIb",
+    "tema": "mecanica",
+    "enunciado": "La siguiente señal (R-17), significa:",
+    "opciones": [
+      "Prohibido estacionar.",
+      "Prohibida la circulación de vehículos automotores.",
+      "Prohibida la circulación de autos particulares.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-093.png",
+      "alt": "Señal R-17 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-r-17-significa-b-iib-093",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-094",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si usted se encuentra conduciendo su vehículo por una vía y antes de cruzar la intersección se encuentra con la señal R-4, esta le indica:",
+    "opciones": [
+      "Que la calle está clausurada.",
+      "Que está por ingresar a una vía de sentido contrario y no debe entrar.",
+      "Que debe parar totalmente antes de poder ingresar.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-094.png",
+      "alt": "Señal R-4 del balotario B-IIa/B-IIb"
+    },
+    "slug": "si-usted-se-encuentra-conduciendo-su-vehiculo-por-una-via-y--b-iib-094",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-095",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-36), significa:",
+    "opciones": [
+      "Proximidad de un túnel.",
+      "Superficie deslizante.",
+      "Prender las luces bajas.",
+      "Mantener la distancia entre vehículos por seguridad."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-095.png",
+      "alt": "Señal P-36 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-36-significa-b-iib-095",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-096",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (R-14), significa:",
+    "opciones": [
+      "Circular por el carril de la derecha.",
+      "Circular por el carril central.",
+      "Circular solo en el sentido indicado por la flecha.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-096.png",
+      "alt": "Señal R-14 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-r-14-significa-b-iib-096",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-097",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La siguiente señal (P-6) significa:",
+    "opciones": [
+      "Intersección no semaforizada.",
+      "Intersección peligrosa.",
+      "La proximidad de un cruce o intersección de 2 vías al mismo nivel en ángulo recto.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-097.png",
+      "alt": "Señal P-6 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-6-significa-b-iib-097",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-098",
+    "categoria": "B-IIb",
+    "tema": "velocidades",
+    "enunciado": "La siguiente señal (R-30C), significa:",
+    "opciones": [
+      "Que la velocidad máxima de la vía es de 50 km/h.",
+      "Que la velocidad mínima de la vía es de 50 km/h.",
+      "Que al salir de la vía por donde está circulando, la velocidad máxima es 50 km/h.",
+      "Que al salir de la vía por donde está circulando, la velocidad mínima es 50 km/h."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-098.png",
+      "alt": "Señal R-30C del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-r-30c-significa-b-iib-098",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-099",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La siguiente señal (R-5-4), significa:",
+    "opciones": [
+      "Que la vía no continúa y los conductores deben girar a la izquierda.",
+      "Que la intersección contempla giros tangentes a la izquierda en ambos sentidos.",
+      "Que la intersección está en mantenimiento y que por el momento solo se puede girar a la izquierda.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-099.png",
+      "alt": "Señal R-5-4 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-r-5-4-significa-b-iib-099",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-100",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (R-9), significa:",
+    "opciones": [
+      "Que no está permitido girar en U.",
+      "Que está permitido el giro en U.",
+      "Que si desea puede girar a la izquierda.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-100.png",
+      "alt": "Señal R-9 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-r-9-significa-b-iib-100",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-101",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (R-5-2), significa:",
+    "opciones": [
+      "Que la vía solo permite girar a la izquierda.",
+      "Prevención por bifurcación de la vía.",
+      "Que el carril por donde circula permite girar a la izquierda o seguir de frente.",
+      "No es una señal válida en el Perú."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-101.png",
+      "alt": "Señal R-5-2 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-r-5-2-significa-b-iib-101",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-102",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (R-20), significa:",
+    "opciones": [
+      "Que el peatón antes de cruzar debe mirar si se acercan autos por la derecha.",
+      "Que el conductor que viene por la derecha debe tener cuidado con los peatones.",
+      "Que los peatones deben circular por la izquierda.",
+      "Que los peatones deben circular por la derecha."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-102.png",
+      "alt": "Señal R-20 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-r-20-significa-b-iib-102",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-103",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Es una conducta que se sanciona:",
+    "opciones": [
+      "Rendir la evaluación teórica para obtener una licencia de conducir, hacienda uso de celulares, equipos o materiales para obtener ventajas en tal evaluación.",
+      "Ofrecer un beneficio indebido para obtener una licencia de conducir.",
+      "Realizar el proceso de obtención de una licencia de conducir, a través de tramitadores.",
+      "Todas las anteriores."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "es-una-conducta-que-se-sanciona-b-iib-103",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-104",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (R-48), significa:",
+    "opciones": [
+      "Los peatones deben circular por la derecha y los camiones por la izquierda.",
+      "Los peatones deben tener cuidado con los camiones.",
+      "Zona de carga y descarga.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-104.png",
+      "alt": "Señal R-48 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-r-48-significa-b-iib-104",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-105",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (R-49), significa:",
+    "opciones": [
+      "Está permitido cambiar de carril por la izquierda y por la derecha.",
+      "Se debe mantener la distancia de seguridad entre vehículos.",
+      "Está permitido cambiar de carril por la izquierda para adelantar.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-105.png",
+      "alt": "Señal R-49 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-r-49-significa-b-iib-105",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-106",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La siguiente señal (R-50), significa:",
+    "opciones": [
+      "Que si solo hay un carril tiene preferencia de paso el conductor que llegó primero.",
+      "Que si solo hay un carril tiene preferencia el conductor que está mirando la señal.",
+      "Que si solo hay un carril no tiene preferencia el que está mirando la señal y debe darle paso al del sentido contrario.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-106.png",
+      "alt": "Señal R-50 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-r-50-significa-b-iib-106",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-107",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La señal (R-5-1), es:",
+    "opciones": [
+      "Una señal informativa.",
+      "Una señal preventiva.",
+      "Una señal de obligación.",
+      "No es una señal válida en el Perú."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-107.png",
+      "alt": "Señal R-5-1 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-senal-r-5-1-es-b-iib-107",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-108",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La señal (P-3A), le indica al conductor que:",
+    "opciones": [
+      "Hay una curva y contra-curva a la izquierda.",
+      "Hay una curva y contra-curva a la derecha.",
+      "Hay una curva y contra-curva pronunciada a la derecha.",
+      "Hay una curva y contra-curva pronunciada a la izquierda."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-108.png",
+      "alt": "Señal P-3A del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-senal-p-3a-le-indica-al-conductor-que-b-iib-108",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-109",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-5-1A), le advierte al conductor que:",
+    "opciones": [
+      "Se aproxima a una curva y contra-curva a la izquierda.",
+      "Se aproxima a una curva y contra-curva a la derecha.",
+      "Se aproxima a un camino sinuoso a la derecha.",
+      "Se aproxima a un camino sinuoso a la izquierda."
+    ],
+    "correcta": 3,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-109.png",
+      "alt": "Señal P-5-1A del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-5-1a-le-advierte-al-conductor-que-b-iib-109",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-110",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-61), le advierte al conductor que:",
+    "opciones": [
+      "El sentido del tránsito es el que indica la flecha.",
+      "Se aproxima a una reducción de la vía en ambos sentidos.",
+      "Está circulando por una curva horizontal.",
+      "Ninguna de las alternativas es correcta. WRAL"
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-110.png",
+      "alt": "Señal P-61 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-61-le-advierte-al-conductor-que-b-iib-110",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-111",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-34), le advierte al conductor que:",
+    "opciones": [
+      "La vía está en mal estado y tiene baches.",
+      "Se aproxima a un resalto.",
+      "Se aproxima a un rompe muelles.",
+      "Se aproxima a un badén."
+    ],
+    "correcta": 3,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-111.png",
+      "alt": "Señal P-34 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-34-le-advierte-al-conductor-que-b-iib-111",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-112",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-60), es:",
+    "opciones": [
+      "Una señal turística.",
+      "Una señal informativa.",
+      "Una señal preventiva.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-112.png",
+      "alt": "Señal P-60 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-60-es-b-iib-112",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-113",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-46), indica:",
+    "opciones": [
+      "Existencia de una ciclovía.",
+      "Autorización para el cruce de ciclistas.",
+      "Ciclistas en la vía.",
+      "Cercanía de una ciclovía."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-113.png",
+      "alt": "Señal P-46 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-46-indica-b-iib-113",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-114",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-46-A), indica:",
+    "opciones": [
+      "Que los ciclistas deben usar la ciclovía.",
+      "Que nos aproximamos a un cruce de ciclovía.",
+      "Que la ciclovía es solo para los ciclistas.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-114.png",
+      "alt": "Señal P-46-A del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-46-a-indica-b-iib-114",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-115",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-46B), indica:",
+    "opciones": [
+      "Que los ciclistas deben detenerse en ese punto.",
+      "Que nos aproximamos a un cruce de ciclovía.",
+      "Que la ciclovía es solo para los ciclistas.",
+      "La ubicación de un cruce de ciclistas."
+    ],
+    "correcta": 3,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-115.png",
+      "alt": "Señal P-46B del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-46b-indica-b-iib-115",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-116",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-48), indica:",
+    "opciones": [
+      "Vía es de uso exclusivo de los peatones.",
+      "Zona con presencia de peatones.",
+      "Ubicación de un cruce escolar.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-116.png",
+      "alt": "Señal P-48 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-48-indica-b-iib-116",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-117",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-48A), indica:",
+    "opciones": [
+      "Vía es de uso exclusivo de peatones.",
+      "Proximidad a un cruce peatonal.",
+      "Ubicación de un cruce escolar.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-117.png",
+      "alt": "Señal P-48A del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-48a-indica-b-iib-117",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-118",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-48-B), indica:",
+    "opciones": [
+      "Ubicación de un cruce escolar.",
+      "Proximidad a una calzada.",
+      "Ubicación de un cruce peatonal.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-118.png",
+      "alt": "Señal P-48-B del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-48-b-indica-b-iib-118",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-119",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-49), indica:",
+    "opciones": [
+      "Zona escolar.",
+      "Proximidad a un cruce peatonal.",
+      "Zona transitada.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-119.png",
+      "alt": "Señal P-49 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-49-indica-b-iib-119",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-120",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-49A), indica:",
+    "opciones": [
+      "Zona escolar.",
+      "Proximidad a un cruce escolar.",
+      "Ubicación de un cruce escolar.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-120.png",
+      "alt": "Señal P-49A del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-49a-indica-b-iib-120",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-121",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-49B), indica:",
+    "opciones": [
+      "Zona transitada.",
+      "Proximidad a un cruce peatonal.",
+      "Ubicación de un cruce escolar",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-121.png",
+      "alt": "Señal P-49B del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-49b-indica-b-iib-121",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-122",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-50), indica:",
+    "opciones": [
+      "Zona de deportes.",
+      "Proximidad a campo deportivo.",
+      "Proximidad a zona urbana.",
+      "Niños jugando."
+    ],
+    "correcta": 3,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-122.png",
+      "alt": "Señal P-50 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-50-indica-b-iib-122",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-123",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-51), indica:",
+    "opciones": [
+      "Zona de parqueo de vehículos pesados.",
+      "Proximidad a zona rural.",
+      "Maquinaria agrícola en la vía.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-123.png",
+      "alt": "Señal P-51 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-51-indica-b-iib-123",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-124",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-53), indica:",
+    "opciones": [
+      "Proximidad a un establo.",
+      "Proximidad a zona agrícola.",
+      "Animales en la vía.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-124.png",
+      "alt": "Señal P-53 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-53-indica-b-iib-124",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-125",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-55), indica:",
+    "opciones": [
+      "Semáforo malogrado.",
+      "Proximidad a un semáforo.",
+      "Semáforos en ola verde.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-125.png",
+      "alt": "Señal P-55 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-55-indica-b-iib-125",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-126",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-58), le indica:",
+    "opciones": [
+      "Que usted se aproxima a una señal de PARE.",
+      "Que usted debe parar donde está la señal P-58.",
+      "Que se trata de un PARE, pero puede seguir adelante.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-126.png",
+      "alt": "Señal P-58 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-58-le-indica-b-iib-126",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-127",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-59), le indica:",
+    "opciones": [
+      "Que usted se aproxima a una señal de CEDA EL PASO.",
+      "Que usted debe ceder el paso donde está la señal P-59.",
+      "Que se trata de un PARE, pero puede seguir adelante.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-127.png",
+      "alt": "Señal P-59 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-59-le-indica-b-iib-127",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-128",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-41), le indica:",
+    "opciones": [
+      "Que usted se aproxima a una zona de camiones.",
+      "Que usted debe encender sus luces pues se aproxima a una zona con poca visibilidad.",
+      "Que usted se aproxima a un túnel.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-128.png",
+      "alt": "Señal P-41 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-41-le-indica-b-iib-128",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-129",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-45), indica:",
+    "opciones": [
+      "Proximidad a un aeropuerto.",
+      "Proximidad a una pista de aviones.",
+      "Vuelo de aviones a baja altura.",
+      "Aviones que generan ruido."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-129.png",
+      "alt": "Señal P-45 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-45-indica-b-iib-129",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-130",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-52), le indica:",
+    "opciones": [
+      "Que usted debe dar prioridad de paso a las ambulancias.",
+      "Que usted debe dar prioridad de paso a los bomberos.",
+      "Que se aproxima a una salida de vehículos de bomberos.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-130.png",
+      "alt": "Señal P-52 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-52-le-indica-b-iib-130",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-131",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-66), le indica:",
+    "opciones": [
+      "Que se aproxima un desierto.",
+      "Que se aproxima una zona donde hay ráfagas de viento lateral.",
+      "Que se acerca a una zona de arenamiento en la vía.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-131.png",
+      "alt": "Señal P-66 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-66-le-indica-b-iib-131",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-132",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-66A), le indica:",
+    "opciones": [
+      "Que se aproxima una tormenta.",
+      "Que está pasando por una zona donde hay ráfagas de viento lateral.",
+      "Que se acerca a una zona de arenamiento en la vía.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-132.png",
+      "alt": "Señal P-66A del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-66a-le-indica-b-iib-132",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-133",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si al conducir su vehículo se encuentra con la señal vertical que se muestra, usted debe entender que:",
+    "opciones": [
+      "La vía está interrumpida y debe tomar el camino alternativo que muestra la señal.",
+      "En la siguiente intersección está prohibido girar a la izquierda y por lo tanto, si desea seguir esa ruta debe tomar el camino alternativo que muestra la señal.",
+      "En la siguiente intersección está prohibido girar a la derecha y por lo tanto, si desea seguir esa ruta debe tomar el camino alternativo que muestra la señal.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-133.png",
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+    },
+    "slug": "si-al-conducir-su-vehiculo-se-encuentra-con-la-senal-vertica-b-iib-133",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-134",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si al conducir su vehículo se encuentra con la señal vertical que se muestra, usted debe entender que:",
+    "opciones": [
+      "Si quiere girar a la izquierda debe pasar la intersección y dar la vuelta a la manzana.",
+      "En la siguiente intersección está prohibido girar a la izquierda y por lo tanto, si desea seguir esa ruta debe hacerlo una cuadra antes.",
+      "En esa dirección hay una zona de parqueo.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-134.png",
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+    },
+    "slug": "si-al-conducir-su-vehiculo-se-encuentra-con-la-senal-vertica-b-iib-134",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-135",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (I-14), significa: 1-14",
+    "opciones": [
+      "Señal de hostal.",
+      "Señal de hospedaje.",
+      "Señal de hospital.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-135.png",
+      "alt": "Señal I-14 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-i-14-significa-1-14-b-iib-135",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-136",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (I-31), significa: 1-31",
+    "opciones": [
+      "Proximidad de una bahía de taxis.",
+      "Proximidad a un estacionamiento permitido.",
+      "Proximidad de una zona de parqueo para vecinos.",
+      "Proximidad de un estacionamiento para emergencias."
+    ],
+    "correcta": 3,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-136.png",
+      "alt": "Señal I-31 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-i-31-significa-1-31-b-iib-136",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-137",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (I-9), significa:",
+    "opciones": [
+      "Zona de control policial.",
+      "Zona de control de aduanas.",
+      "Zona militar.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-137.png",
+      "alt": "Señal I-9 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-i-9-significa-b-iib-137",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-138",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (I-18), se utiliza para indicar:",
+    "opciones": [
+      "Cercanía a una ferretería.",
+      "Cercanía a un servicio mecánico.",
+      "Cercanía a un grifo.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-138.png",
+      "alt": "Señal I-18 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-i-18-se-utiliza-para-indicar-b-iib-138",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-139",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (I-19), se utiliza para indicar:",
+    "opciones": [
+      "Cercanía a un servicio mecánico.",
+      "Cercanía a una tienda.",
+      "Cercanía a un grifo.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-139.png",
+      "alt": "Señal I-19 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-i-19-se-utiliza-para-indicar-b-iib-139",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-140",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (I-20), se utiliza para indicar: 1 29",
+    "opciones": [
+      "Cercanía a un servicio mecánico.",
+      "Cercanía a una zona donde debe circular con cadenas en las llantas.",
+      "Cercanía a un grifo.",
+      "Cercanía a una llantería."
+    ],
+    "correcta": 3,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-140.png",
+      "alt": "Señal I-20 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-i-20-se-utiliza-para-indicar-1-29-b-iib-140",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-141",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La siguiente señal (R-16A), se utiliza para indicar:",
+    "opciones": [
+      "Fin de la restricción de circulación de automotores.",
+      "Fin de la restricción de prohibido adelantar.",
+      "Fin de la restricción de circulación en doble sentido.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-141.png",
+      "alt": "Señal R-16A del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-r-16a-se-utiliza-para-indicar-b-iib-141",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-142",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "El comportamiento del conductor como usuario de la vía, debe estar orientado a:",
+    "opciones": [
+      "Valor por la vida.",
+      "Respeto por la integridad física del resto de los usuarios.",
+      "Respeto a la autoridad encargada de la vigilancia y disciplina del tráfico.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "el-comportamiento-del-conductor-como-usuario-de-la-via-debe--b-iib-142",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-143",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Son considerados usuarios vulnerables de la vía y por tanto merecen especial protección:",
+    "opciones": [
+      "Peatones, niños, adultos mayores, personas con movilidad reducida, ciclistas.",
+      "Únicamente los peatones y ciclistas.",
+      "Únicamente los peatones y niños.",
+      "Todos las alternativas son correctas, con excepción de los ciclistas."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "son-considerados-usuarios-vulnerables-de-la-via-y-por-tanto--b-iib-143",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-144",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-61), muestra:",
+    "opciones": [
+      "Flechas retroreflectivas que indican peligro.",
+      "Delineadores de curva, que guían al conductor.",
+      "Advertencia al conductor sobre la proximidad de un puente.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-144.png",
+      "alt": "Señal P-61 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-61-muestra-b-iib-144",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-145",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "El conductor está ____ a ____ a las pruebas que le solicite el Efectivo de la Policía Nacional del Perú, asignado al control del tránsito, para determinar su estado de intoxicación por alcohol, drogas, estupefacientes u otros tóxicos",
+    "opciones": [
+      "En su derecho - negarse.",
+      "Facultado - Rechazar.",
+      "Obligado - someterse.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "el-conductor-esta-a-a-las-pruebas-que-le-solicite-el-efectiv-b-iib-145",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-146",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "Ante un conductor con evidente discapacidad física, la cual no figura en el rubro de restricciones de su licencia de conducir, procede:",
+    "opciones": [
+      "Que la Policía de Tránsito intervenga a dicho conductor y que la autoridad que expidió la licencia de conducir ordene su reexaminación.",
+      "Que la autoridad competente expida un permiso excepcional para dicho conductor.",
+      "Que la Policía de Tránsito expida un permiso excepcional para dicho conductor.",
+      "Que la Policía de Tránsito otorgue a dicho conductor un plazo prudencial para que continúe conduciendo."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "ante-un-conductor-con-evidente-discapacidad-fisica-la-cual-n-b-iib-146",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-147",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Es una obligación general de tránsito que, los ____ circulen respetando los mensajes de ____ , las instrucciones de los Efectivos de la Policía de Tránsito y el mandato de las normas legales y reglamentarias correspondientes.",
+    "opciones": [
+      "Peatones - los letreros instalados en las vías públicas.",
+      "Los usuarios de la vía pública - los dispositivos de control de tránsito.",
+      "Vehículos - los medios de comunicación.",
+      "Menores de edad - los adultos mayores."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "es-una-obligacion-general-de-transito-que-los-circulen-respe-b-iib-147",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-148",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Marque la afirmación incorrecta:",
+    "opciones": [
+      "Está prohibido arrojar, depositar o abandonar objetos en la vía pública, o cualquier otro obstáculo que pueda dificultar la circulación.",
+      "El conductor debe mantener el vehículo que conduce con el combustible necesario para evitar detenciones en la vía.",
+      "Las motocicletas pueden compartir un mismo carril con otro vehículo al circular.",
+      "En caso de haber agua en la calzada, el conductor de un vehículo debe tomar las precauciones, para evitar que ésta pueda mojar la acera y los peatones."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "marque-la-afirmacion-incorrecta-b-iib-148",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-149",
+    "categoria": "B-IIb",
+    "tema": "velocidades",
+    "enunciado": "¿Si al conducir por una avenida se encuentra con una señal en la vía que indica un límite máximo de 50 km/h, sin embargo, conforme a lo dispuesto en la norma el límite máximo de velocidad en dicha vía es de 60 km/h; usted:",
+    "opciones": [
+      "Debe obedecer la señal de velocidad instalada en la vía.",
+      "Puede ir a una velocidad máxima de 60 km/h.",
+      "Debe ir a una velocidad máxima de 60 km/h.",
+      "Debe ir a una velocidad entre 50 y 60 km/h."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "si-al-conducir-por-una-avenida-se-encuentra-con-una-senal-en-b-iib-149",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-150",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Indique la conducta permitida:",
+    "opciones": [
+      "El estacionamiento de un vehículo a la salida de salas de espectáculos en funcionamiento.",
+      "El estacionamiento de un vehículo de emergencia en un lugar no permitido, si ello fuera imprescindible.",
+      "El estacionamiento de un vehículo dentro de una intersección",
+      "El estacionamiento de un vehículo sobre las aceras."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "indique-la-conducta-permitida-b-iib-150",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-151",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Se considera el abandono de un vehículo cuando:",
+    "opciones": [
+      "El vehículo está estacionado en un lugar permitido en la vía pública, pero sin conductor por un tiempo mayor de 72 horas.",
+      "El vehículo está estacionado en un lugar permitido en la vía pública, pero sin conductor por un tiempo mayor de 96 horas.",
+      "El vehículo está estacionado en un lugar permitido en la vía pública, pero sin conductor y por un tiempo mayor de 48 horas.",
+      "La norma de tránsito no establece nada sobre el abandono del vehículo."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "se-considera-el-abandono-de-un-vehiculo-cuando-b-iib-151",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-152",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "El servicio de taxi en motos lineales",
+    "opciones": [
+      "No está permitido.",
+      "Esta permitido, siempre y cuando lo autorice la Municipalidad correspondiente.",
+      "Esta permitido, siempre y cuando se tomen las medidas de seguridad que establece la norma.",
+      "La b) y c) son correctas."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "el-servicio-de-taxi-en-motos-lineales-b-iib-152",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-153",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Sobre la emisión vehicular de sustancias contaminantes, marque la opción correcta:",
+    "opciones": [
+      "Está permitida.",
+      "Está prohibida, en un índice superior al límite máximo que permite la norma.",
+      "Está prohibida en el ámbito urbano.",
+      "La norma no regula sobre ello."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "sobre-la-emision-vehicular-de-sustancias-contaminantes-marqu-b-iib-153",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-154",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La autoridad competente, ____ puede prohibir o restringir en determinadas vías públicas.",
+    "opciones": [
+      "Cuando la situación lo justifique - la circulación o estacionamiento de vehículos.",
+      "Aun cuando la situación lo justifique no - circulación o estacionamiento de vehículos.",
+      "No se encuentra facultada ni - circulación de vehículos",
+      "Únicamente con el consentimiento del conductor - circulación de vehículos."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "la-autoridad-competente-puede-prohibir-o-restringir-en-deter-b-iib-154",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-155",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La detención de un vehículo debe efectuarse:",
+    "opciones": [
+      "En el sentido contrario a la circulación y en el carril izquierdo de la vía.",
+      "En el sentido contrario a la circulación y en el carril derecho de la vía.",
+      "En el sentido de la circulación y en el carril izquierdo de la vía.",
+      "En el sentido de la circulación y en el carril derecho de la vía."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "la-detencion-de-un-vehiculo-debe-efectuarse-b-iib-155",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-156",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "En caso de un accidente de tránsito con daños personales y/o materiales los participantes deben:",
+    "opciones": [
+      "Acudir a la estación de bomberos.",
+      "Llamar a un familiar.",
+      "Solicitar la intervención de la autoridad policial.",
+      "Abandonar el lugar donde ocurrió el accidente."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "en-caso-de-un-accidente-de-transito-con-danos-personales-y-o-b-iib-156",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-157",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "La ____ faculta y autoriza la circulación del vehículo por la vía pública, identifica el bien, y, por ende, al titular responsable de las acciones que deriven de su propiedad.",
+    "opciones": [
+      "Tarjeta de identificación vehicular.",
+      "Municipalidad provincial.",
+      "La Superintendencia Nacional de Aduanas y de Administración Tributaria SUNAT.",
+      "Placa Única Nacional de Rodaje."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "la-faculta-y-autoriza-la-circulacion-del-vehiculo-por-la-via-b-iib-157",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-158",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "¿Después de qué tiempo de haber cometido la misma infracción se llama reincidencia y es sancionada con el doble de la multa establecida?",
+    "opciones": [
+      "06 meses.",
+      "12 meses.",
+      "24 meses.",
+      "35 meses."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "despues-de-que-tiempo-de-haber-cometido-la-misma-infraccion--b-iib-158",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-159",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "Si a un conductor infractor le suspendieron su licencia de conducir, éste se encuentra facultado para:",
+    "opciones": [
+      "Tramitar el duplicado de su licencia de conducir.",
+      "Tramitar la revalidación de su licencia de conducir.",
+      "Tramitar la recategorización de su licencia de conducir.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "si-a-un-conductor-infractor-le-suspendieron-su-licencia-de-c-b-iib-159",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-160",
+    "categoria": "B-IIb",
+    "tema": "primeros-auxilios",
+    "enunciado": "Las ____ tienen por función informar a los usuarios sobre los servicios generales existentes próximos a la vía, tales como teléfono, hospedaje, restaurante, primeros auxilios, estación de combustibles, talleres, y otros.",
+    "opciones": [
+      "Señales de localización.",
+      "Señales de salida inmediata.",
+      "Señales de servicios generales.",
+      "Señales ordinarias."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "las-tienen-por-funcion-informar-a-los-usuarios-sobre-los-ser-b-iib-160",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-161",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "¿Constituye una infracción tramitar el duplicado de una licencia de conducir que se encuentra retenida?",
+    "opciones": [
+      "No constituye una infracción.",
+      "Solo cuando la licencia de conducir ha sido retenida por la comisión de una infracción muy grave.",
+      "Si, constituye una infracción.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "constituye-una-infraccion-tramitar-el-duplicado-de-una-licen-b-iib-161",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-162",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "Las marcas en el pavimento constituyen la señalización ____ y se emplean para ____ la circulación.",
+    "opciones": [
+      "Horizontal - reglamentar.",
+      "Vertical - reglamentar.",
+      "Más importante - mejorar.",
+      "Menos importante - adornar."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "las-marcas-en-el-pavimento-constituyen-la-senalizacion-y-se--b-iib-162",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-163",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Ciclista es a ciclovía como:",
+    "opciones": [
+      "Conductor - acera.",
+      "Conductor - calzada.",
+      "Conductor - berma.",
+      "Peatón - autopista."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "ciclista-es-a-ciclovia-como-b-iib-163",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-164",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La siguiente señal (P-15), se utiliza para advertir al conductor:",
+    "opciones": [
+      "La proximidad a una vía de tres carriles.",
+      "La proximidad a un huracán.",
+      "La proximidad a un camino sinuoso.",
+      "La proximidad de una intersección rotatoria (óvalo o rotonda)."
+    ],
+    "correcta": 3,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-164.png",
+      "alt": "Señal P-15 del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-15-se-utiliza-para-advertir-al-conducto-b-iib-164",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-165",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "La siguiente señal (P-31A), indica:",
+    "opciones": [
+      "La proximidad del final de la vía.",
+      "La proximidad de una vía asfaltada.",
+      "La proximidad de una pendiente leve.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-165.png",
+      "alt": "Señal P-31A del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-p-31a-indica-b-iib-165",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-166",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Es una línea transversal a la calzada, que indica al conductor que debe detener completamente el vehículo, no debiendo sobrepasar el inicio de la indicada línea:",
+    "opciones": [
+      "Línea de carril.",
+      "Línea de borde de calzada.",
+      "Línea de pare.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "es-una-linea-transversal-a-la-calzada-que-indica-al-conducto-b-iib-166",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-167",
+    "categoria": "B-IIb",
+    "tema": "mecanica",
+    "enunciado": "Los semáforos son:",
+    "opciones": [
+      "Dispositivos de control del tránsito que tienen por finalidad regular y controlar el tránsito vehicular, motorizado y no motorizado, y el peatonal, a través de las indicaciones de las luces respectivas.",
+      "Dispositivos de control del tránsito que tienen por finalidad regular y controlar únicamente el tránsito vehicular motorizado y peatonal, a través de las indicaciones de luces.",
+      "Señales de color rojo, verde y amarillo, que tienen como único fin regular la corriente vehicular.",
+      "Artefactos que emiten luces de colores y cuyo único fin es regular la corriente de vehículos motorizados y peatones."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "los-semaforos-son-b-iib-167",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-168",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La conducción requiere un alto nivel de atención, pues existen distracciones que pueden ocasionar accidentes de tránsito, como por ejemplo:",
+    "opciones": [
+      "Preocupaciones.",
+      "Uso del teléfono celular.",
+      "Manipulación de la radio mientras se conduce.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "la-conduccion-requiere-un-alto-nivel-de-atencion-pues-existe-b-iib-168",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-169",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "¿Influye la somnolencia en la capacidad de conducir?",
+    "opciones": [
+      "Si, pues el conductor tomará decisiones lentas que lo inducirán a cometer errores.",
+      "Si, ya que el conductor está de mal genio.",
+      "No, siempre que la conducción sea realizada lentamente.",
+      "No, siempre y cuando la conducción sea realizada con un acompañante."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "influye-la-somnolencia-en-la-capacidad-de-conducir-b-iib-169",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-170",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "¿Cuál es la acción correcta del conductor, según las normas de tránsito, en la situación que plantea el siguiente gráfico?",
+    "opciones": [
+      "Girar rápidamente a la derecha antes que el peatón cruce la calzada.",
+      "Dar preferencia de paso al peatón para que cruce la calzada.",
+      "Girar lentamente a la derecha antes que el peatón cruce la calzada.",
+      "Tocar el claxon para que el peatón no cruce la calzada"
+    ],
+    "correcta": 1,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-170.png",
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+    },
+    "slug": "cual-es-la-accion-correcta-del-conductor-segun-las-normas-de-b-iib-170",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-171",
+    "categoria": "B-IIb",
+    "tema": "mecanica",
+    "enunciado": "¿En cuál de las siguientes opciones, los factores mencionados contribuyen a una colisión vehicular?",
+    "opciones": [
+      "Pavimento seco, somnolencia, frenos desgastados.",
+      "Pavimento húmedo, neumáticos desgastados, cansancio.",
+      "Reductores de velocidad, falta de atención, uso del teléfono celular.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "en-cual-de-las-siguientes-opciones-los-factores-mencionados--b-iib-171",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-172",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La ____ es la parte de una carretera o camino contigua a la calzada, no habilitada para la circulación de vehículos y destinada eventualmente a la detención de vehículos en emergencia y circulación de peatones.",
+    "opciones": [
+      "Berma.",
+      "Autopista.",
+      "Acera.",
+      "Demarcación."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "la-es-la-parte-de-una-carretera-o-camino-contigua-a-la-calza-b-iib-172",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-173",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Es una parte de la vía destinada a la circulación de vehículos y eventualmente al cruce de peatones y animales.",
+    "opciones": [
+      "La calzada.",
+      "La acera.",
+      "La berma.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "es-una-parte-de-la-via-destinada-a-la-circulacion-de-vehicul-b-iib-173",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-174",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Es una parte de la vía destinada al uso de peatones",
+    "opciones": [
+      "La acera.",
+      "La calzada.",
+      "La berma.",
+      "La autopista."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "es-una-parte-de-la-via-destinada-al-uso-de-peatones-b-iib-174",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-175",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "Son señales que regulan el tránsito:",
+    "opciones": [
+      "Las bocinas y las marcas en la calzada o señales horizontales.",
+      "Las bocinas y las señales verticales.",
+      "Las señales verticales, las marcas en la calzada o señales horizontales y las bocinas.",
+      "Las señales verticales y las marcas en la calzada o señales horizontales."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "son-senales-que-regulan-el-transito-b-iib-175",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-176",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "El conductor que en una vía urbana va a girar a la izquierda, a la derecha o en \"U\" debe hacer la señal respectiva con la luz direccional, por lo menos:",
+    "opciones": [
+      "2 segundos antes de realizar la maniobra.",
+      "1 metro antes de realizar la maniobra.",
+      "20 metros antes de realizar la maniobra.",
+      "3 metros antes de realizar la maniobra."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "el-conductor-que-en-una-via-urbana-va-a-girar-a-la-izquierda-b-iib-176",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-177",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "Si usted está conduciendo por una carretera y va girar a la izquierda, debe realizar la señal respectiva con la luz direccional por lo menos:",
+    "opciones": [
+      "2 segundos antes de realizar la maniobra.",
+      "2 metros antes de realizar la maniobra.",
+      "30 metros antes de realizar la maniobra.",
+      "1 metro antes de realizar la maniobra."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "si-usted-esta-conduciendo-por-una-carretera-y-va-girar-a-la--b-iib-177",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-178",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La licencia de la Clase B, permite conducir autos?",
+    "opciones": [
+      "Si.",
+      "No.",
+      "Únicamente en el ámbito urbano.",
+      "Únicamente en carreteras."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "la-licencia-de-la-clase-b-permite-conducir-autos-b-iib-178",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-179",
+    "categoria": "B-IIb",
+    "tema": "senales",
+    "enunciado": "El siguiente gráfico muestra: 1 ____ 1 ____ 1",
+    "opciones": [
+      "Señalización de tránsito vertical y horizontal en una zona escolar.",
+      "Únicamente señalización de tránsito vertical en una zona escolar.",
+      "Únicamente señalización de tránsito horizontal en una zona escolar.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-179.png",
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+    },
+    "slug": "el-siguiente-grafico-muestra-1-1-1-b-iib-179",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-180",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Las ____ canalizadoras, tiene por función conformar las islas canalizadoras del tránsito automotor en una",
+    "opciones": [
+      "Islas canalizadoras - vía.",
+      "Líneas - intersección.",
+      "Vías - intersección.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "las-canalizadoras-tiene-por-funcion-conformar-las-islas-cana-b-iib-180",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-181",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Si al conducir en una intersección se encuentra con las siguientes marcas en el pavimento (malla ortogonal de color amarillo), significa:",
+    "opciones": [
+      "Que no puede detener el vehículo dentro del área de intersección.",
+      "Que se están relizando trabajos de emergencia en el área demarcada.",
+      "Que únicamente puede detener el vehículo dentro del área de intersección.",
+      "Que es una isla de refigio peatonal."
+    ],
+    "correcta": 0,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-181.png",
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+    },
+    "slug": "si-al-conducir-en-una-interseccion-se-encuentra-con-las-sigu-b-iib-181",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-182",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "De acuerdo al siguienten gráfico, es correcto afirmar que:",
+    "opciones": [
+      "La zona que permite adelantar inicia con las líneas amarillas continuas.",
+      "Los conductores pueden estacionarse al empezar las líneas continuas.",
+      "La zona de no adelantar inicia con las líneas amarillas contínuas.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-182.png",
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+    },
+    "slug": "de-acuerdo-al-siguienten-grafico-es-correcto-afirmar-que-b-iib-182",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-183",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Cuál de las siguientes alternativas, no es una infracción de tránsito:",
+    "opciones": [
+      "Abandonar el vehículo en la vía pública.",
+      "Detener el vehícuo bruscamente sin motivo.",
+      "Utilizar señales audibles o visibles, iguales o similares a las que utilizan los vehículos de emergencia.",
+      "Detenerse en luz verde, para ceder el paso a un peatón."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "cual-de-las-siguientes-alternativas-no-es-una-infraccion-de--b-iib-183",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-184",
+    "categoria": "B-IIb",
+    "tema": "documentos",
+    "enunciado": "Existe infracción al tránsito cuya sanción sea nunca más obtener una licencia de conducir?",
+    "opciones": [
+      "No existe, sería demasiado.",
+      "Si existe, y una de ellas es por conducir con presencia de alcohol en mayor grado al permitido y participar en un accidente de tránsito.",
+      "Sólo el juez puede dictar una sanción de esa naturaleza.",
+      "Ninguna de las anteriores."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "existe-infraccion-al-transito-cuya-sancion-sea-nunca-mas-obt-b-iib-184",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-185",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Los ____ y las ____ requieren un carril completo para circular con seguridad.",
+    "opciones": [
+      "Buses - moticicletas",
+      "Camiones - moticicletas",
+      "Automóviles - moticicletas",
+      "Todas las anteriores."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "los-y-las-requieren-un-carril-completo-para-circular-con-seg-b-iib-185",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-186",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "El conductor de un vehículo debe reducir la velocidad, siempre que se encuentre en los siguientes casos:",
+    "opciones": [
+      "En intersecciones, curvas, túneles, puentes.",
+      "En carreteras, curvas, avenidas.",
+      "En túneles, avenidas, trocha.",
+      "Todas las anteriores."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "el-conductor-de-un-vehiculo-debe-reducir-la-velocidad-siempr-b-iib-186",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-187",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "El pasajero de una motocicleta debe saber:",
+    "opciones": [
+      "Que debe mantener ambos pies sobre los apoyapiés.",
+      "Que debe sujetarse con más firmeza, cuando la motocicleta esté a punto de arrancar.",
+      "Que debe sentarse lo más adelante que pueda, sin quitarle espacio al conductor.",
+      "Todas las anteriores."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "el-pasajero-de-una-motocicleta-debe-saber-b-iib-187",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-188",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "En la relación \"conductores de vehículos menores\" (por ejemplo una motocicleta) y \"conductores de vehículos mayores\" (por ejemplo un auto sedan), la afirmación correcta es:",
+    "opciones": [
+      "Los conductores de vehículos menores tienen las obligaciones y derechos aplicables a los conductores de vehículos mayores, excepto aquellos que por su naturaleza no les son aplicables.",
+      "Los conductores de vehículos menores tienen menos obligaciones que los conductores de vehículos mayores, al ser usuarios vulnerables de la vía.",
+      "Los conductores de vehículos mayores tienen mas derechos que los conductores de vehículos menores, al conducir unidades de dimensiones superiores.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "en-la-relacion-conductores-de-vehiculos-menores-por-ejemplo--b-iib-188",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-189",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Antes de iniciar la conducción de una motocicleta, el conductor debe:",
+    "opciones": [
+      "Colocarse el casco.",
+      "Verificar el correcto funcionamiento del sistema de luces (direccionales, delanteras, posteriores).",
+      "Alinear los espejos retrovisores.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "antes-de-iniciar-la-conduccion-de-una-motocicleta-el-conduct-b-iib-189",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-190",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "El equipo de protección más importante al conducir una motocicleta, es:",
+    "opciones": [
+      "Guantes.",
+      "Rodilleras.",
+      "Coderas, rodilleras, anteojos protectores y guantes.",
+      "Casco."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "el-equipo-de-proteccion-mas-importante-al-conducir-una-motoc-b-iib-190",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-191",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La posición correcta del motociclista en la conducción es:",
+    "opciones": [
+      "Los brazos deben estar totalmente estirados.",
+      "Las manos deben sujetar con firmeza el centro de las empuñaduras.",
+      "Los pies deben encontrarse sobre los apoyapiés.",
+      "Las alternativas b y c son correctas."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "la-posicion-correcta-del-motociclista-en-la-conduccion-es-b-iib-191",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-192",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La siguiente afirmación: \"el motociclista que se encuentra conduciendo en un carril, no debe permitir que otros vehículos intenten forzarlo a moverse hacia un costado del mismo\", es:",
+    "opciones": [
+      "Falsa.",
+      "Verdadera.",
+      "Falsa, porque un automóvil tiene preferencia de uso de carril.",
+      "Falsa, porque solo un automóvil puede usar un carril completo."
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "la-siguiente-afirmacion-el-motociclista-que-se-encuentra-con-b-iib-192",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-193",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La agilidad de la moto ____ debe ser ____ para ir en entre vehículos:",
+    "opciones": [
+      "Siempre - aprovechada - zig zag.",
+      "Nunca - aprovechada - zig zag.",
+      "A veces - utilizada - zig zag.",
+      "Momentáneamente - aprovechada - zig zag"
+    ],
+    "correcta": 1,
+    "imagen": null,
+    "slug": "la-agilidad-de-la-moto-debe-ser-para-ir-en-entre-vehiculos-b-iib-193",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-194",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La conducción eficiente, tiene como beneficio:",
+    "opciones": [
+      "Cuidado del medioambiente, ahorro de combustible o energía.",
+      "No conducir bajo los efectos del alcohol y drogas.",
+      "No conducir con la licencia suspendida.",
+      "Todas las alternativas son correctas."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "la-conduccion-eficiente-tiene-como-beneficio-b-iib-194",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-195",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La siguiente señal de autorización, le indica que:",
+    "opciones": [
+      "Permite el giro a la izquierda en una intersección con semáforo en luz roja.",
+      "Permite el giro a la derecha en una intersección con semáforo en luz roja.",
+      "Permite el giro a la izquierda en una intersección donde no hay semáforo.",
+      "Permite el giro a la derecha en una intersección donde no hay semáforo."
+    ],
+    "correcta": 0,
+    "imagen": {
+      "src": "/images/b-iib/b-iib-195.png",
+      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+    },
+    "slug": "la-siguiente-senal-de-autorizacion-le-indica-que-b-iib-195",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-196",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Es una técnica de conducción eficiente, y por tanto permite la reducción del consumo de combustible, así como de la contaminación ambiental:",
+    "opciones": [
+      "No acelerar bruscamente.",
+      "Mantener el vehículo en buen estado mecánico.",
+      "Mantener la presión de aire de los neumáticos por debajo del nivel correcto.",
+      "Las alternativas a y b son correctas."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "es-una-tecnica-de-conduccion-eficiente-y-por-tanto-permite-l-b-iib-196",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-197",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "La posición correcta de los pies al conducir una motocicleta es:",
+    "opciones": [
+      "Mantener los pies sobre los apoyapiés, con la punta de los pies hacia abajo.",
+      "Mantener los pies sobre los apoyapiés, con la punta de los pies hacia arriba.",
+      "Colocar de manera recta el arco de los pies en los apoyapiés.",
+      "No colocar los pies en los apoyapiés."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "la-posicion-correcta-de-los-pies-al-conducir-una-motocicleta-b-iib-197",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-198",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Para un frenado seguro de la motocicleta (en un frenado usual como, al entrar a una curva, al llegar a una intersección, etc.), se debe utilizar:",
+    "opciones": [
+      "El freno delantero y el freno posterior.",
+      "Únicamente el freno delantero, pues es más potente.",
+      "Únicamente el freno posterior.",
+      "Únicamente el freno delantero."
+    ],
+    "correcta": 0,
+    "imagen": null,
+    "slug": "para-un-frenado-seguro-de-la-motocicleta-en-un-frenado-usual-b-iib-198",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-199",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Al realizar el cambio de carril, la conducta correcta es:",
+    "opciones": [
+      "Verificar la aproximación de otro vehículo al realizar la maniobra.",
+      "Utilizar las luces direccionales que correspondan y las luces de emergencia.",
+      "Utilizar las luces direccionales que correspondan.",
+      "Las alternativas a y c son correctas."
+    ],
+    "correcta": 3,
+    "imagen": null,
+    "slug": "al-realizar-el-cambio-de-carril-la-conducta-correcta-es-b-iib-199",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "b-iib-200",
+    "categoria": "B-IIb",
+    "tema": "prioridad",
+    "enunciado": "Mientras se conduce para alcanzar la velocidad deseada, la aceleración debe ser:",
+    "opciones": [
+      "Muy rápida y agresiva.",
+      "Muy lenta.",
+      "Progresiva.",
+      "Ninguna de las alternativas es correcta."
+    ],
+    "correcta": 2,
+    "imagen": null,
+    "slug": "mientras-se-conduce-para-alcanzar-la-velocidad-deseada-la-ac-b-iib-200",
+    "publish": false,
+    "fuente": "Balotario oficial clase B categorías II-a y II-b (RD N.° 004-2020-MTC/18, Anexo I, gob.pe)",
+    "updatedAt": "2026-10-17"
+  }
+]
