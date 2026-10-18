@@ -47,13 +47,12 @@ const wordCount = question.explicacion.texto.trim().split(/\s+/).length;
 
     {
       question.imagen?.src && (
-        <figure class="my-6">
+        <figure class="my-6 flex flex-col items-center">
           <img
             src={question.imagen.src}
             alt={question.imagen.alt}
-            class="mx-auto h-auto max-h-48"
-            width="160"
-            height="160"
+            class="h-auto max-h-64 w-full max-w-xl object-contain"
+            loading="eager"
           />
           <figcaption class="mt-2 text-center text-sm text-ink-muted">{question.imagen.alt}</figcaption>
         </figure>

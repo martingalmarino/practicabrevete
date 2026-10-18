@@ -46,16 +46,14 @@ export function QuestionCard({
             href={question.imagen.src}
             target="_blank"
             rel="noopener noreferrer"
-            class="rounded-[12px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+            class="block rounded-[12px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
             aria-label={`Ampliar imagen: ${question.imagen.alt}`}
           >
             <img
               src={question.imagen.src}
               alt={question.imagen.alt}
-              class="h-auto max-h-44 w-auto"
-              width="140"
-              height="140"
-              loading="lazy"
+              class="h-auto max-h-48 w-full max-w-md object-contain"
+              loading={index === 0 ? 'eager' : 'lazy'}
             />
           </a>
           <figcaption class="sr-only">{question.imagen.alt}. Enlace para ampliar.</figcaption>
