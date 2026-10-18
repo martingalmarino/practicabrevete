@@ -11,6 +11,8 @@ export type ExplicacionStatus = 'revisar' | 'revisada';
 export interface PreguntaImagen {
   src: string;
   alt: string;
+  width?: number;
+  height?: number;
 }
 
 export interface Explicacion {
