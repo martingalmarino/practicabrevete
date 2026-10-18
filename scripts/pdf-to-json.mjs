@@ -114,9 +114,10 @@ function parseBlock(num, block) {
     .replace(/^\s*generales\s+AI\s*/i, '')
     .trim();
 
-  const aMatch = body.match(/\ba\)\s/);
+  // Buscar "a)" que no esté pegado a letras/números (evita detectar "(P-3a)" como inicio de opciones)
+  const aMatch = body.match(/(?<![a-z0-9])a\)\s/i);
   if (!aMatch) return { error: 'sin a)', raw: body.slice(0, 200) };
-  const aIdx = body.indexOf(aMatch[0]);
+  const aIdx = aMatch.index;
 
   const beforeOpts = body.slice(0, aIdx).trim();
   const optsAndAnswer = body.slice(aIdx).trim();
