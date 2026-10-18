@@ -2,10 +2,12 @@ import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import type { Pregunta, TemaId } from '../data/tipos';
 import aI from '../data/preguntas/a-i.json';
+import aIIa from '../data/preguntas/a-iia.json';
 import bIIb from '../data/preguntas/b-iib.json';
 
 const banks: Record<string, Pregunta[]> = {
   'a-i': aI as Pregunta[],
+  'a-iia': aIIa as Pregunta[],
   'b-iib': bIIb as Pregunta[],
 };
 

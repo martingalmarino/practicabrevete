@@ -35,4 +35,5 @@ export interface Pregunta {
   publish: boolean;
   fuente: string;
   updatedAt: string;
+  tipo?: 'general' | 'especifica';
 }

@@ -28,6 +28,7 @@ const questions = getBank(cat.slug).map((q) => ({
   explicacion: q.explicacion,
   slug: q.slug,
   publish: q.publish,
+  tipo: q.tipo,
 }));
 
 const hasQuestions = questions.length > 0;
@@ -67,7 +68,7 @@ const shouldIndex = cat.disponible && hasQuestions;
 
           <div class="mt-8">
             <ExamApp
-              client:load
+              client:only="preact"
               questions={questions}
               categoria={cat.codigo}
               passScore={site.examRules.passScore}
@@ -84,12 +85,12 @@ const shouldIndex = cat.disponible && hasQuestions;
           </p>
           <ul class="mt-3 space-y-2">
             <li>
-              <a href="/guias/senales-de-transito/" class="text-brand hover:underline">
+              <a href="/guias/senales-de-transito" class="text-brand hover:underline">
                 Señales de tránsito
               </a>
             </li>
             <li>
-              <a href="/guias/prioridad-de-paso-y-rotondas/" class="text-brand hover:underline">
+              <a href="/guias/prioridad-de-paso-y-rotondas" class="text-brand hover:underline">
                 Prioridad de paso y rotondas
               </a>
             </li>
@@ -128,7 +129,7 @@ const shouldIndex = cat.disponible && hasQuestions;
           <p class="text-sm font-semibold text-ink">¿Moto lineal?</p>
           <p class="mt-2 text-sm text-ink-muted">
             Si vas por brevete de moto lineal (B-IIb), practica el{' '}
-            <a href="/simulacro/b-iib/" class="font-semibold text-brand hover:underline">
+            <a href="/simulacro/b-iib" class="font-semibold text-brand hover:underline">
               simulacro B-IIb
             </a>.
           </p>
@@ -141,17 +142,17 @@ const shouldIndex = cat.disponible && hasQuestions;
             <p class="text-sm font-semibold text-ink">Enlaces relacionados</p>
             <ul class="mt-3 space-y-2 text-sm">
               <li>
-                <a href="/guias/senales-de-transito/" class="text-brand hover:underline">
+                <a href="/guias/senales-de-transito" class="text-brand hover:underline">
                   Señales de tránsito que más se preguntan
                 </a>
               </li>
               <li>
-                <a href="/guias/prioridad-de-paso-y-rotondas/" class="text-brand hover:underline">
+                <a href="/guias/prioridad-de-paso-y-rotondas" class="text-brand hover:underline">
                   Prioridad de paso y rotondas
                 </a>
               </li>
               <li>
-                <a href="/simulacro/b-iic/" class="text-brand hover:underline">
+                <a href="/simulacro/b-iic" class="text-brand hover:underline">
                   ¿Manejas mototaxi? Simulacro B-IIc
                 </a>
               </li>

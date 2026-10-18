@@ -103,7 +103,21 @@ export default function ExamApp({ questions, categoria, passScore, timeLimitMinu
   }, [phase, useTimer, secondsLeft]);
 
   function start() {
-    const picked = shuffle(questions).slice(0, Math.min(40, questions.length));
+    let picked: QuizQuestion[];
+    
+    // A-IIa needs 20 general + 20 specific
+    const hasTypes = questions.some(q => q.tipo);
+    if (hasTypes && categoria === 'A-IIa') {
+      const general = questions.filter(q => q.tipo === 'general');
+      const specific = questions.filter(q => q.tipo === 'especifica');
+      picked = [
+        ...shuffle(general).slice(0, 20),
+        ...shuffle(specific).slice(0, 20),
+      ];
+    } else {
+      picked = shuffle(questions).slice(0, Math.min(40, questions.length));
+    }
+    
     setExamQs(picked);
     setAnswers({});
     setIndex(0);
