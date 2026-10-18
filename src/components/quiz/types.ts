@@ -13,4 +13,5 @@ export interface QuizQuestion {
   };
   slug: string;
   publish?: boolean;
+  tipo?: 'general' | 'especifica';
 }

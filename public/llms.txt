@@ -9,20 +9,20 @@ Formato de referencia del examen oficial de reglas: 40 preguntas, aprobado con 3
 Sitio no oficial; no afiliado a entidades del Estado.
 
 ## URLs clave
-- https://www.simulacrobrevete.pe/
-- https://www.simulacrobrevete.pe/simulacro/
-- https://www.simulacrobrevete.pe/simulacro/a-i/
-- https://www.simulacrobrevete.pe/simulacro/a-iia/
-- https://www.simulacrobrevete.pe/simulacro/b-iib/
-- https://www.simulacrobrevete.pe/guias/como-sacar-brevete-a-i/
-- https://www.simulacrobrevete.pe/guias/senales-de-transito/
-- https://www.simulacrobrevete.pe/guias/prioridad-de-paso-y-rotondas/
-- https://www.simulacrobrevete.pe/guias/errores-comunes-examen/
-- https://www.simulacrobrevete.pe/guias/como-estudiar-en-7-dias/
-- https://www.simulacrobrevete.pe/guias/examen-de-manejo-practico/
-- https://www.simulacrobrevete.pe/acerca/
-- https://www.simulacrobrevete.pe/contacto/
-- https://www.simulacrobrevete.pe/aviso-legal/
+- https://www.simulacrobrevete.pe
+- https://www.simulacrobrevete.pe/simulacro
+- https://www.simulacrobrevete.pe/simulacro/a-i
+- https://www.simulacrobrevete.pe/simulacro/a-iia
+- https://www.simulacrobrevete.pe/simulacro/b-iib
+- https://www.simulacrobrevete.pe/guias/como-sacar-brevete-a-i
+- https://www.simulacrobrevete.pe/guias/senales-de-transito
+- https://www.simulacrobrevete.pe/guias/prioridad-de-paso-y-rotondas
+- https://www.simulacrobrevete.pe/guias/errores-comunes-examen
+- https://www.simulacrobrevete.pe/guias/como-estudiar-en-7-dias
+- https://www.simulacrobrevete.pe/guias/examen-de-manejo-practico
+- https://www.simulacrobrevete.pe/acerca
+- https://www.simulacrobrevete.pe/contacto
+- https://www.simulacrobrevete.pe/aviso-legal
 
 ## Fuentes oficiales citadas
 - https://www.gob.pe/139-obtener-primera-licencia-de-conducir-brevete-examen-de-reglas-de-transito

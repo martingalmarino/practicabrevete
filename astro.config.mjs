@@ -20,10 +20,10 @@ export default defineConfig({
     mdx(),
     sitemap({
       filter: (page) => {
-        const url = page.replace(site.url, '');
+        const url = page.replace(site.url, '').replace(/\/$/, '');
         if (url.includes('/og/') || url.endsWith('.txt')) return false;
-        if (url.startsWith('/practica/') || url === '/repaso/') return false;
-        const match = url.match(/\/simulacro\/([^/]+)\//);
+        if (url.startsWith('/practica') || url === '/repaso') return false;
+        const match = url.match(/\/simulacro\/([^/]+)/);
         if (match) {
           const slug = match[1];
           const cat = categorias.find((c) => c.slug === slug);
