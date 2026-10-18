@@ -20,6 +20,7 @@ const questions = getAllQuestions().map((q) => ({
 <BaseLayout
   title="Repaso de errores"
   description="Repasa las preguntas que fallaste. Se guardan solo en tu dispositivo, sin crear cuenta."
+  noindex={true}
 >
   <Breadcrumbs items={[{ label: 'Inicio', href: '/' }, { label: 'Repaso de errores' }]} />
   <section class="container-page pb-14">

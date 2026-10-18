@@ -31,7 +31,7 @@ const canonicalUrl = canonical ? absoluteUrl(new URL(canonical, site.url).pathna
 <title>{fullTitle}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonicalUrl} />
-{noindex && <meta name="robots" content="noindex, nofollow" />}
+    {noindex && <meta name="robots" content="noindex, follow" />}
 <meta name="author" content={site.name} />
 <meta property="og:type" content={type} />
 <meta property="og:locale" content={site.locale.replace('-', '_')} />

@@ -22,6 +22,7 @@ export default defineConfig({
       filter: (page) => {
         const url = page.replace(site.url, '');
         if (url.includes('/og/') || url.endsWith('.txt')) return false;
+        if (url.startsWith('/practica/') || url === '/repaso/') return false;
         const match = url.match(/\/simulacro\/([^/]+)\//);
         if (match) {
           const slug = match[1];
