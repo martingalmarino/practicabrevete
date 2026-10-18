@@ -30,6 +30,7 @@ const questions = getQuestionsByTema(t.slug as TemaId).map((q) => ({
 <BaseLayout
   title={`Práctica: ${t.nombre}`}
   description={`${t.descripcion} Feedback inmediato y explicación en cada respuesta.`}
+  noindex={true}
 >
   <Breadcrumbs
     items={[
