@@ -53,7 +53,7 @@ const wordCount = question.explicacion.texto.trim().split(/\s+/).length;
             alt={question.imagen.alt}
             width={question.imagen.width}
             height={question.imagen.height}
-            class="h-auto max-h-64 w-full max-w-xl object-contain"
+            class={`h-auto max-h-64 w-full object-contain ${(question.imagen.width ?? 0) >= 380 ? 'max-w-3xl' : 'max-w-xl'}`}
             loading="eager"
           />
           <figcaption class="mt-2 text-center text-sm text-ink-muted">{question.imagen.alt}</figcaption>

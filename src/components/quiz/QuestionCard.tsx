@@ -41,7 +41,7 @@ export function QuestionCard({
       </h2>
 
       {question.imagen?.src && (
-        <figure class="mt-5 flex justify-center">
+        <figure key={question.id} class="mt-5 flex justify-center">
           <a
             href={question.imagen.src}
             target="_blank"
@@ -54,7 +54,7 @@ export function QuestionCard({
               alt={question.imagen.alt}
               width={question.imagen.width}
               height={question.imagen.height}
-              class="h-auto max-h-48 w-full max-w-md object-contain"
+              class={`h-auto max-h-48 w-full object-contain ${(question.imagen.width ?? 0) >= 380 ? 'max-w-2xl' : 'max-w-md'}`}
               loading={index === 0 ? 'eager' : 'lazy'}
             />
           </a>

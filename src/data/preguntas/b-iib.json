@@ -53,10 +53,10 @@
     ],
     "correcta": 2,
     "imagen": {
-      "src": "/images/senales/r-3-solo-adelante.svg",
-      "alt": "Señal reglamentaria R-3: continuar de frente",
-      "width": 120,
-      "height": 120
+      "src": "/images/b-iib/b-iib-003.png",
+      "alt": "Señal reglamentaria R-3: círculo rojo con flecha negra hacia arriba",
+      "width": 162,
+      "height": 158
     },
     "slug": "la-senal-vertical-reglamentaria-r-3-significa-que-b-iib-003",
     "publish": false,
@@ -159,9 +159,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-008.png",
-      "alt": "Señal R-53 del balotario B-IIa/B-IIb",
-      "width": 159,
-      "height": 152
+      "alt": "Señal reglamentaria R-53: vehículo sobre una cuadrícula, cruzado por una diagonal roja",
+      "width": 179,
+      "height": 188
     },
     "slug": "la-siguiente-senal-vertical-reglamentaria-r-53-b-iib-008",
     "publish": false,
@@ -331,9 +331,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-017.png",
-      "alt": "Señal R-29 del balotario B-IIa/B-IIb",
-      "width": 120,
-      "height": 138
+      "alt": "Señal reglamentaria R-29: bocina tachada con una diagonal roja",
+      "width": 143,
+      "height": 176
     },
     "slug": "la-siguiente-senal-vertical-reglamentaria-r-29-b-iib-017",
     "publish": false,
@@ -570,9 +570,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-030.png",
-      "alt": "Señal P-2A del balotario B-IIa/B-IIb",
-      "width": 136,
-      "height": 169
+      "alt": "Señales preventivas P-1A y P-2A: dos rombos amarillos con flecha de giro a la derecha, una en ángulo recto y otra en curva",
+      "width": 336,
+      "height": 183
     },
     "slug": "cual-es-la-diferencia-entre-las-senales-p-2a-y-p-1a-b-iib-030",
     "publish": false,
@@ -593,9 +593,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-031.png",
-      "alt": "Señal R-30F del balotario B-IIa/B-IIb",
-      "width": 124,
-      "height": 160
+      "alt": "Señal reglamentaria R-30F: 40 km/h dentro de un círculo rojo sobre fondo amarillo",
+      "width": 154,
+      "height": 180
     },
     "slug": "que-indica-la-senal-r-30f-b-iib-031",
     "publish": false,
@@ -616,7 +616,7 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-032.png",
-      "alt": "Señal R-23 del balotario B-IIa/B-IIb",
+      "alt": "Señal reglamentaria R-23: motocicleta tachada con una diagonal",
       "width": 157,
       "height": 156
     },
@@ -639,9 +639,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-033.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
-      "width": 296,
-      "height": 197
+      "alt": "Gráfico de una intersección sin señalización con dos vehículos que llegan desde vías diferentes",
+      "width": 309,
+      "height": 203
     },
     "slug": "si-dos-vehiculos-se-aproximan-simultaneamente-a-una-intersec-b-iib-033",
     "publish": false,
@@ -752,7 +752,7 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-039.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
+      "alt": "Señal con una motocicleta dentro de un círculo y el texto SOLO MOTOCICLETAS",
       "width": 155,
       "height": 191
     },
@@ -901,9 +901,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-047.png",
-      "alt": "Señal P-17A del balotario B-IIa/B-IIb",
-      "width": 146,
-      "height": 164
+      "alt": "Señal preventiva P-17A: rombo amarillo con dos líneas que se acercan, indicando un estrechamiento de la calzada",
+      "width": 162,
+      "height": 183
     },
     "slug": "la-siguiente-senal-vertical-reglamentaria-p-17a-indica-b-iib-047",
     "publish": false,
@@ -1194,9 +1194,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-063.png",
-      "alt": "Señal P-33A del balotario B-IIa/B-IIb",
-      "width": 125,
-      "height": 149
+      "alt": "Señal preventiva P-33A: rombo amarillo con el perfil de un resalto en la vía",
+      "width": 163,
+      "height": 184
     },
     "slug": "la-senal-preventiva-p-33a-significa-b-iib-063",
     "publish": false,
@@ -1621,7 +1621,7 @@
     "id": "b-iib-087",
     "categoria": "B-IIb",
     "tema": "prioridad",
-    "enunciado": "Si un conductor que circula por el carril derecho de una vía se encuentra con las flechas inclinadas que se muestran en la figura, su conducta correcta es: )",
+    "enunciado": "Si un conductor que circula por el carril derecho de una vía se encuentra con las flechas inclinadas que se muestran en la figura, su conducta correcta es:",
     "opciones": [
       "Continuar la circulación por el carril en que se encuentra.",
       "Adelantar al vehículo que se encuentra delante de él y que circula por el carril izquierdo.",
@@ -1631,9 +1631,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-087.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
+      "alt": "Gráfico de dos vías con flechas inclinadas pintadas en el pavimento sobre el carril derecho y vehículos circulando",
       "width": 400,
-      "height": 347
+      "height": 512
     },
     "slug": "si-un-conductor-que-circula-por-el-carril-derecho-de-una-via-b-iib-087",
     "publish": false,
@@ -1726,9 +1726,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-092.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
+      "alt": "Gráfico de una vía de doble sentido con un vehículo rojo detrás de un vehículo azul, separados por línea amarilla",
       "width": 400,
-      "height": 144
+      "height": 143
     },
     "slug": "en-el-caso-representado-en-el-siguiente-grafico-el-vehiculo--b-iib-092",
     "publish": false,
@@ -1749,9 +1749,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-093.png",
-      "alt": "Señal R-17 del balotario B-IIa/B-IIb",
-      "width": 175,
-      "height": 194
+      "alt": "Señal reglamentaria R-17: automóvil tachado con una diagonal roja",
+      "width": 166,
+      "height": 160
     },
     "slug": "la-siguiente-senal-r-17-significa-b-iib-093",
     "publish": false,
@@ -1772,9 +1772,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-094.png",
-      "alt": "Señal R-4 del balotario B-IIa/B-IIb",
-      "width": 176,
-      "height": 158
+      "alt": "Señal reglamentaria R-4: círculo rojo con franja blanca y el texto NO ENTRE",
+      "width": 162,
+      "height": 183
     },
     "slug": "si-usted-se-encuentra-conduciendo-su-vehiculo-por-una-via-y--b-iib-094",
     "publish": false,
@@ -1795,9 +1795,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-095.png",
-      "alt": "Señal P-36 del balotario B-IIa/B-IIb",
-      "width": 181,
-      "height": 133
+      "alt": "Señal preventiva P-36: rombo amarillo con un vehículo derrapando",
+      "width": 162,
+      "height": 159
     },
     "slug": "la-siguiente-senal-p-36-significa-b-iib-095",
     "publish": false,
@@ -1818,9 +1818,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-096.png",
-      "alt": "Señal R-14 del balotario B-IIa/B-IIb",
-      "width": 175,
-      "height": 190
+      "alt": "Señal reglamentaria R-14: flecha negra hacia la derecha dentro de un círculo rojo, con el texto CIRCULACIÓN",
+      "width": 131,
+      "height": 183
     },
     "slug": "la-siguiente-senal-r-14-significa-b-iib-096",
     "publish": false,
@@ -1841,9 +1841,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-097.png",
-      "alt": "Señal P-6 del balotario B-IIa/B-IIb",
+      "alt": "Señal preventiva P-6: rombo con una cruz negra",
       "width": 179,
-      "height": 182
+      "height": 170
     },
     "slug": "la-siguiente-senal-p-6-significa-b-iib-097",
     "publish": false,
@@ -1864,9 +1864,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-098.png",
-      "alt": "Señal R-30C del balotario B-IIa/B-IIb",
-      "width": 159,
-      "height": 191
+      "alt": "Señal reglamentaria R-30C: placa SALIDA sobre un círculo rojo con 50 km/h",
+      "width": 131,
+      "height": 166
     },
     "slug": "la-siguiente-senal-r-30c-significa-b-iib-098",
     "publish": false,
@@ -1887,9 +1887,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-099.png",
-      "alt": "Señal R-5-4 del balotario B-IIa/B-IIb",
-      "width": 140,
-      "height": 197
+      "alt": "Señal reglamentaria R-5-4: dos flechas de giro a la izquierda en sentidos opuestos, con el texto SOLO",
+      "width": 129,
+      "height": 180
     },
     "slug": "la-siguiente-senal-r-5-4-significa-b-iib-099",
     "publish": false,
@@ -1910,9 +1910,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-100.png",
-      "alt": "Señal R-9 del balotario B-IIa/B-IIb",
-      "width": 159,
-      "height": 141
+      "alt": "Señal reglamentaria R-9: flecha en U dentro de un círculo rojo",
+      "width": 158,
+      "height": 182
     },
     "slug": "la-siguiente-senal-r-9-significa-b-iib-100",
     "publish": false,
@@ -1933,9 +1933,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-101.png",
-      "alt": "Señal R-5-2 del balotario B-IIa/B-IIb",
-      "width": 144,
-      "height": 167
+      "alt": "Señal reglamentaria R-5-2: flecha recta y flecha hacia la izquierda que salen de un mismo tronco",
+      "width": 133,
+      "height": 179
     },
     "slug": "la-siguiente-senal-r-5-2-significa-b-iib-101",
     "publish": false,
@@ -1956,9 +1956,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-102.png",
-      "alt": "Señal R-20 del balotario B-IIa/B-IIb",
-      "width": 130,
-      "height": 157
+      "alt": "Señal reglamentaria R-20: peatón con una flecha hacia la izquierda dentro de un círculo rojo",
+      "width": 147,
+      "height": 179
     },
     "slug": "la-siguiente-senal-r-20-significa-b-iib-102",
     "publish": false,
@@ -1997,9 +1997,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-104.png",
-      "alt": "Señal R-48 del balotario B-IIa/B-IIb",
-      "width": 168,
-      "height": 202
+      "alt": "Señal reglamentaria R-48: camión y peatón dentro de un círculo rojo",
+      "width": 155,
+      "height": 181
     },
     "slug": "la-siguiente-senal-r-48-significa-b-iib-104",
     "publish": false,
@@ -2020,9 +2020,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-105.png",
-      "alt": "Señal R-49 del balotario B-IIa/B-IIb",
-      "width": 167,
-      "height": 200
+      "alt": "Señal reglamentaria R-49: dos automóviles en carriles dentro de un círculo rojo",
+      "width": 153,
+      "height": 182
     },
     "slug": "la-siguiente-senal-r-49-significa-b-iib-105",
     "publish": false,
@@ -2043,9 +2043,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-106.png",
-      "alt": "Señal R-50 del balotario B-IIa/B-IIb",
-      "width": 175,
-      "height": 237
+      "alt": "Señal reglamentaria R-50: flechas en sentidos opuestos con el texto PREFERENCIA AL SENTIDO CONTRARIO",
+      "width": 143,
+      "height": 242
     },
     "slug": "la-siguiente-senal-r-50-significa-b-iib-106",
     "publish": false,
@@ -2066,9 +2066,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-107.png",
-      "alt": "Señal R-5-1 del balotario B-IIa/B-IIb",
-      "width": 155,
-      "height": 179
+      "alt": "Señal reglamentaria R-5-1: flecha curva hacia la izquierda con el texto SOLO",
+      "width": 137,
+      "height": 160
     },
     "slug": "la-senal-r-5-1-es-b-iib-107",
     "publish": false,
@@ -2089,9 +2089,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-108.png",
-      "alt": "Señal P-3A del balotario B-IIa/B-IIb",
-      "width": 130,
-      "height": 162
+      "alt": "Señal preventiva P-3A: rombo amarillo con flecha en curva y contracurva",
+      "width": 148,
+      "height": 178
     },
     "slug": "la-senal-p-3a-le-indica-al-conductor-que-b-iib-108",
     "publish": false,
@@ -2112,9 +2112,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-109.png",
-      "alt": "Señal P-5-1A del balotario B-IIa/B-IIb",
-      "width": 134,
-      "height": 188
+      "alt": "Señal preventiva P-5-1A: rombo amarillo con flecha sinuosa",
+      "width": 158,
+      "height": 183
     },
     "slug": "la-siguiente-senal-p-5-1a-le-advierte-al-conductor-que-b-iib-109",
     "publish": false,
@@ -2135,9 +2135,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-110.png",
-      "alt": "Señal P-61 del balotario B-IIa/B-IIb",
-      "width": 128,
-      "height": 160
+      "alt": "Señal preventiva P-61: rectángulo amarillo con un chevron negro hacia la derecha",
+      "width": 113,
+      "height": 183
     },
     "slug": "la-siguiente-senal-p-61-le-advierte-al-conductor-que-b-iib-110",
     "publish": false,
@@ -2158,9 +2158,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-111.png",
-      "alt": "Señal P-34 del balotario B-IIa/B-IIb",
-      "width": 128,
-      "height": 158
+      "alt": "Señal preventiva P-34: rombo amarillo con el perfil de un badén",
+      "width": 162,
+      "height": 183
     },
     "slug": "la-siguiente-senal-p-34-le-advierte-al-conductor-que-b-iib-111",
     "publish": false,
@@ -2181,9 +2181,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-112.png",
-      "alt": "Señal P-60 del balotario B-IIa/B-IIb",
-      "width": 131,
-      "height": 111
+      "alt": "Señal preventiva P-60: banderola amarilla triangular con el texto NO ADELANTAR",
+      "width": 192,
+      "height": 183
     },
     "slug": "la-siguiente-senal-p-60-es-b-iib-112",
     "publish": false,
@@ -2204,9 +2204,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-113.png",
-      "alt": "Señal P-46 del balotario B-IIa/B-IIb",
-      "width": 167,
-      "height": 190
+      "alt": "Señal preventiva P-46: rombo amarillo verdoso con una bicicleta",
+      "width": 159,
+      "height": 183
     },
     "slug": "la-siguiente-senal-p-46-indica-b-iib-113",
     "publish": false,
@@ -2227,9 +2227,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-114.png",
-      "alt": "Señal P-46-A del balotario B-IIa/B-IIb",
-      "width": 148,
-      "height": 171
+      "alt": "Señal preventiva P-46A: rombo amarillo verdoso con una bicicleta entre líneas discontinuas",
+      "width": 160,
+      "height": 183
     },
     "slug": "la-siguiente-senal-p-46-a-indica-b-iib-114",
     "publish": false,
@@ -2250,9 +2250,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-115.png",
-      "alt": "Señal P-46B del balotario B-IIa/B-IIb",
-      "width": 153,
-      "height": 206
+      "alt": "Señal preventiva P-46B: rombo con bicicleta y placa con flecha diagonal hacia abajo",
+      "width": 146,
+      "height": 237
     },
     "slug": "la-siguiente-senal-p-46b-indica-b-iib-115",
     "publish": false,
@@ -2273,9 +2273,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-116.png",
-      "alt": "Señal P-48 del balotario B-IIa/B-IIb",
-      "width": 157,
-      "height": 186
+      "alt": "Señal preventiva P-48: rombo amarillo verdoso con un peatón caminando",
+      "width": 159,
+      "height": 184
     },
     "slug": "la-siguiente-senal-p-48-indica-b-iib-116",
     "publish": false,
@@ -2296,9 +2296,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-117.png",
-      "alt": "Señal P-48A del balotario B-IIa/B-IIb",
-      "width": 130,
-      "height": 155
+      "alt": "Señal preventiva P-48A: rombo amarillo verdoso con un peatón sobre franjas de cruce",
+      "width": 160,
+      "height": 183
     },
     "slug": "la-siguiente-senal-p-48a-indica-b-iib-117",
     "publish": false,
@@ -2319,9 +2319,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-118.png",
-      "alt": "Señal P-48-B del balotario B-IIa/B-IIb",
-      "width": 129,
-      "height": 221
+      "alt": "Señal preventiva P-48B: rombo con peatón sobre franjas y placa con flecha diagonal hacia abajo",
+      "width": 144,
+      "height": 237
     },
     "slug": "la-siguiente-senal-p-48-b-indica-b-iib-118",
     "publish": false,
@@ -2342,9 +2342,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-119.png",
-      "alt": "Señal P-49 del balotario B-IIa/B-IIb",
-      "width": 138,
-      "height": 176
+      "alt": "Señal preventiva P-49: pentágono amarillo verdoso con dos escolares caminando",
+      "width": 163,
+      "height": 183
     },
     "slug": "la-siguiente-senal-p-49-indica-b-iib-119",
     "publish": false,
@@ -2365,9 +2365,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-120.png",
-      "alt": "Señal P-49A del balotario B-IIa/B-IIb",
-      "width": 136,
-      "height": 172
+      "alt": "Señal preventiva P-49A: pentágono amarillo verdoso con dos escolares sobre franjas de cruce",
+      "width": 152,
+      "height": 183
     },
     "slug": "la-siguiente-senal-p-49a-indica-b-iib-120",
     "publish": false,
@@ -2388,9 +2388,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-121.png",
-      "alt": "Señal P-49B del balotario B-IIa/B-IIb",
-      "width": 148,
-      "height": 254
+      "alt": "Señal preventiva P-49B: pentágono con escolares y placa con flecha diagonal hacia abajo",
+      "width": 145,
+      "height": 237
     },
     "slug": "la-siguiente-senal-p-49b-indica-b-iib-121",
     "publish": false,
@@ -2411,9 +2411,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-122.png",
-      "alt": "Señal P-50 del balotario B-IIa/B-IIb",
-      "width": 137,
-      "height": 176
+      "alt": "Señal preventiva P-50: rombo amarillo verdoso con un niño corriendo tras una pelota",
+      "width": 160,
+      "height": 183
     },
     "slug": "la-siguiente-senal-p-50-indica-b-iib-122",
     "publish": false,
@@ -2434,9 +2434,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-123.png",
-      "alt": "Señal P-51 del balotario B-IIa/B-IIb",
-      "width": 141,
-      "height": 181
+      "alt": "Señal preventiva P-51: rombo amarillo con un tractor",
+      "width": 167,
+      "height": 195
     },
     "slug": "la-siguiente-senal-p-51-indica-b-iib-123",
     "publish": false,
@@ -2457,9 +2457,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-124.png",
-      "alt": "Señal P-53 del balotario B-IIa/B-IIb",
-      "width": 123,
-      "height": 122
+      "alt": "Señal preventiva P-53: rombo amarillo con una vaca",
+      "width": 172,
+      "height": 195
     },
     "slug": "la-siguiente-senal-p-53-indica-b-iib-124",
     "publish": false,
@@ -2480,9 +2480,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-125.png",
-      "alt": "Señal P-55 del balotario B-IIa/B-IIb",
-      "width": 158,
-      "height": 173
+      "alt": "Señal preventiva P-55: rombo amarillo con un semáforo",
+      "width": 176,
+      "height": 203
     },
     "slug": "la-siguiente-senal-p-55-indica-b-iib-125",
     "publish": false,
@@ -2503,9 +2503,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-126.png",
-      "alt": "Señal P-58 del balotario B-IIa/B-IIb",
-      "width": 163,
-      "height": 211
+      "alt": "Señal preventiva P-58: rombo amarillo con flecha hacia arriba y señal de PARE",
+      "width": 159,
+      "height": 193
     },
     "slug": "la-siguiente-senal-p-58-le-indica-b-iib-126",
     "publish": false,
@@ -2526,9 +2526,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-127.png",
-      "alt": "Señal P-59 del balotario B-IIa/B-IIb",
-      "width": 157,
-      "height": 196
+      "alt": "Señal preventiva P-59: rombo amarillo con flecha hacia arriba y triángulo de ceda el paso",
+      "width": 179,
+      "height": 195
     },
     "slug": "la-siguiente-senal-p-59-le-indica-b-iib-127",
     "publish": false,
@@ -2549,9 +2549,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-128.png",
-      "alt": "Señal P-41 del balotario B-IIa/B-IIb",
-      "width": 149,
-      "height": 197
+      "alt": "Señal preventiva P-41: rombo amarillo con la silueta de la boca de un túnel",
+      "width": 176,
+      "height": 194
     },
     "slug": "la-siguiente-senal-p-41-le-indica-b-iib-128",
     "publish": false,
@@ -2572,9 +2572,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-129.png",
-      "alt": "Señal P-45 del balotario B-IIa/B-IIb",
-      "width": 132,
-      "height": 173
+      "alt": "Señal preventiva P-45: rombo amarillo con un avión",
+      "width": 165,
+      "height": 191
     },
     "slug": "la-siguiente-senal-p-45-indica-b-iib-129",
     "publish": false,
@@ -2595,9 +2595,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-130.png",
-      "alt": "Señal P-52 del balotario B-IIa/B-IIb",
-      "width": 150,
-      "height": 198
+      "alt": "Señal preventiva P-52: rombo amarillo con un camión de bomberos",
+      "width": 168,
+      "height": 195
     },
     "slug": "la-siguiente-senal-p-52-le-indica-b-iib-130",
     "publish": false,
@@ -2618,9 +2618,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-131.png",
-      "alt": "Señal P-66 del balotario B-IIa/B-IIb",
-      "width": 167,
-      "height": 222
+      "alt": "Señal preventiva P-66: rombo amarillo con un árbol inclinado por el viento",
+      "width": 171,
+      "height": 199
     },
     "slug": "la-siguiente-senal-p-66-le-indica-b-iib-131",
     "publish": false,
@@ -2641,9 +2641,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-132.png",
-      "alt": "Señal P-66A del balotario B-IIa/B-IIb",
-      "width": 184,
-      "height": 239
+      "alt": "Señal preventiva P-66A: rombo amarillo con arena que se acumula sobre la vía",
+      "width": 157,
+      "height": 184
     },
     "slug": "la-siguiente-senal-p-66a-le-indica-b-iib-132",
     "publish": false,
@@ -2664,9 +2664,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-133.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
-      "width": 166,
-      "height": 189
+      "alt": "Señal informativa verde con un esquema de calles, una prohibición de girar a la izquierda y el texto AV. ORIENTE",
+      "width": 194,
+      "height": 229
     },
     "slug": "si-al-conducir-su-vehiculo-se-encuentra-con-la-senal-vertica-b-iib-133",
     "publish": false,
@@ -2687,9 +2687,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-134.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
-      "width": 278,
-      "height": 175
+      "alt": "Señal informativa verde con un esquema de manzanas y una flecha que rodea la cuadra",
+      "width": 298,
+      "height": 184
     },
     "slug": "si-al-conducir-su-vehiculo-se-encuentra-con-la-senal-vertica-b-iib-134",
     "publish": false,
@@ -2700,7 +2700,7 @@
     "id": "b-iib-135",
     "categoria": "B-IIb",
     "tema": "senales",
-    "enunciado": "La siguiente señal (I-14), significa: 1-14",
+    "enunciado": "La siguiente señal (I-14), significa:",
     "opciones": [
       "Señal de hostal.",
       "Señal de hospedaje.",
@@ -2710,9 +2710,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-135.png",
-      "alt": "Señal I-14 del balotario B-IIa/B-IIb",
-      "width": 172,
-      "height": 218
+      "alt": "Señal informativa I-14: letra H blanca sobre fondo azul",
+      "width": 156,
+      "height": 193
     },
     "slug": "la-siguiente-senal-i-14-significa-1-14-b-iib-135",
     "publish": false,
@@ -2723,7 +2723,7 @@
     "id": "b-iib-136",
     "categoria": "B-IIb",
     "tema": "senales",
-    "enunciado": "La siguiente señal (I-31), significa: 1-31",
+    "enunciado": "La siguiente señal (I-31), significa:",
     "opciones": [
       "Proximidad de una bahía de taxis.",
       "Proximidad a un estacionamiento permitido.",
@@ -2733,9 +2733,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-136.png",
-      "alt": "Señal I-31 del balotario B-IIa/B-IIb",
-      "width": 156,
-      "height": 198
+      "alt": "Señal informativa I-31: vía con un ensanche lateral para detenerse, sobre fondo azul",
+      "width": 158,
+      "height": 195
     },
     "slug": "la-siguiente-senal-i-31-significa-1-31-b-iib-136",
     "publish": false,
@@ -2756,9 +2756,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-137.png",
-      "alt": "Señal I-9 del balotario B-IIa/B-IIb",
-      "width": 130,
-      "height": 187
+      "alt": "Señal informativa I-9: silueta de un soldado con casco sobre fondo azul",
+      "width": 149,
+      "height": 183
     },
     "slug": "la-siguiente-senal-i-9-significa-b-iib-137",
     "publish": false,
@@ -2779,9 +2779,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-138.png",
-      "alt": "Señal I-18 del balotario B-IIa/B-IIb",
-      "width": 154,
-      "height": 181
+      "alt": "Señal informativa I-18: llave de herramienta sobre fondo azul",
+      "width": 183,
+      "height": 178
     },
     "slug": "la-siguiente-senal-i-18-se-utiliza-para-indicar-b-iib-138",
     "publish": false,
@@ -2802,9 +2802,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-139.png",
-      "alt": "Señal I-19 del balotario B-IIa/B-IIb",
-      "width": 136,
-      "height": 169
+      "alt": "Señal informativa I-19: surtidor de combustible sobre fondo azul",
+      "width": 147,
+      "height": 181
     },
     "slug": "la-siguiente-senal-i-19-se-utiliza-para-indicar-b-iib-139",
     "publish": false,
@@ -2815,7 +2815,7 @@
     "id": "b-iib-140",
     "categoria": "B-IIb",
     "tema": "senales",
-    "enunciado": "La siguiente señal (I-20), se utiliza para indicar: 1 29",
+    "enunciado": "La siguiente señal (I-20), se utiliza para indicar:",
     "opciones": [
       "Cercanía a un servicio mecánico.",
       "Cercanía a una zona donde debe circular con cadenas en las llantas.",
@@ -2825,9 +2825,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-140.png",
-      "alt": "Señal I-20 del balotario B-IIa/B-IIb",
-      "width": 140,
-      "height": 172
+      "alt": "Señal informativa I-20: neumático sobre fondo azul",
+      "width": 157,
+      "height": 194
     },
     "slug": "la-siguiente-senal-i-20-se-utiliza-para-indicar-1-29-b-iib-140",
     "publish": false,
@@ -2848,9 +2848,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-141.png",
-      "alt": "Señal R-16A del balotario B-IIa/B-IIb",
-      "width": 155,
-      "height": 239
+      "alt": "Señal reglamentaria R-16A: automóviles tachados con diagonal negra y el texto FIN RESTRICCIÓN",
+      "width": 135,
+      "height": 241
     },
     "slug": "la-siguiente-senal-r-16a-se-utiliza-para-indicar-b-iib-141",
     "publish": false,
@@ -2907,9 +2907,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-144.png",
-      "alt": "Señal P-61 del balotario B-IIa/B-IIb",
-      "width": 146,
-      "height": 171
+      "alt": "Señal preventiva P-61: rectángulo amarillo con un chevron negro hacia la derecha",
+      "width": 117,
+      "height": 183
     },
     "slug": "la-siguiente-senal-p-61-muestra-b-iib-144",
     "publish": false,
@@ -3272,9 +3272,9 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/b-iib/b-iib-164.png",
-      "alt": "Señal P-15 del balotario B-IIa/B-IIb",
-      "width": 178,
-      "height": 185
+      "alt": "Señal preventiva P-15: rombo amarillo con tres flechas en círculo (rotonda)",
+      "width": 149,
+      "height": 183
     },
     "slug": "la-siguiente-senal-p-15-se-utiliza-para-advertir-al-conducto-b-iib-164",
     "publish": false,
@@ -3295,9 +3295,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-165.png",
-      "alt": "Señal P-31A del balotario B-IIa/B-IIb",
-      "width": 191,
-      "height": 197
+      "alt": "Señal preventiva P-31A: rombo amarillo con una vía de calzadas separadas",
+      "width": 160,
+      "height": 183
     },
     "slug": "la-siguiente-senal-p-31a-indica-b-iib-165",
     "publish": false,
@@ -3390,9 +3390,9 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/b-iib/b-iib-170.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
-      "width": 222,
-      "height": 219
+      "alt": "Gráfico de una intersección en cruz con un vehículo rojo que se aproxima",
+      "width": 294,
+      "height": 289
     },
     "slug": "cual-es-la-accion-correcta-del-conductor-segun-las-normas-de-b-iib-170",
     "publish": false,
@@ -3547,7 +3547,7 @@
     "id": "b-iib-179",
     "categoria": "B-IIb",
     "tema": "senales",
-    "enunciado": "El siguiente gráfico muestra: 1 ____ 1 ____ 1",
+    "enunciado": "El siguiente gráfico muestra:",
     "opciones": [
       "Señalización de tránsito vertical y horizontal en una zona escolar.",
       "Únicamente señalización de tránsito vertical en una zona escolar.",
@@ -3557,7 +3557,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-179.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+      "alt": "Gráfico de una zona escolar vista desde arriba con señales verticales y marcas en el pavimento",
+      "width": 400,
+      "height": 137
     },
     "slug": "el-siguiente-grafico-muestra-1-1-1-b-iib-179",
     "publish": false,
@@ -3596,7 +3598,9 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-181.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb"
+      "alt": "Marcas en el pavimento: malla ortogonal amarilla en el área de una intersección",
+      "width": 214,
+      "height": 172
     },
     "slug": "si-al-conducir-en-una-interseccion-se-encuentra-con-las-sigu-b-iib-181",
     "publish": false,
@@ -3617,9 +3621,9 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/b-iib/b-iib-182.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
-      "width": 237,
-      "height": 496
+      "alt": "Gráfico de una vía con líneas amarillas, un vehículo rojo y uno amarillo vistos desde arriba",
+      "width": 231,
+      "height": 322
     },
     "slug": "de-acuerdo-al-siguienten-grafico-es-correcto-afirmar-que-b-iib-182",
     "publish": false,
@@ -3856,7 +3860,7 @@
     "correcta": 0,
     "imagen": {
       "src": "/images/b-iib/b-iib-195.png",
-      "alt": "Imagen de la pregunta del balotario B-IIa/B-IIb",
+      "alt": "Señal con una flecha de giro a la izquierda en un círculo y el texto PERMITIDO GIRAR CON LUZ ROJA",
       "width": 144,
       "height": 145
     },
