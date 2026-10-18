@@ -12,7 +12,7 @@ interface Props {
 }
 
 export default function PracticeApp({ questions, tema, temaNombre }: Props) {
-  const [order, setOrder] = useState(() => [...questions].sort(() => Math.random() - 0.5));
+  const [order, setOrder] = useState<QuizQuestion[]>([]);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [confirmed, setConfirmed] = useState(false);
@@ -22,10 +22,23 @@ export default function PracticeApp({ questions, tema, temaNombre }: Props) {
   );
 
   useEffect(() => {
+    function shuffle<T>(array: T[]): T[] {
+      const result = [...array];
+      for (let i = result.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [result[i], result[j]] = [result[j], result[i]];
+      }
+      return result;
+    }
+    setOrder(shuffle(questions));
     trackInicioSimulacro('a-i', 'practica');
-  }, []);
+  }, [questions]);
 
   const current = order[index];
+  
+  if (!order.length) {
+    return <div class="card-surface p-6"><p class="text-body">Cargando...</p></div>;
+  }
   const accuracy = useMemo(() => {
     if (!stats.vistas) return 0;
     return Math.round((stats.aciertos / stats.vistas) * 100);
@@ -74,7 +87,15 @@ export default function PracticeApp({ questions, tema, temaNombre }: Props) {
     setConfirmed(false);
     setShowExp(true);
     if (index >= order.length - 1) {
-      setOrder([...questions].sort(() => Math.random() - 0.5));
+      function shuffle<T>(array: T[]): T[] {
+        const result = [...array];
+        for (let i = result.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [result[i], result[j]] = [result[j], result[i]];
+        }
+        return result;
+      }
+      setOrder(shuffle(questions));
       setIndex(0);
     } else {
       setIndex((n) => n + 1);

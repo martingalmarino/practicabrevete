@@ -49,7 +49,7 @@ const questions = getQuestionsByTema(t.slug as TemaId).map((q) => ({
       </p>
 
       <div class="mt-8">
-        <PracticeApp client:load questions={questions} tema={t.slug} temaNombre={t.nombre} />
+        <PracticeApp client:only="preact" questions={questions} tema={t.slug} temaNombre={t.nombre} />
       </div>
     </div>
   </section>

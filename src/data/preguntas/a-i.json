@@ -227,8 +227,8 @@
     "imagen": {
       "src": "/images/a-i/a-i-009.png",
       "alt": "Señal reglamentaria R-53: vehículo sobre una cuadrícula, cruzado por una diagonal roja",
-      "width": 176,
-      "height": 183
+      "width": 179,
+      "height": 188
     },
     "explicacion": {
       "texto": "Cuando el semáforo está en rojo debes detener el vehículo. No avances ni “te adelantes” a la línea de parada. Solo puedes cruzar si un efectivo policial asignado al tránsito te lo indica o si existe una excepción expresa de la norma. La detención protege a quienes tienen luz verde.",
@@ -697,7 +697,7 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-028.png",
-      "alt": "Señal preventiva P-22C: rombo amarillo con dos carriles que convergen en uno",
+      "alt": "Señal preventiva P-22C: rombo amarillo con una flecha recta y otra que se incorpora desde la derecha",
       "width": 151,
       "height": 181
     },
@@ -2639,7 +2639,7 @@
     "correcta": 1,
     "imagen": {
       "src": "/images/a-i/a-i-106.png",
-      "alt": "Señal reglamentaria R-5-4: flechas de giro a la izquierda y a la derecha con el texto SOLO",
+      "alt": "Señal reglamentaria R-5-4: dos flechas de giro a la izquierda en sentidos opuestos, con el texto SOLO",
       "width": 129,
       "height": 180
     },
@@ -3394,8 +3394,8 @@
     "imagen": {
       "src": "/images/a-i/a-i-132.png",
       "alt": "Señal preventiva P-55: rombo amarillo con un semáforo",
-      "width": 179,
-      "height": 195
+      "width": 176,
+      "height": 203
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Proximidad a un semáforo.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3510,8 +3510,8 @@
     "imagen": {
       "src": "/images/a-i/a-i-136.png",
       "alt": "Señal preventiva P-45: rombo amarillo con un avión",
-      "width": 164,
-      "height": 183
+      "width": 165,
+      "height": 191
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Vuelo de aviones a baja altura.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3568,8 +3568,8 @@
     "imagen": {
       "src": "/images/a-i/a-i-138.png",
       "alt": "Señal preventiva P-66: rombo amarillo con un árbol inclinado por el viento",
-      "width": 170,
-      "height": 193
+      "width": 171,
+      "height": 199
     },
     "explicacion": {
       "texto": "La respuesta correcta es: «Que se aproxima una zona donde hay ráfagas de viento lateral.». Esta pregunta del balotario de clase A categoría I evalúa senales. Revisa el enunciado con calma y descarta las opciones que contradigan el Reglamento Nacional de Tránsito. TODO: redactar explicación propia de 40 a 80 palabras citando el artículo exacto tras validación humana.",
@@ -3596,7 +3596,7 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-139.png",
-      "alt": "Señal preventiva P-66A: rombo amarillo con una vía y elementos desprendiéndose de un talud",
+      "alt": "Señal preventiva P-66A: rombo amarillo con arena que se acumula sobre la vía",
       "width": 157,
       "height": 184
     },
@@ -3712,7 +3712,7 @@
     "correcta": 3,
     "imagen": {
       "src": "/images/a-i/a-i-143.png",
-      "alt": "Señal informativa I-31: vía con bordes y línea discontinua sobre fondo azul",
+      "alt": "Señal informativa I-31: vía con un ensanche lateral para detenerse, sobre fondo azul",
       "width": 158,
       "height": 195
     },
@@ -3741,7 +3741,7 @@
     "correcta": 2,
     "imagen": {
       "src": "/images/a-i/a-i-144.png",
-      "alt": "Señal informativa I-9: silueta de una persona con un teléfono sobre fondo azul",
+      "alt": "Señal informativa I-9: silueta de un soldado con casco sobre fondo azul",
       "width": 149,
       "height": 183
     },
