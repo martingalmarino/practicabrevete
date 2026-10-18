@@ -10,6 +10,7 @@ import { site } from './src/config/site.ts';
 export default defineConfig({
   site: site.url,
   output: 'static',
+  trailingSlash: 'always',
   vite: {
     plugins: [tailwindcss()],
   },
@@ -17,7 +18,10 @@ export default defineConfig({
     preact(),
     mdx(),
     sitemap({
-      filter: (page) => !page.includes('/og/'),
+      filter: (page) => {
+        const url = page.replace(site.url, '');
+        return !url.includes('/og/') && !url.endsWith('.txt');
+      },
     }),
   ],
   i18n: {

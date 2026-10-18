@@ -7,6 +7,7 @@ import { categorias, getCategoria } from '../../data/categorias';
 import { getBank } from '../../lib/questions';
 import { site } from '../../config/site';
 import { breadcrumbSchema, quizSchema } from '../../lib/schema';
+import { absoluteUrl } from '../../lib/urls';
 
 export function getStaticPaths() {
   return categorias.map((c) => ({ params: { categoria: c.slug } }));
@@ -70,13 +71,13 @@ const questions = getBank(cat.slug).map((q) => ({
       quizSchema({
         name: `Simulacro ${cat.codigo}`,
         description: cat.evalua,
-        url: new URL(Astro.url.pathname, site.url).href,
+        url: absoluteUrl(Astro.url.pathname),
         educationalLevel: cat.codigo,
       }),
       breadcrumbSchema([
-        { name: 'Inicio', url: site.url },
-        { name: 'Simulacro', url: `${site.url}/simulacro/a-i` },
-        { name: cat.codigo, url: new URL(Astro.url.pathname, site.url).href },
+        { name: 'Inicio', url: absoluteUrl('/') },
+        { name: 'Simulacro', url: absoluteUrl('/simulacro/a-i') },
+        { name: cat.codigo, url: absoluteUrl(Astro.url.pathname) },
       ]),
     ]}
   />

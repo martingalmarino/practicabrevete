@@ -1,8 +1,11 @@
 import type { APIRoute } from 'astro';
 import { site } from '../config/site';
+import { sitemapIndexUrl } from '../lib/urls';
 
 export const GET: APIRoute = () => {
   const body = `# ${site.name}
+# ${site.url}
+
 User-agent: *
 Allow: /
 
@@ -25,10 +28,16 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-Sitemap: ${site.url}/sitemap-index.xml
+# Host canónico (Bing)
+Host: ${site.domain}
+
+Sitemap: ${sitemapIndexUrl()}
 `;
 
   return new Response(body, {
-    headers: { 'Content-Type': 'text/plain; charset=utf-8' },
+    headers: {
+      'Content-Type': 'text/plain; charset=utf-8',
+      'Cache-Control': 'public, max-age=3600',
+    },
   });
 };

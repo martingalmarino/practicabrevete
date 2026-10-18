@@ -1,4 +1,5 @@
 import { site } from '../config/site';
+import { absoluteUrl } from './urls';
 
 export function organizationSchema() {
   return {
@@ -8,7 +9,7 @@ export function organizationSchema() {
     url: site.url,
     email: site.email,
     description: site.description,
-    logo: `${site.url}/brand/logo.svg`,
+    logo: absoluteUrl('/brand/logo.svg'),
   };
 }
 
